@@ -1,0 +1,3049 @@
+{
+  "updated": "2026-11-11",
+  "products": [
+    {
+      "id": "monarch",
+      "name": "MONARCH · QUEST 3",
+      "brand": "强生 Auris / Ethicon",
+      "country": "美国",
+      "dept": "呼吸介入",
+      "departments": [
+        "呼吸介入"
+      ],
+      "sub": [
+        "支气管镜"
+      ],
+      "date": "2026-08-17",
+      "event": "美国软件更新获批公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "机器人控制柔性支气管镜，融合影像规划、导航与持续可视化。",
+      "pain": "改善外周肺结节的可达性、器械稳定性和活检定位。",
+      "desc": "机器人控制柔性支气管镜，融合影像规划、导航与持续可视化。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "支气管镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/monarch-stable-1.png"
+      ],
+      "source": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-monarch-quest-3-advancing-the-latest-in-robotically-assisted-bronchoscopy",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善外周肺结节的可达性、器械稳定性和活检定位。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-monarch-quest-3-advancing-the-latest-in-robotically-assisted-bronchoscopy"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-monarch-quest-3-advancing-the-latest-in-robotically-assisted-bronchoscopy"
+      ]
+    },
+    {
+      "id": "ottava",
+      "name": "OTTAVA",
+      "brand": "强生 Johnson & Johnson",
+      "country": "美国",
+      "dept": "普外科",
+      "departments": [
+        "普外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2026-07-22",
+      "event": "美国 De Novo 授权公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "统一架构将机器人操作与手术台环境整合，采用主从操控器械。",
+      "pain": "面向复杂软组织及多象限手术，减少设备布局与患者接近方面的限制。",
+      "desc": "统一架构将机器人操作与手术台环境整合，采用主从操控器械。",
+      "detail": "已核实 2026-07-22 美国 De Novo 授权公告，涵盖公告所列上腹部普外手术；2026 年第三季度厂商报告已签署首个商业客户。腹股沟疝仍有独立临床试验，不将已获批术式与研发适应证混同。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/ottava-stable-1.jpg",
+        "assets/products/ottava-stable-2.jpg"
+      ],
+      "source": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "面向复杂软组织及多象限手术，减少设备布局与患者接近方面的限制。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system"
+        },
+        {
+          "angle": "医院采用 / 厂商季度披露",
+          "tone": "商业化进展",
+          "text": "2026 年第三季度报告称已签署首个商业客户。商业合同不等同长期临床疗效或成本优势证据。",
+          "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-q3-2026-earnings-ceo-and-cfo-prepared-remarks"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system",
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system"
+      ]
+    },
+    {
+      "id": "rps",
+      "name": "Mako RPS",
+      "brand": "STRYKER",
+      "dept": "骨科",
+      "sub": [
+        "关节"
+      ],
+      "date": "2026-07-16",
+      "event": "美国商业上市",
+      "status": "已落地",
+      "desc": "手持式机器人动力系统，将术中规划与主动调整截骨集成于熟悉的手持工作流。",
+      "features": [
+        "无需术前影像",
+        "主动调整截骨",
+        "术中规划"
+      ],
+      "detail": "面向全膝关节置换，采用术中解剖配准与实时引导；主动调整技术帮助器械保持与手术计划一致。适用地区及具体配置需以当地批准文件为准。",
+      "images": [
+        "assets/products/rps-1.jpg",
+        "assets/products/rps-2.jpg",
+        "assets/products/rps-3.jpg"
+      ],
+      "source": "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html",
+      "kind": "手术机器人",
+      "toolType": "手持机器人",
+      "departments": [
+        "骨科"
+      ],
+      "country": "美国",
+      "principle": "手持式机器人动力系统，将术中规划与主动调整截骨集成于熟悉的手持工作流。",
+      "pain": "将机器人精度融入熟悉的手持截骨流程。",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "将机器人精度融入熟悉的手持截骨流程。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html",
+        "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html",
+        "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html"
+      ]
+    },
+    {
+      "id": "ak",
+      "name": "全关节手术机器人",
+      "brand": "爱康医疗 / 壹点灵动",
+      "country": "中国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2026-01-15",
+      "event": "中国 NMPA 获批（厂商公告）",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "通过手术规划与导航定位系统辅助关节置换；具体执行机构与精度参数本轮未核实。",
+      "pain": "覆盖厂商公告所述髋、膝、单髁及翻修场景，建立数字骨科工作流。",
+      "desc": "通过手术规划与导航定位系统辅助关节置换；具体执行机构与精度参数本轮未核实。",
+      "detail": "按所引公告记录，不把发布时间当作确切批准日。请结合该注册证的适用范围查看。",
+      "features": [
+        "关节",
+        "国产平台"
+      ],
+      "images": [
+        "assets/products/ak-onsite.webp"
+      ],
+      "source": "https://www.ak-medical.net/news/detail-19-2297.html",
+      "feedback": [
+        {
+          "angle": "产品与监管资料",
+          "tone": "设计价值",
+          "text": "覆盖厂商公告所述髋、膝、单髁及翻修场景，建立数字骨科工作流。 公告中的技术价值不等同于独立长期临床比较结论。",
+          "url": "https://www.ak-medical.net/news/detail-19-2297.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需核验设备配置、培训、配套器械及本院手术流程；尚未获得可比较的采购与耗材成本数据。",
+          "url": null
+        },
+        {
+          "angle": "临床与患者反馈",
+          "tone": "待补充",
+          "text": "本轮未核实该型号的独立长期比较研究及患者直接反馈，不虚构好评或差评。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.ak-medical.net/news/detail-19-2319.html"
+      ]
+    },
+    {
+      "id": "hugo",
+      "name": "Hugo RAS",
+      "brand": "MEDTRONIC",
+      "dept": "泌尿外科",
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2025-12-03",
+      "event": "美国 FDA 获批 · 泌尿外科",
+      "status": "已落地",
+      "desc": "模块化独立机械臂与开放式控制台，支持团队协作及灵活手术室布局。",
+      "features": [
+        "模块化机械臂",
+        "开放式控制台",
+        "数字化工作流"
+      ],
+      "detail": "该时间为美国泌尿外科适应证获批节点，不代表全球首次上市。官方列举的美国适应证包括前列腺切除、肾切除及膀胱切除。不同地区的批准范围并不一致。",
+      "images": [
+        "assets/products/hugo-onsite-6.webp"
+      ],
+      "source": "https://news.medtronic.com/2025-12-03-Medtronic-announces-FDA-clearance-of-Hugo-TM-robotic-assisted-surgery-system-for-urologic-surgical-procedures",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "departments": [
+        "泌尿外科"
+      ],
+      "country": "美国/爱尔兰",
+      "principle": "模块化独立机械臂与开放式控制台，支持团队协作及灵活手术室布局。",
+      "pain": "缓解固定式设备布局约束，并改善床旁沟通。",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "缓解固定式设备布局约束，并改善床旁沟通。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://news.medtronic.com/2025-12-03-Medtronic-announces-FDA-clearance-of-Hugo-TM-robotic-assisted-surgery-system-for-urologic-surgical-procedures"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://news.medtronic.com/2022-02-02-Medtronic-announces-first-procedure-in-Europe-with-Hugo-TM-robotic-assisted-surgery-system"
+      ]
+    },
+    {
+      "id": "yomi",
+      "name": "Yomi S",
+      "brand": "Neocis",
+      "country": "美国",
+      "dept": "口腔颌面外科",
+      "departments": [
+        "口腔颌面外科"
+      ],
+      "sub": [
+        "种植"
+      ],
+      "date": "2025-10-28",
+      "event": "美国该版本 FDA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "规划导航与触觉引导机械臂限制钻针位置、方向和深度，医生执行钻孔。",
+      "pain": "降低种植窝备洞偏离计划及深度控制的难度。",
+      "desc": "规划导航与触觉引导机械臂限制钻针位置、方向和深度，医生执行钻孔。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "种植",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/yomi-stable-1.jpg"
+      ],
+      "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252376",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "降低种植窝备洞偏离计划及深度控制的难度。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252376"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.dentistry33.com/companies/products/4857/neocis-unveils-next-generation-ai-powered-robotic-system-for-dental-implants.html"
+      ]
+    },
+    {
+      "id": "mako",
+      "name": "Mako 4",
+      "brand": "STRYKER",
+      "dept": "骨科",
+      "sub": [
+        "关节",
+        "脊柱"
+      ],
+      "date": "2025-03-11",
+      "event": "AAOS 官方展示",
+      "status": "已落地",
+      "desc": "机器人辅助平台持续拓展关节与脊柱方向，整合规划、导航与术中执行。",
+      "features": [
+        "机器人辅助",
+        "多应用平台",
+        "规划与导航"
+      ],
+      "detail": "2025 年 AAOS 官方展示节点。平台不同应用有各自的地区批准和商业化进度，不能将平台发布日期视作所有术式统一上市日期。",
+      "images": [
+        "assets/products/mako-1.jpg",
+        "assets/products/mako-2.jpg",
+        "assets/products/mako-3.jpg"
+      ],
+      "source": "https://www.stryker.com/us/en/about/news/2025/stryker-showcases-next-generation-of-mako-smartrobotics--at-aaos.html",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "departments": [
+        "骨科"
+      ],
+      "country": "美国",
+      "principle": "机器人辅助平台持续拓展关节与脊柱方向，整合规划、导航与术中执行。",
+      "pain": "支持骨准备、假体位置与术中计划执行。",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "支持骨准备、假体位置与术中计划执行。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.stryker.com/us/en/about/news/2025/stryker-showcases-next-generation-of-mako-smartrobotics--at-aaos.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.stryker.com/us/en/about/news/2025/stryker-showcases-next-generation-of-mako-smartrobotics--at-aaos.html",
+        "https://www.stryker.com/us/en/about/news/2025/stryker-showcases-next-generation-of-mako-smartrobotics--at-aaos.html",
+        "https://www.stryker.com/us/en/about/news/2025/stryker-showcases-next-generation-of-mako-smartrobotics--at-aaos.html"
+      ]
+    },
+    {
+      "id": "toumaisp",
+      "name": "图迈 单孔",
+      "brand": "微创机器人 MedBot",
+      "country": "中国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科",
+        "普外科",
+        "妇科"
+      ],
+      "sub": [
+        "单孔腹腔镜"
+      ],
+      "date": "2025-02-11",
+      "event": "中国 NMPA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "器械与内窥镜经单一入口进入，机构不动点设计支持体内展开操作。",
+      "pain": "减少多孔布局需求，并在单一入口下建立有效操作空间。",
+      "desc": "器械与内窥镜经单一入口进入，机构不动点设计支持体内展开操作。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "单孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/toumaisp-onsite.webp"
+      ],
+      "source": "https://www.microport.com.cn/news/xinwendongtai/2190.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "减少多孔布局需求，并在单一入口下建立有效操作空间。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.microport.com.cn/news/xinwendongtai/2190.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.medbotsurgical.com/en/news/256.html"
+      ]
+    },
+    {
+      "id": "dexter",
+      "name": "Dexter",
+      "brand": "Distalmotion",
+      "country": "瑞士",
+      "dept": "普外科",
+      "departments": [
+        "普外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2024-10-28",
+      "event": "美国授权消息发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "机器人辅助与传统腹腔镜工作流结合，支持术中切换操作方式。",
+      "pain": "减少机器人与腹腔镜之间切换的流程障碍。",
+      "desc": "机器人辅助与传统腹腔镜工作流结合，支持术中切换操作方式。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/dexter-stable-1.jpg"
+      ],
+      "source": "https://www.distalmotion.com/news/fda-grants-marketing-authorization-for-dexter",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "减少机器人与腹腔镜之间切换的流程障碍。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.distalmotion.com/news/fda-grants-marketing-authorization-for-dexter"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.medicalexpo.com/prod/distalmotion/product-4580711-1132896.html"
+      ]
+    },
+    {
+      "id": "versius",
+      "name": "Versius",
+      "brand": "CMR Surgical",
+      "country": "英国",
+      "dept": "普外科",
+      "departments": [
+        "普外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2024-10-11",
+      "event": "美国 De Novo 授权",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "模块化机械臂床旁单元与主从控制台配合完成腔镜操作。",
+      "pain": "改善手术室布局灵活性及不同团队的设备部署。",
+      "desc": "模块化机械臂床旁单元与主从控制台配合完成腔镜操作。",
+      "detail": "本条排序采用美国 2024 年 De Novo 授权节点；欧洲 CE 为 2019 年。美国初始适应证为成人胆囊切除，不将其他地区适应证自动套用。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/versius-onsite-1.webp",
+        "assets/products/versius-onsite-2.webp"
+      ],
+      "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230078",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善手术室布局灵活性及不同团队的设备部署。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230078"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.surgicalroboticstechnology.com/news/cmr-surgicals-versius-adopted-for-outpatient-surgical-procedures/",
+        "https://www.nanalyze.com/2020/02/cmr-surgical-robotic-system/"
+      ]
+    },
+    {
+      "id": "hydros",
+      "name": "HYDROS",
+      "brand": "PROCEPT BioRobotics",
+      "country": "美国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科"
+      ],
+      "sub": [
+        "前列腺增生"
+      ],
+      "date": "2024-08-20",
+      "event": "美国 FDA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "影像引导及规划辅助下，以机器人控制水射流切除前列腺组织。",
+      "pain": "提高前列腺组织去除计划与执行的一致性。",
+      "desc": "影像引导及规划辅助下，以机器人控制水射流切除前列腺组织。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "前列腺增生",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/hydros-stable-1.jpg"
+      ],
+      "source": "https://ir.procept-biorobotics.com/news-releases/news-release-details/procept-biorobotics-announces-fda-clearance-hydrostm-robotic",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "提高前列腺组织去除计划与执行的一致性。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://ir.procept-biorobotics.com/news-releases/news-release-details/procept-biorobotics-announces-fda-clearance-hydrostm-robotic"
+        },
+        {
+          "angle": "临床证据 · 同疗法前代平台",
+          "tone": "不可直接外推",
+          "text": "Aquablation 疗法有随机试验长期数据，但这些结果不能直接归因于 HYDROS 新增的 AI 规划功能。新代际需单独验证。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35150215/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.genetinfo.com/international-news/item/82199.html"
+      ]
+    },
+    {
+      "id": "symani",
+      "name": "Symani",
+      "brand": "MMI",
+      "country": "美国/意大利",
+      "dept": "整形与显微外科",
+      "departments": [
+        "整形与显微外科"
+      ],
+      "sub": [
+        "显微吻合"
+      ],
+      "date": "2024-04-08",
+      "event": "美国 De Novo 授权公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "微型腕式器械结合动作缩放和震颤滤除，辅助细小血管及淋巴管操作。",
+      "pain": "降低超显微吻合对手部稳定性与姿态维持的负担。",
+      "desc": "微型腕式器械结合动作缩放和震颤滤除，辅助细小血管及淋巴管操作。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "显微吻合",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/symani-2.jpg"
+      ],
+      "source": "https://www.mmimicro.com/blog/2024/04/08/symani-awarded-de-novo-authorization/",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "降低超显微吻合对手部稳定性与姿态维持的负担。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.mmimicro.com/blog/2024/04/08/symani-awarded-de-novo-authorization/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.therobotreport.com/mmis-symani-surgical-robot-used-in-first-u-s-clinical-cases/"
+      ]
+    },
+    {
+      "id": "dv5",
+      "name": "da Vinci 5",
+      "brand": "INTUITIVE",
+      "dept": "普外科",
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2024-03-14",
+      "event": "美国 FDA 首次获批",
+      "status": "已落地",
+      "desc": "新一代多孔腔镜机器人，引入力反馈器械并改进控制台人体工学。",
+      "features": [
+        "力反馈器械",
+        "三维视觉",
+        "人体工学"
+      ],
+      "detail": "该日期为初始 FDA 获批节点；并非中国上市日期。力反馈适用于特定器械和适应证，不等同于还原全部组织触觉；临床使用应查阅当前说明书。",
+      "images": [
+        "assets/products/dv5-1.jpg",
+        "assets/products/dv5-2.jpg",
+        "assets/products/dv5-3.jpg"
+      ],
+      "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "departments": [
+        "普外科"
+      ],
+      "country": "美国",
+      "principle": "新一代多孔腔镜机器人，引入力反馈器械并改进控制台人体工学。",
+      "pain": "改善腔镜器械操控、受力感知及控制台人体工学。",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善腔镜器械操控、受力感知及控制台人体工学。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic",
+        "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic",
+        "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+      ]
+    },
+    {
+      "id": "rossum",
+      "name": "骨盆骨折复位机器人",
+      "brand": "罗森博特",
+      "country": "中国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "创伤"
+      ],
+      "date": "2023-12-11",
+      "event": "国家药监局获批消息发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "术前 CT 与术中 CBCT 配准，结合力—位置双反馈控制机械臂复位骨块。",
+      "pain": "辅助骨盆骨折闭合复位，而不仅是导针导航。",
+      "desc": "术前 CT 与术中 CBCT 配准，结合力—位置双反馈控制机械臂复位骨块。",
+      "detail": "按所引公告记录，不把发布时间当作确切批准日。请结合该注册证的适用范围查看。",
+      "features": [
+        "创伤",
+        "国产平台"
+      ],
+      "images": [
+        "assets/products/rossum-onsite-1.webp"
+      ],
+      "source": "https://english.nmpa.gov.cn/2023-12/11/c_964062.htm",
+      "feedback": [
+        {
+          "angle": "产品与监管资料",
+          "tone": "设计价值",
+          "text": "辅助骨盆骨折闭合复位，而不仅是导针导航。 公告中的技术价值不等同于独立长期临床比较结论。",
+          "url": "https://yjj.beijing.gov.cn/yjj/zwgk20/yjxw/436313049/index.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需核验设备配置、培训、配套器械及本院手术流程；尚未获得可比较的采购与耗材成本数据。",
+          "url": null
+        },
+        {
+          "angle": "临床与患者反馈",
+          "tone": "待补充",
+          "text": "本轮未核实该型号的独立长期比较研究及患者直接反馈，不虚构好评或差评。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.jkjccapital.com/xinwenguandian/211.html"
+      ]
+    },
+    {
+      "id": "rone",
+      "name": "R-ONE",
+      "brand": "Robocath / 知脉机器人",
+      "country": "法国/中国合资",
+      "dept": "血管介入",
+      "departments": [
+        "血管介入"
+      ],
+      "sub": [
+        "冠脉介入"
+      ],
+      "date": "2023-12-08",
+      "event": "中国 NMPA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "远程控制导丝和介入器械的推进、回撤及旋转，医生在控制端操作。",
+      "pain": "减少术者辐射暴露与长期穿戴铅衣的工作负担。",
+      "desc": "远程控制导丝和介入器械的推进、回撤及旋转，医生在控制端操作。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "冠脉介入",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/rone-stable-1.jpg"
+      ],
+      "source": "https://www.medbotsurgical.com/news/293.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "减少术者辐射暴露与长期穿戴铅衣的工作负担。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.medbotsurgical.com/news/293.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.medicalexpo.com/pt/prod/robocath/product-122462-1105265.html"
+      ]
+    },
+    {
+      "id": "edgesp",
+      "name": "精锋 SP1000",
+      "brand": "精锋医疗",
+      "country": "中国",
+      "dept": "妇科",
+      "departments": [
+        "妇科"
+      ],
+      "sub": [
+        "单孔腹腔镜"
+      ],
+      "date": "2023-11",
+      "event": "中国 NMPA 获批月份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "单臂单孔入口容纳三件器械和一个三维内窥镜，体内关节完成操作。",
+      "pain": "减少腹壁入口与外部机械臂布局需求。",
+      "desc": "单臂单孔入口容纳三件器械和一个三维内窥镜，体内关节完成操作。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "单孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/edgesp-onsite-1.webp",
+        "assets/products/edgesp-2.png"
+      ],
+      "source": "https://www.edgemed.cn/danjiqiren/66/208",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "减少腹壁入口与外部机械臂布局需求。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.edgemed.cn/danjiqiren/66/208"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.edgemed.cn/danjiqiren/66/208",
+        "https://www.edgemed.cn/chanpinfangan/chanpinjiqiren/64/"
+      ]
+    },
+    {
+      "id": "shurui",
+      "name": "术锐 单孔系统",
+      "brand": "北京术锐",
+      "country": "中国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科",
+        "妇科"
+      ],
+      "sub": [
+        "单孔腹腔镜"
+      ],
+      "date": "2023-06-20",
+      "event": "中国 NMPA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "连续体蛇形器械由超弹性杆驱动，体外定位臂静止而体内器械弯转。",
+      "pain": "解决单孔入口下器械三角布局受限与体外臂碰撞问题。",
+      "desc": "连续体蛇形器械由超弹性杆驱动，体外定位臂静止而体内器械弯转。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "单孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/shurui-demo.jpg",
+        "assets/products/shurui-console.webp"
+      ],
+      "source": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202306/t20230625_3821390.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "解决单孔入口下器械三角布局受限与体外臂碰撞问题。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtyqqy/202306/t20230625_3821390.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.ircad.fr/shurui/",
+        "https://www.medchina.tech/news-article/surgerii-robotics-single-port-surgical-robot-expands-to-four-major-surgical-fields-in-china"
+      ]
+    },
+    {
+      "id": "miaoshou",
+      "name": "妙手 三臂系统",
+      "brand": "威高手术机器人",
+      "country": "中国",
+      "dept": "普外科",
+      "departments": [
+        "普外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2023-06",
+      "event": "中国三臂版本获批月份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "主从映射控制、立体图像与三臂平台组合，实现遥操作。",
+      "pain": "为腔镜手术提供多自由度操作及国产平台选择。",
+      "desc": "主从映射控制、立体图像与三臂平台组合，实现遥操作。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/miaoshou-1.webp",
+        "assets/products/miaoshou-onsite-1.webp"
+      ],
+      "source": "https://www.weihai.gov.cn/art/2024/1/15/art_58817_4275846.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "为腔镜手术提供多自由度操作及国产平台选择。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.weihai.gov.cn/art/2024/1/15/art_58817_4275846.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://dfaawards.viewingrooms.com/artworks/10084-wego-microhand-s-surgical-robot-system-shandong-wego-surgery-robot-co.-ltd.-zco/",
+        "https://www.red-dot.org/zh/project/wego-microhand-s-surgical-robot-system-58348"
+      ]
+    },
+    {
+      "id": "edge",
+      "name": "精锋 MP1000",
+      "brand": "精锋医疗",
+      "country": "中国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科",
+        "普外科",
+        "妇科",
+        "胸外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2022-12",
+      "event": "中国首次 NMPA 获批月份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "主从操控、多自由度器械与三维成像构成多孔腔镜平台。",
+      "pain": "缓解传统腔镜器械自由度不足与精细缝合负担。",
+      "desc": "主从操控、多自由度器械与三维成像构成多孔腔镜平台。",
+      "detail": "官方页面对首次获批与全科室扩展的表述不一致。此处仅记录 2022-12 首次获批月份；全科室扩展另见官方发展历程，避免混同。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/edge-onsite-1.webp"
+      ],
+      "source": "https://www.edgemed.cn/chanpinfangan/chanpinjiqiren/",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "缓解传统腔镜器械自由度不足与精细缝合负担。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.edgemed.cn/chanpinfangan/chanpinjiqiren/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.edgemed.cn/danjiqiren/200"
+      ]
+    },
+    {
+      "id": "kang",
+      "name": "康多 KD-SR-01",
+      "brand": "思哲睿 / 苏州康多",
+      "country": "中国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科",
+        "普外科",
+        "妇科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2022-06-24",
+      "event": "中国获批消息发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "医生控制台操控多自由度机械臂与三维内镜，滤除手部自然颤动。",
+      "pain": "提升腔镜切割、缝合和夹取的操作灵活性。",
+      "desc": "医生控制台操控多自由度机械臂与三维内镜，滤除手部自然颤动。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/kang-stable-1.webp"
+      ],
+      "source": "https://yjj.sh.gov.cn/ypjgyw/20220627/99df999536774d0f80cd4537594576ab.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "提升腔镜切割、缝合和夹取的操作灵活性。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://yjj.sh.gov.cn/ypjgyw/20220627/99df999536774d0f80cd4537594576ab.html"
+        },
+        {
+          "angle": "临床研究 · 随机非劣效试验",
+          "tone": "正面与限制",
+          "text": "部分肾切除、前列腺及妇科研究提供与达芬奇比较的证据。已核实的前列腺试验支持其在特定早期患者中的非劣效性，非劣效不等于全面优于。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38862329/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2023.1071321/full"
+      ]
+    },
+    {
+      "id": "monarchuro",
+      "name": "MONARCH Urology",
+      "brand": "强生 Auris / Ethicon",
+      "country": "美国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科"
+      ],
+      "sub": [
+        "结石"
+      ],
+      "date": "2022-05-02",
+      "event": "美国泌尿外科获批公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "机器人控制软性内镜与相关器械，协助结石手术的通路建立和操作。",
+      "pain": "改善复杂结石处理中的导航、接近与器械控制。",
+      "desc": "机器人控制软性内镜与相关器械，协助结石手术的通路建立和操作。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "结石",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/monarchuro-1.png"
+      ],
+      "source": "https://www.jnjmedtech.com/en-US/news-events/ethicons-monarch-endoscopic-robotic-platform-receives-fda-510k-clearance-urology",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善复杂结石处理中的导航、接近与器械控制。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.jnjmedtech.com/en-US/news-events/ethicons-monarch-endoscopic-robotic-platform-receives-fda-510k-clearance-urology"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.mddionline.com/robotics/j-j-s-monarch-assists-in-kidney-stone-removal"
+      ]
+    },
+    {
+      "id": "yuanhua",
+      "name": "骨圣元化 膝关节机器人",
+      "brand": "元化智能 / 骨圣元化",
+      "country": "中国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2022-04-22",
+      "event": "获批消息发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "七自由度机械臂握持电动工具，结合配准、术中追踪与导航截骨安全控制。",
+      "pain": "在成人全膝置换中辅助假体与工具定位，并支持经验证的植入物组合。",
+      "desc": "七自由度机械臂握持电动工具，结合配准、术中追踪与导航截骨安全控制。",
+      "detail": "按所引公告记录，不把发布时间当作确切批准日。请结合该注册证的适用范围查看。",
+      "features": [
+        "关节",
+        "国产平台"
+      ],
+      "images": [
+        "assets/products/yuanhua-onsite-1.webp"
+      ],
+      "source": "https://stic.sz.gov.cn/gzcy/msss/ztzlrkyjk/content/post_9771934.html",
+      "feedback": [
+        {
+          "angle": "产品与监管资料",
+          "tone": "设计价值",
+          "text": "在成人全膝置换中辅助假体与工具定位，并支持经验证的植入物组合。 公告中的技术价值不等同于独立长期临床比较结论。",
+          "url": "https://mpa.hunan.gov.cn/mpa/yszx/ywjb/202205/t20220509_24467126.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需核验设备配置、培训、配套器械及本院手术流程；尚未获得可比较的采购与耗材成本数据。",
+          "url": null
+        },
+        {
+          "angle": "临床与患者反馈",
+          "tone": "待补充",
+          "text": "本轮未核实该型号的独立长期比较研究及患者直接反馈，不虚构好评或差评。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.yuanhuatech.com/en/detail.aspx?cid=34&id=4084"
+      ]
+    },
+    {
+      "id": "sky",
+      "name": "鸿鹄 SkyWalker",
+      "brand": "微创机器人 MedBot",
+      "country": "中国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2022-04-21",
+      "event": "中国 NMPA 获批公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "患者影像规划与术中配准、机械臂执行辅助结合，支持关节置换骨准备。",
+      "pain": "提高关节置换中规划向实际骨切除转化的一致性。",
+      "desc": "患者影像规划与术中配准、机械臂执行辅助结合，支持关节置换骨准备。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "关节",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/sky-1.jpg"
+      ],
+      "source": "https://www.microport.com.cn/news/xinwendongtai/1868.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "提高关节置换中规划向实际骨切除转化的一致性。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.microport.com.cn/news/xinwendongtai/1868.html"
+        },
+        {
+          "angle": "临床试验登记",
+          "tone": "研究进展",
+          "text": "已发现 SkyWalker 与传统 TKA 的随机比较研究登记。登记信息不是试验结果；不据此宣称优于传统手术。",
+          "url": "https://clinicaltrials.gov/study/NCT06969222"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.microportortho.com/skywalkerr-robotic-assisted-technology"
+      ]
+    },
+    {
+      "id": "toumai",
+      "name": "图迈 Toumai 多孔",
+      "brand": "微创机器人 MedBot",
+      "country": "中国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科",
+        "普外科",
+        "妇科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2022-01",
+      "event": "中国首次 NMPA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "三维视觉与主从控制的四臂系统，将医生动作映射到体内器械。",
+      "pain": "改善狭窄腔体中的观察、缝合及精细操作。",
+      "desc": "三维视觉与主从控制的四臂系统，将医生动作映射到体内器械。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/toumai-stable-1.jpg"
+      ],
+      "source": "https://www.medbotsurgical.com/news/103.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善狭窄腔体中的观察、缝合及精细操作。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.medbotsurgical.com/news/103.html"
+        },
+        {
+          "angle": "临床研究 · 随机比较（2025）",
+          "tone": "正面与限制",
+          "text": "在研究所纳入的前列腺根治及部分肾切除患者中，失血、住院和并发症等指标无显著组间差异；图迈组手术时间更长。未见显著差异不等于证明所有结局完全等同。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40966817/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.duomed.com/nl-BE"
+      ]
+    },
+    {
+      "id": "lantern",
+      "name": "Lantern Knee",
+      "brand": "ORTHALIGN",
+      "dept": "骨科",
+      "sub": [
+        "关节"
+      ],
+      "kind": "智能辅助工具",
+      "toolType": "导航与定位",
+      "date": "2021-11-12",
+      "event": "美国全面商业发布公告",
+      "status": "已落地",
+      "desc": "掌上型导航工具，为膝关节置换提供术中对线与定位信息，辅助医生使用传统器械完成操作。",
+      "features": [
+        "手持导航",
+        "术中对线",
+        "无需术前影像"
+      ],
+      "detail": "这是导航辅助工具，不是自动截骨机器人。所列日期为 2021 年全面商业发布公告，非本周新品；当前版本与配置以厂商资料和当地批准为准。关注的设计问题：如何在小尺寸界面中清晰表达角度、配准状态与操作确认。",
+      "images": [
+        "assets/products/lantern-1.png",
+        "assets/products/lantern-2.png"
+      ],
+      "source": "https://www.orthalign.com/orthalign-announces-the-launch-of-lantern-the-latest-handheld-smart-tool-for-knee-replacement-surgery/",
+      "departments": [
+        "骨科"
+      ],
+      "country": "美国",
+      "principle": "掌上型导航工具，为膝关节置换提供术中对线与定位信息，辅助医生使用传统器械完成操作。",
+      "pain": "在不配置大型导航主机的情况下提供术中对线信息。",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "在不配置大型导航主机的情况下提供术中对线信息。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.orthalign.com/orthalign-announces-the-launch-of-lantern-the-latest-handheld-smart-tool-for-knee-replacement-surgery/"
+        },
+        {
+          "angle": "医生体验 · 厂商发布引述",
+          "tone": "使用报告",
+          "text": "发布公告引用早期术者对流程简洁性的正面评价；这是厂商发布的个体体验，不能证明平均手术时间或总成本更低。",
+          "url": "https://www.orthalign.com/orthalign-announces-the-launch-of-lantern-the-latest-handheld-smart-tool-for-knee-replacement-surgery/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.orthalign.com/orthalign-announces-the-launch-of-lantern-the-latest-handheld-smart-tool-for-knee-replacement-surgery/",
+        "https://www.orthalign.com/orthalign-announces-the-launch-of-lantern-the-latest-handheld-smart-tool-for-knee-replacement-surgery/"
+      ]
+    },
+    {
+      "id": "yake",
+      "name": "口腔种植导航定位设备",
+      "brand": "雅客智慧",
+      "country": "中国",
+      "dept": "口腔颌面外科",
+      "departments": [
+        "口腔颌面外科"
+      ],
+      "sub": [
+        "种植"
+      ],
+      "date": "2021-09-14",
+      "event": "国家药监局获批消息发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "空间映射、路径规划与视觉配准结合种植手机夹持及定位机构。",
+      "pain": "辅助成人口腔种植体定位，减少手动路径执行偏差。",
+      "desc": "空间映射、路径规划与视觉配准结合种植手机夹持及定位机构。",
+      "detail": "按所引公告记录，不把发布时间当作确切批准日。请结合该注册证的适用范围查看。",
+      "features": [
+        "种植",
+        "国产平台"
+      ],
+      "images": [
+        "assets/products/yake-1.webp"
+      ],
+      "source": "https://www.cmdi.org.cn/zt_4/cxylqx/202111/t20211104_303409.html",
+      "feedback": [
+        {
+          "angle": "产品与监管资料",
+          "tone": "设计价值",
+          "text": "辅助成人口腔种植体定位，减少手动路径执行偏差。 公告中的技术价值不等同于独立长期临床比较结论。",
+          "url": "https://www.cmdi.org.cn/zt_4/cxylqx/202111/t20211104_303409.html"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需核验设备配置、培训、配套器械及本院手术流程；尚未获得可比较的采购与耗材成本数据。",
+          "url": null
+        },
+        {
+          "angle": "临床与患者反馈",
+          "tone": "待补充",
+          "text": "本轮未核实该型号的独立长期比较研究及患者直接反馈，不虚构好评或差评。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://dfaawards.viewingrooms.com/artworks/10068-yakebot-dental-implant-robotic-system-beijing-yakebot-technology-co.-ltd.-the-mainland/"
+      ]
+    },
+    {
+      "id": "anovo",
+      "name": "Anovo",
+      "brand": "Momentis Surgical",
+      "country": "以色列",
+      "dept": "妇科",
+      "departments": [
+        "妇科"
+      ],
+      "sub": [
+        "经自然腔道"
+      ],
+      "date": "2021-02",
+      "event": "美国 De Novo 授权月份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "仿肩、肘、腕的机器人器械经阴道入口展开，由医生主从控制。",
+      "pain": "为特定良性妇科手术减少腹部切口。",
+      "desc": "仿肩、肘、腕的机器人器械经阴道入口展开，由医生主从控制。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "经自然腔道",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/anovo-1.webp"
+      ],
+      "source": "https://www.momentissurgical.com/about-momentis/",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "为特定良性妇科手术减少腹部切口。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.momentissurgical.com/about-momentis/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.bioworld.com/articles/keyword/35236-robotic-surgical-systems"
+      ]
+    },
+    {
+      "id": "velys",
+      "name": "VELYS",
+      "brand": "强生 DePuy Synthes",
+      "country": "美国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2021-01-19",
+      "event": "美国 FDA 获批公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "术中采集骨面与间隙信息，机械臂辅助按计划截骨，无需术前 CT。",
+      "pain": "改善膝关节假体对线、截骨一致性与软组织平衡评估。",
+      "desc": "术中采集骨面与间隙信息，机械臂辅助按计划截骨，无需术前 CT。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "关节",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/velys-stable-1.png"
+      ],
+      "source": "https://www.jnj.com/media-center/press-releases/depuy-synthes-receives-510k-fda-clearance-for-velys-robotic-assisted-solution-designed-for-use-with-the-attune-total-knee-system",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善膝关节假体对线、截骨一致性与软组织平衡评估。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.jnj.com/media-center/press-releases/depuy-synthes-receives-510k-fda-clearance-for-velys-robotic-assisted-solution-designed-for-use-with-the-attune-total-knee-system"
+        },
+        {
+          "angle": "临床研究 · 前瞻性比较",
+          "tone": "正面与限制",
+          "text": "研究报告对线精度改善、早期结局可比；研究结论不能替代长期假体生存率与成本效果评价。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11808256/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.cureus.com/articles/317641-initial-experience-with-velys-robot-assisted-total-knee-replacement-coronal-plane-accuracy-and-effect-of-robotic-training-on-outcomes"
+      ]
+    },
+    {
+      "id": "hinotori",
+      "name": "hinotori",
+      "brand": "Medicaroid",
+      "country": "日本",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2020-08-11",
+      "event": "日本获批消息发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "多臂主从遥操作平台与三维视觉协同，医生控制器械精细运动。",
+      "pain": "支持复杂泌尿外科腔镜手术中的精细操作。",
+      "desc": "多臂主从遥操作平台与三维视觉协同，医生控制器械精细运动。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/hinotori-1.jpg"
+      ],
+      "source": "https://www.medicaroid.com/en/release/pdf/20200811-1_en.pdf",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "支持复杂泌尿外科腔镜手术中的精细操作。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.medicaroid.com/en/release/pdf/20200811-1_en.pdf"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://answers.khi.co.jp/en/connected-society/20210731e-05/"
+      ]
+    },
+    {
+      "id": "cori",
+      "name": "CORI",
+      "brand": "施乐辉 Smith+Nephew",
+      "country": "英国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2020-07-14",
+      "event": "美国商业发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "术中建模与跟踪配合手持机器人磨削器械，由医生操控完成骨准备。",
+      "pain": "在紧凑设备形态下实现个体化规划、间隙评估和骨切除。",
+      "desc": "术中建模与跟踪配合手持机器人磨削器械，由医生操控完成骨准备。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "关节",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/cori-1.jpg",
+        "assets/products/cori-2.jpg"
+      ],
+      "source": "https://www.smith-nephew.com/en/news/2020/07/14/20200714-sn-launches-real-intelligence-and-cori-surgical-system",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "在紧凑设备形态下实现个体化规划、间隙评估和骨切除。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.smith-nephew.com/en/news/2020/07/14/20200714-sn-launches-real-intelligence-and-cori-surgical-system"
+        },
+        {
+          "angle": "医生体验 · 厂商发布引述",
+          "tone": "使用报告",
+          "text": "发布公告中术者认可手持形态及规划、间隙平衡界面。属于厂商选择性引述，不能视作独立用户满意度调查。",
+          "url": "https://www.smith-nephew.com/en/news/2020/07/14/20200714-sn-launches-real-intelligence-and-cori-surgical-system"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.medicalexpo.com/prod/smith-nephew/product-70896-1026304.html",
+        "https://www.smith-nephew.com/en/news/2021/09/01/20210901-expand-ri-digital-ecosystem-and-cori-surgical-system-with-total-hip-arthroplasty"
+      ]
+    },
+    {
+      "id": "preceyes",
+      "name": "PRECEYES R1.1",
+      "brand": "Preceyes",
+      "country": "荷兰",
+      "dept": "眼科",
+      "departments": [
+        "眼科"
+      ],
+      "sub": [
+        "玻璃体视网膜"
+      ],
+      "date": "2019-06-04",
+      "event": "欧洲 CE 消息发布",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "将医生手部运动缩放并滤除震颤，机器人稳定持握眼内器械。",
+      "pain": "辅助视网膜表面与视网膜下的微米级操作。",
+      "desc": "将医生手部运动缩放并滤除震颤，机器人稳定持握眼内器械。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "玻璃体视网膜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/preceyes-stable-1.jpg"
+      ],
+      "source": "https://www.preceyes.nl/wp-content/uploads/2019/06/190604-Preceyes-receives-CE-marking-approval-for-its-robotic-eye-surgery-assistant-media.pdf",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "辅助视网膜表面与视网膜下的微米级操作。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.preceyes.nl/wp-content/uploads/2019/06/190604-Preceyes-receives-CE-marking-approval-for-its-robotic-eye-surgery-assistant-media.pdf"
+        },
+        {
+          "angle": "临床研究 · 首次人体试验",
+          "tone": "正面与限制",
+          "text": "首次人体研究支持机器人辅助眼内操作的可行性；样本与任务有限，不能据此宣称常规替代人工玻切或提高长期视力。研究涉及厂商相关作者。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30263872/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.mathworks.com/company/user_stories/preceyes-accelerates-development-of-worlds-first-eye-surgery-robot-using-model-based-design.html"
+      ]
+    },
+    {
+      "id": "rosabrain",
+      "name": "ROSA ONE Brain",
+      "brand": "捷迈邦美 Zimmer Biomet",
+      "country": "美国/法国",
+      "dept": "神经外科",
+      "departments": [
+        "神经外科"
+      ],
+      "sub": [
+        "立体定向"
+      ],
+      "date": "2019-02-11",
+      "event": "美国 FDA 获批公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "影像规划和患者配准后，由机械臂定向定位手术路径。",
+      "pain": "支持 SEEG、活检等多轨迹立体定向操作。",
+      "desc": "影像规划和患者配准后，由机械臂定向定位手术路径。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "立体定向",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/rosabrain-1.webp"
+      ],
+      "source": "https://investor.zimmerbiomet.com/news-and-events/news/archive/02-11-2019",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "支持 SEEG、活检等多轨迹立体定向操作。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://investor.zimmerbiomet.com/news-and-events/news/archive/02-11-2019"
+        },
+        {
+          "angle": "监管 · 特定软件版本",
+          "tone": "安全信息",
+          "text": "ROSA One 3.1 Brain 有 FDA 召回记录；属于具体版本和问题范围，不能与所有 ROSA 代际混同。",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=189497"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.zimmerbiomet.eu/en/products/rosa-one-r-brain"
+      ]
+    },
+    {
+      "id": "ion",
+      "name": "Ion",
+      "brand": "Intuitive",
+      "country": "美国",
+      "dept": "呼吸介入",
+      "departments": [
+        "呼吸介入"
+      ],
+      "sub": [
+        "支气管镜"
+      ],
+      "date": "2019-02",
+      "event": "美国首次 FDA 获批月份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "形状感知光纤跟踪柔性导管，结合术前气道规划进行机器人导航。",
+      "pain": "提高外周小肺结节活检的可达性与导管稳定性。",
+      "desc": "形状感知光纤跟踪柔性导管，结合术前气道规划进行机器人导航。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "支气管镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/ion-1.jpg",
+        "assets/products/ion-2.jpg"
+      ],
+      "source": "https://isrg.intuitive.com/static-files/32988150-1696-48b9-9413-658ca94d4a3a",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "提高外周小肺结节活检的可达性与导管稳定性。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://isrg.intuitive.com/static-files/32988150-1696-48b9-9413-658ca94d4a3a"
+        },
+        {
+          "angle": "临床研究 · 前瞻性多中心单臂",
+          "tone": "正面与限制",
+          "text": "初期多中心研究支持取样可行性，所报告队列未出现气胸或气道出血；单臂小样本不代表真实世界风险为零。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34656103/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://careers.intuitive.com/en/get-to-know-us-leadership/",
+        "https://mft.nhs.uk/2024/09/17/all-eyes-on-ion-game-changing-wythenshawe-hospital-robot-will-transform-lung-cancer-checks/"
+      ]
+    },
+    {
+      "id": "mazor",
+      "name": "Mazor X Stealth Edition",
+      "brand": "美敦力 Medtronic",
+      "country": "美国/爱尔兰",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "脊柱"
+      ],
+      "date": "2019-01-28",
+      "event": "美国商业发布公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "影像导航、三维轨迹规划与机械臂导向整合，辅助脊柱螺钉置入。",
+      "pain": "改善椎弓根通道定位与术中方向确认。",
+      "desc": "影像导航、三维轨迹规划与机械臂导向整合，辅助脊柱螺钉置入。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "脊柱",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/mazor-1.png"
+      ],
+      "source": "https://news.medtronic.com/2019-01-28-Medtronic-Announces-U-S-Commercial-Launch-of-Mazor-X-Stealth-TM-Edition-for-Robotic-Assisted-Spine-Surgery",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善椎弓根通道定位与术中方向确认。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://news.medtronic.com/2019-01-28-Medtronic-Announces-U-S-Commercial-Launch-of-Mazor-X-Stealth-TM-Edition-for-Robotic-Assisted-Spine-Surgery"
+        },
+        {
+          "angle": "监管 · 历史纠正措施",
+          "tone": "安全信息",
+          "text": "FDA 收录了 Mazor X Stealth Edition 的历史召回及厂商修复说明；具体受影响设备、版本与纠正状态应按记录核验。",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfRes/res.cfm?id=180727"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://health.economictimes.indiatimes.com/news/medical-devices/medtronic-introduces-mazor-x-stealth-ed-for-robotic-assisted-spine-surgery-in-india/72269397"
+      ]
+    },
+    {
+      "id": "rosa",
+      "name": "ROSA Knee",
+      "brand": "捷迈邦美 Zimmer Biomet",
+      "country": "美国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2019-01-24",
+      "event": "美国 FDA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "术中数据与规划配合机械臂定位截骨引导装置，术者完成骨切除。",
+      "pain": "减少人工定位偏差，并支持膝关节平衡与假体位置决策。",
+      "desc": "术中数据与规划配合机械臂定位截骨引导装置，术者完成骨切除。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "关节",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/rosa-stable-1.webp"
+      ],
+      "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=k182964",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "减少人工定位偏差，并支持膝关节平衡与假体位置决策。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=k182964"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.nathancafferkymd.com/total-joints-blog/robotic-assisted-knee-replacements"
+      ]
+    },
+    {
+      "id": "musa",
+      "name": "MUSA-2",
+      "brand": "Microsure",
+      "country": "荷兰",
+      "dept": "整形与显微外科",
+      "departments": [
+        "整形与显微外科"
+      ],
+      "sub": [
+        "显微吻合"
+      ],
+      "date": "2019",
+      "event": "推出及 CE 认证年份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "历史产品",
+      "principle": "主从控制缩小手部动作并稳定显微器械。",
+      "pain": "辅助亚毫米级吻合，并保留熟悉的显微外科器械操作思路。",
+      "desc": "主从控制缩小手部动作并稳定显微器械。",
+      "detail": "历史平台档案。厂家当前页面明确 MUSA-2 已不再生产或销售，不能将其当作现售产品；MUSA-3 是另一代际。",
+      "features": [
+        "显微吻合",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/musa-1.jpg"
+      ],
+      "source": "https://microsure.nl/musa/",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "辅助亚毫米级吻合，并保留熟悉的显微外科器械操作思路。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://microsure.nl/musa/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://microsure.nl/musa/"
+      ]
+    },
+    {
+      "id": "dvsp",
+      "name": "da Vinci SP",
+      "brand": "Intuitive",
+      "country": "美国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科",
+        "耳鼻喉科"
+      ],
+      "sub": [
+        "单孔腹腔镜"
+      ],
+      "date": "2018-05-31",
+      "event": "美国该代 SP 系统获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "三件关节器械与内窥镜经单孔进入，在体内展开形成操作空间。",
+      "pain": "降低多入口布局需求，支持适应证范围内的狭窄通路操作。",
+      "desc": "三件关节器械与内窥镜经单孔进入，在体内展开形成操作空间。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "单孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/dvsp-1.jpg"
+      ],
+      "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K173906",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "降低多入口布局需求，支持适应证范围内的狭窄通路操作。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K173906"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.uhhospitals.org/locations/uh-geauga-medical-center/services/robotic-surgery"
+      ]
+    },
+    {
+      "id": "reme",
+      "name": "睿米 Remebot",
+      "brand": "柏惠维康",
+      "country": "中国",
+      "dept": "神经外科",
+      "departments": [
+        "神经外科"
+      ],
+      "sub": [
+        "立体定向"
+      ],
+      "date": "2018-04-13",
+      "event": "中国 CFDA 获批",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "影像规划、导航定位与机械臂导向，辅助颅内靶点及轨迹定位。",
+      "pain": "改善颅内微小靶点定位和重复路径执行。",
+      "desc": "影像规划、导航定位与机械臂导向，辅助颅内靶点及轨迹定位。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "立体定向",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/reme-stable-1.png"
+      ],
+      "source": "https://www.remebot.com.cn/newsshow.php?cid=18&id=42",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "改善颅内微小靶点定位和重复路径执行。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.remebot.com.cn/newsshow.php?cid=18&id=42"
+        },
+        {
+          "angle": "临床使用 · 厂商转述医院案例",
+          "tone": "使用报告",
+          "text": "厂商记录医院采用术前规划、术中配准及机械臂导向完成电极置入。属病例与厂商报道，不是独立比较研究。",
+          "url": "https://remebot.com.cn/newsshow.php?cid=4&id=51"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.nature.com/articles/d42473-020-00264-z"
+      ]
+    },
+    {
+      "id": "aqua",
+      "name": "AquaBeam",
+      "brand": "PROCEPT BioRobotics",
+      "country": "美国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科"
+      ],
+      "sub": [
+        "前列腺增生"
+      ],
+      "date": "2017-12",
+      "event": "美国 De Novo 授权月份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "超声引导下制定切除区域，机器人控制水射流执行组织去除。",
+      "pain": "为良性前列腺增生提供可规划的组织切除方式。",
+      "desc": "超声引导下制定切除区域，机器人控制水射流执行组织去除。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "前列腺增生",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/aqua-1.jpg"
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1588978/000158897825000007/R9.htm",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "为良性前列腺增生提供可规划的组织切除方式。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.sec.gov/Archives/edgar/data/1588978/000158897825000007/R9.htm"
+        },
+        {
+          "angle": "临床研究 · WATER 随机试验",
+          "tone": "正面与限制",
+          "text": "五年随访支持症状改善的持续性。50–80 mL 亚组报告新发射精功能障碍较 TURP 少；出血风险并非消失，需按研究范围解释。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37838991/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.nanalyze.com/2021/08/procept-biorobotics-stock/"
+      ]
+    },
+    {
+      "id": "senhance",
+      "name": "Senhance",
+      "brand": "Asensus Surgical",
+      "country": "美国",
+      "dept": "普外科",
+      "departments": [
+        "普外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2017-10",
+      "event": "美国首次 FDA 授权月份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "数字化腔镜平台以主从机器人器械辅助手术，结合视觉与操控反馈。",
+      "pain": "为传统腔镜提供机械稳定及数字化辅助路径。",
+      "desc": "数字化腔镜平台以主从机器人器械辅助手术，结合视觉与操控反馈。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/senhance-1.jpg"
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/876378/000143774924008871/asxc20231231_10k.htm",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "为传统腔镜提供机械稳定及数字化辅助路径。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.sec.gov/Archives/edgar/data/876378/000143774924008871/asxc20231231_10k.htm"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.medicalexpo.de/prod/asensus-surgical/product-301264-1017561.html"
+      ]
+    },
+    {
+      "id": "excelsius",
+      "name": "ExcelsiusGPS",
+      "brand": "Globus Medical",
+      "country": "美国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "脊柱"
+      ],
+      "date": "2017-08-17",
+      "event": "美国 FDA 获批公告",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "实时导航结合刚性机械臂，沿规划路径为脊柱器械提供导向。",
+      "pain": "降低徒手定位对空间经验的依赖，支持微创螺钉通道建立。",
+      "desc": "实时导航结合刚性机械臂，沿规划路径为脊柱器械提供导向。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "脊柱",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/excelsius-1.png"
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1237831/000119312517260990/d441694dex991.htm",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "降低徒手定位对空间经验的依赖，支持微创螺钉通道建立。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.sec.gov/Archives/edgar/data/1237831/000119312517260990/d441694dex991.htm"
+        },
+        {
+          "angle": "监管 · 特定配准附件召回",
+          "tone": "安全信息",
+          "text": "FDA 曾发布平板透视配准夹具的校准错误召回。范围针对公告所列附件，不能解读为所有 ExcelsiusGPS 系统当前均不可用。",
+          "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/globus-medical-inc-recalls-excelsiusgps-flat-panel-fluoroscopy-registration-fixture-due-calibration"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.therobotreport.com/globus-medical-acquires-stelkast-develops-orthopedic-surgery-robots/"
+      ]
+    },
+    {
+      "id": "tir",
+      "name": "天玑 TiRobot",
+      "brand": "天智航 TINAVI",
+      "country": "中国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "脊柱",
+        "创伤"
+      ],
+      "date": "2016-11",
+      "event": "中国注册并上市",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "影像规划、光学跟踪与机械臂定位配合，为导针及植入物提供轨迹引导。",
+      "pain": "解决脊柱、骨盆与四肢复杂骨性通道的定位问题。",
+      "desc": "影像规划、光学跟踪与机械臂定位配合，为导针及植入物提供轨迹引导。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "脊柱",
+        "创伤",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/tir-1.jpg"
+      ],
+      "source": "https://www.scei.org.cn/djgz/dqxddfh/kjcxzzlzqp/art/2022/art_74b085926dcd4451a595d49a6cc865c4.html",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "解决脊柱、骨盆与四肢复杂骨性通道的定位问题。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.scei.org.cn/djgz/dqxddfh/kjcxzzlzqp/art/2022/art_74b085926dcd4451a595d49a6cc865c4.html"
+        },
+        {
+          "angle": "临床研究 · 随机试验",
+          "tone": "正面",
+          "text": "胸腰椎置钉随机试验支持 TiRobot 引导的安全性与准确性；不能直接推及所有创伤复位任务。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30738398/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.tinavi.com/index.php?c=article&id=238"
+      ]
+    },
+    {
+      "id": "dvxi",
+      "name": "da Vinci Xi",
+      "brand": "Intuitive",
+      "country": "美国",
+      "dept": "普外科",
+      "departments": [
+        "普外科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2014",
+      "event": "商业化年份",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "多臂主从系统配合腕式器械、三维内镜与动作缩放。",
+      "pain": "支持多象限腔镜手术与狭窄空间精细缝合。",
+      "desc": "多臂主从系统配合腕式器械、三维内镜与动作缩放。",
+      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/products/dvxi-1.jpg"
+      ],
+      "source": "https://www.sec.gov/Archives/edgar/data/1035267/000103526719000038/isrg-20190331x10q.htm",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "支持多象限腔镜手术与狭窄空间精细缝合。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526719000038/isrg-20190331x10q.htm"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "患者结局 / 证据状态",
+          "tone": "待补充",
+          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.intuitive.com/en-in/products-and-services/da-vinci/xi"
+      ]
+    },
+    {
+      "id": "iassist",
+      "name": "iASSIST Knee",
+      "brand": "ZIMMER BIOMET",
+      "dept": "骨科",
+      "sub": [
+        "关节"
+      ],
+      "kind": "智能辅助工具",
+      "toolType": "导航与定位",
+      "date": "2013-01-17",
+      "event": "美国 FDA 获批消息发布",
+      "status": "已落地",
+      "desc": "小型电子导航模块，在术野内显示对线信息，帮助术者实时检查骨切除方向。",
+      "features": [
+        "电子导航模块",
+        "术野内显示",
+        "截骨对线验证"
+      ],
+      "detail": "作为经典工具档案收录，不列为近期新品。2013-01-17 为厂商发布 FDA 获批消息的日期，不是确切获批日或中国上市日。系统提供引导和验证信息，截骨操作仍由医生执行；导航精度不直接等同于长期临床获益。",
+      "images": [
+        "assets/products/iassist-1.png"
+      ],
+      "source": "https://investor.zimmerbiomet.com/news-and-events/news/archive/17-01-2013-192323931",
+      "departments": [
+        "骨科"
+      ],
+      "country": "美国",
+      "principle": "小型电子导航模块，在术野内显示对线信息，帮助术者实时检查骨切除方向。",
+      "pain": "将骨切除方向检查信息显示在术野附近。",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "将骨切除方向检查信息显示在术野附近。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
+          "url": "https://investor.zimmerbiomet.com/news-and-events/news/archive/17-01-2013-192323931"
+        },
+        {
+          "angle": "临床研究 · 前瞻性匹配",
+          "tone": "正面与限制",
+          "text": "与光学导航的匹配研究评估了力线与关节线恢复；对线结果不直接证明长期功能或假体寿命更优。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26220102/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        },
+        {
+          "angle": "证据边界",
+          "tone": "限制",
+          "text": "结论限于所引研究的型号、术式与随访时间；不能外推为全科室优越性。尚未系统收集患者直接反馈。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://investor.zimmerbiomet.com/news-and-events/news/archive/17-01-2013-192323931"
+      ]
+    }
+  ],
+  "tech": [
+    {
+      "id": "t1",
+      "title": "手持机器人：主动补偿进入截骨工作流",
+      "date": "2026-07-16",
+      "status": "已落地",
+      "tag": "骨科 · 执行控制",
+      "desc": "Mako RPS 美国商业发布，以主动调整技术支持计划内截骨。",
+      "detail": "技术观察：降低流程转换负担是值得关注的产品方向。效率与临床结局的改善仍需相应比较研究支持。",
+      "source": "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html"
+    },
+    {
+      "id": "t2",
+      "title": "SRT-H：从单步任务迈向多步骤自主操作",
+      "date": "2025-07-11",
+      "status": "研究中",
+      "tag": "普外科 · 手术智能",
+      "desc": "基于示教学习，在离体猪组织场景完成胆囊手术的多步骤任务。",
+      "detail": "研究场景为离体实验，不是人体自主手术，也不代表完整手术已能独立完成。后续仍需验证跨场景泛化与安全性。",
+      "source": "https://engineering.jhu.edu/news/robot-performs-first-realistic-surgery-without-human-help/"
+    },
+    {
+      "id": "t3",
+      "title": "力反馈进入新一代腔镜机器人平台",
+      "date": "2024-03-14",
+      "status": "已落地",
+      "tag": "腔镜 · 感知交互",
+      "desc": "da Vinci 5 引入力反馈器械，为组织操作提供额外的感觉通道。",
+      "detail": "力反馈与完整触觉重建不同。技术适用范围、器械限制及禁忌证应查阅当地说明书；厂商模拟实验结果不应直接等同临床获益。",
+      "source": "https://www.intuitive.com/en-us/products-and-services/da-vinci/5"
+    }
+  ],
+  "pain": [
+    {
+      "id": "p1",
+      "title": "触觉缺失，如何让操作者感知组织受力？",
+      "tag": "机器人手术",
+      "date": "2026-11-11",
+      "status": "文献归纳",
+      "desc": "部分系统依赖视觉判断组织形变，力反馈仍受传感、器械尺寸和灭菌要求约束。",
+      "detail": "设计机会（待验证）：多通道力提示、阈值提示及术后反馈。验证指标建议：峰值受力、操作错误、认知负担。不能从单一台架指标推断患者获益。",
+      "source": "https://link.springer.com/article/10.1007/s00132-025-04753-1"
+    },
+    {
+      "id": "p2",
+      "title": "摆位、对接与换械：被低估的工作流成本",
+      "tag": "机器人手术",
+      "date": "2026-11-11",
+      "status": "文献归纳",
+      "desc": "设备设置、团队培训与流程复杂性，会影响实际手术室效率。",
+      "detail": "设计机会（待验证）：流程引导、状态可视化、团队视角一致性。建议观察对接耗时、换械次数、等待与流程中断。影响程度应按医院和术式分别验证。",
+      "source": "https://www.mdpi.com/2306-5354/13/11/1279"
+    },
+    {
+      "id": "p3",
+      "title": "传统器械的触感，怎样转化为可记录的数据？",
+      "tag": "传统手术设备",
+      "date": "2026-11-11",
+      "status": "设计假设",
+      "desc": "以传统腔镜与开放器械为对照，探索触觉信息的测量与可视化。",
+      "detail": "这是基于触觉传感研究提出的设计研究问题，不是已验证的普遍临床缺陷。下一步需访谈术者，确定具体术式、操作任务与未满足需求，再开展原型评估。",
+      "source": "https://link.springer.com/article/10.1007/s00132-025-04753-1"
+    }
+  ],
+  "catalogNote": "收录机器人平台、明确代际/应用及智能辅助工具；持续扩充，非全球穷尽清单。按记录节点从新到旧；月份/年份保持原始精度。同平台不同应用单列，不等于独立硬件数量。",
+  "design": [
+    {
+      "id": "design-0",
+      "date": "2026",
+      "tag": "人机工程",
+      "status": "随机交叉试验",
+      "title": "开放式与封闭式控制台的人机工程比较",
+      "desc": "比较 Hugo RAS 与 da Vinci Xi 的操作姿势和人体负荷。",
+      "detail": "20 名具备立体视觉的外科住院医师参加离体随机交叉试验。可用于选择控制台姿态与视野的评价指标，实际手术中的长时负荷仍需验证。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42722909/",
+      "analysis": {
+        "highlight": "开放式控制台把术者视线引向外部立体屏幕，封闭式控制台用目镜提供沉浸式视野。前者给头颈活动和床旁交流留出空间，后者减少外围环境进入视野，同时可能把术者维持在更固定的头颈位置。",
+        "evidence": "20 名具备立体视觉的外科住院医师参加离体随机交叉试验。开放式任务后流泪加重，封闭式任务后颈部僵硬、颈部及上背不适加重。两种平台均观察到部分眼部症状变化。平台之间还存在其他差异，短时任务结果不宜外推到整个手术班次。",
+        "application": "用同一组任务比较屏幕高度、目镜距离、座椅、前臂支撑及踏板位置。记录颈部屈曲、姿势调整次数、眼部疲劳、沟通中断和任务表现，把调节时间也纳入测试。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/hugo-onsite-6.webp",
+          "caption": "Hugo RAS 控制台、机械臂与推车。厂商产品资料。",
+          "source": "https://news.medtronic.com/2022-02-02-Medtronic-announces-first-procedure-in-Europe-with-Hugo-TM-robotic-assisted-surgery-system"
+        },
+        {
+          "url": "assets/products/dvxi-1.jpg",
+          "caption": "da Vinci Xi 系统参考图。产品资料。",
+          "source": "https://www.intuitive.com/en-in/products-and-services/da-vinci/xi"
+        }
+      ]
+    },
+    {
+      "id": "design-1",
+      "date": "2026",
+      "tag": "交互与力反馈",
+      "status": "初步研究",
+      "title": "直肠手术中的 da Vinci 5 力反馈量化",
+      "desc": "用术中力数据研究力反馈与器械操作之间的关系。",
+      "detail": "设计可关注力反馈强度、方向和任务阶段，并分别记录客观载荷和主观可感知性。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42209862/",
+      "analysis": {
+        "highlight": "器械尖端传感器把推拉载荷反馈到控制器，术者牵拉组织时能通过手感补充内镜画面提供的信息。对直肠手术而言，薄层组织分离和长时间牵拉是两个不同的力控制任务。",
+        "evidence": "该条目为初步量化研究，可用来理解如何采集临床任务中的器械力。不同器械、任务阶段、术者习惯和组织状态会改变测量结果，载荷数据本身不能证明组织损伤下降。",
+        "application": "建议把力曲线与视频任务事件对齐，分别观察均值、峰值和峰值持续时间。比较反馈强度时同时记录任务质量和术者是否能识别同一载荷，避免仅以平均力低为优。"
+      }
+    },
+    {
+      "id": "design-2",
+      "date": "2025",
+      "tag": "CMF 与工业设计",
+      "status": "设计案例",
+      "title": "da Vinci 5 的整机工业设计",
+      "desc": "红点官方案例可对照控制台、推车和机械臂的视觉组织。",
+      "detail": "从图片观察壳体色块、接缝、操作区对比和部件识别。这些是设计观察，案例未提供材料牌号、消毒剂耐受性或表面耐久测试。",
+      "source": "https://www.red-dot.org/project/da-vinci-5-81240",
+      "analysis": {
+        "highlight": "da Vinci 5 将主手控制、力反馈和控制台的人机布置一起更新，解决了术者需要在有限视野内操作并判断器械受力的问题。红点案例照片可用于观察控制台、推车和机械臂如何在同一产品家族中形成统一的壳体语言。",
+        "evidence": "奖项页面说明新控制器、运动控制和器械力反馈是公开设计特征。照片可支持对表面分区、界面开口和操作部件对比度的观察，无法确定树脂牌号、纹理深度、涂层或消毒剂耐受性能。",
+        "application": "对照正面和斜侧图，检查手部接触区、维护区与非操作表面的视觉区分。实机验证可加入戴手套触达、反光干扰、频繁擦拭后的外观变化和操作区标识可读性。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/dv5-1.jpg",
+          "caption": "da Vinci 5 整机与组件。厂商产品资料。",
+          "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        },
+        {
+          "url": "assets/products/dv5-2.jpg",
+          "caption": "da Vinci 5 整机与组件。厂商产品资料。",
+          "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        },
+        {
+          "url": "assets/products/dv5-3.jpg",
+          "caption": "da Vinci 5 整机与组件。厂商产品资料。",
+          "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        }
+      ]
+    },
+    {
+      "id": "design-3",
+      "date": "2025",
+      "tag": "用户体验",
+      "status": "临床观察",
+      "title": "da Vinci SP 与 Xi 的术者负荷和可用性",
+      "desc": "在低位前切除术中比较两种平台的任务体验。",
+      "detail": "可把相机操控和器械操作拆开评价，并同步记录术者的信心与工作负荷。结论受术式和观察研究设计限制。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41275003/",
+      "analysis": {
+        "highlight": "SP 将多件器械和镜头汇入单一通路，便于从集中入口操作。Xi 的多臂多入口布局为工具和镜头提供不同的进入方向。入口布局变化会改写术者的工具选择、镜头运动和避让习惯。",
+        "evidence": "低位前切除术的观察性研究比较了两种平台的工作负荷与可用性。该证据适合观察同一术式下的体验差异，受手术阶段、团队经验和病例选择影响。",
+        "application": "原型测试可拆成相机定位、双手牵引、跨区转场、器械更换和撤离五类任务。同步记录姿势、时间、可达范围、碰撞干预与术者信心，单独呈现单孔布局的收益和代价。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/dvsp-1.jpg",
+          "caption": "da Vinci SP 患者侧设备。产品资料。",
+          "source": "https://www.uhhospitals.org/locations/uh-geauga-medical-center/services/robotic-surgery"
+        },
+        {
+          "url": "assets/products/dvxi-1.jpg",
+          "caption": "da Vinci Xi 整机。产品资料。",
+          "source": "https://www.intuitive.com/en-in/products-and-services/da-vinci/xi"
+        }
+      ]
+    },
+    {
+      "id": "design-4",
+      "date": "2025",
+      "tag": "用户体验",
+      "status": "前瞻性临床研究",
+      "title": "da Vinci 5 的临床可用性验证",
+      "desc": "前瞻性非随机研究评价新版系统的安全性、有效性和可用性。",
+      "detail": "适合参考整机改版后的临床验证范围，包括控制台、集成设备和力反馈器械。研究设计限制了平台间比较。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41032176/",
+      "analysis": {
+        "highlight": "新版将控制台、电子系统、能量设备、气腹设备和力反馈器械纳入同一个平台。设计问题是多个设备状态由谁确认、如何看见以及出现异常时如何处理。",
+        "evidence": "前瞻性非随机研究评价 da Vinci 5 在实际机器人手术中的安全性、有效性和可用性。它适合说明整机变更后需要验证哪些环节，研究设计无法隔离某一个功能带来的独立效果。",
+        "application": "可按设备准备、术中切换、报警处理和结束撤机建立使用场景。把状态显示、操作权限和备用流程列为测试对象，并分别记录护士、床旁助手与术者的操作。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/dv5-1.jpg",
+          "caption": "da Vinci 5 系统。厂商产品资料。",
+          "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        }
+      ]
+    },
+    {
+      "id": "design-5",
+      "date": "2025",
+      "tag": "交互与力反馈",
+      "status": "临床前实验",
+      "title": "缝合任务中的力反馈设计",
+      "desc": "用缝合任务比较组织受力、错误、用时与心理负担。",
+      "detail": "设计测试应同时看操作质量、训练阶段和组织受力，避免只用任务速度评价反馈设计。",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11794644/",
+      "analysis": {
+        "highlight": "器械尖端传感器测量作用力，控制台主手给术者触觉反馈。缝合打结时，画面容易让初学者错估张力，直接感到负载有助于调整拉线动作。",
+        "evidence": "29 名经验有限的术者随机分组，在离体猪膀胱和主动脉上缝合。力反馈组平均力分别为 1.71 和 1.80 N，对照组为 2.40 和 2.53 N。力反馈组错误更少，完成时间也更短。这些结果来自离体任务。",
+        "application": "用同一缝合任务比较不同反馈增益，除了用力，还要看脱线、线断裂、针距和动作时间。按训练阶段记录结果，并观察反馈减弱或不可用时术者能否顺利接续。"
+      },
+      "chart": {
+        "title": "离体缝合的平均器械力（N）",
+        "bars": [
+          [
+            "膀胱 · 力反馈",
+            1.71
+          ],
+          [
+            "膀胱 · 对照",
+            2.4
+          ],
+          [
+            "主动脉 · 力反馈",
+            1.8
+          ],
+          [
+            "主动脉 · 对照",
+            2.53
+          ]
+        ]
+      }
+    },
+    {
+      "id": "design-6",
+      "date": "2025",
+      "tag": "团队与工作流",
+      "status": "现场观察",
+      "title": "沟通误解与手术流程中断",
+      "desc": "记录语音传递、理解与澄清造成的流程中断。",
+      "detail": "可检查控制台扬声器、床旁噪声与消息接收确认。研究提供观察证据，不能直接预测某项改版的效果。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40749431/",
+      "analysis": {
+        "highlight": "控制台与手术床分开后，术者难以靠眼神和手势确认对方听懂，机器噪声和多人同时讲话会放大这个问题。研究把每次误解发生的上下文、人员和后续动作记录下来。",
+        "evidence": "作者直接观察 75 台机器人手术。重叠谈话与无回应相关，术者探出控制台与请求澄清相关。研究记录的是关联，尚未验证某种具体沟通界面能减少中断。",
+        "application": "可做定向拾音、语音回放或接收确认的原型。在多人说话、吸引器运行和双手占用条件下，比较首次听清率、错认接收人次数及术者离开目镜的次数。"
+      }
+    },
+    {
+      "id": "design-7",
+      "date": "2025",
+      "tag": "交互与力反馈",
+      "status": "临床观察",
+      "title": "胸外科机器人手术的一年器械力分析",
+      "desc": "分析 da Vinci 5 胸外科应用中的器械受力。",
+      "detail": "可用于构思按动作和术式展示受力趋势。原文未采集术者主观可用性反馈。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40999105/",
+      "analysis": {
+        "highlight": "将器械力传感纳入临床数据记录，便于比较不同术式、器械和反馈档位的载荷分布。持续高负载与短时峰值代表不同操作情境，界面可以把两者分开显示。",
+        "evidence": "研究回顾 73 位术者的 444 台胸外科手术。关闭、低、中、高档的力中位数分别为 1.79、1.67、1.45、1.32 N，超过研究设定 6.5 N 的时间占比也随档位上升而降低。该阈值是分析用界线，不能当作组织通用安全值。",
+        "application": "按牵引、分离及器械类型设计术后反馈图表。研究没有直接采集主观可用性，设计团队还应观察警示频度、注意力分配与术者接受度。"
+      },
+      "chart": {
+        "title": "胸外科病例中不同反馈档位的器械力中位数（N）",
+        "bars": [
+          [
+            "关闭",
+            1.79
+          ],
+          [
+            "低",
+            1.67
+          ],
+          [
+            "中",
+            1.45
+          ],
+          [
+            "高",
+            1.32
+          ]
+        ]
+      }
+    },
+    {
+      "id": "design-8",
+      "date": "2025",
+      "tag": "交互与力反馈",
+      "status": "试点研究",
+      "title": "结直肠手术中的力反馈与组织损伤",
+      "desc": "探索力反馈是否与组织损伤相关。",
+      "detail": "可用于选择组织损伤代理指标和建立后续研究问题。试点结果的外推范围有限。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40744857/",
+      "analysis": {
+        "highlight": "分档力反馈让术者调节手感强度，面向的是不同组织、任务和个人习惯下的受力感知。试点把器械力与肠功能恢复、住院时间一起观察，提供了从交互指标走向临床指标的研究框架。",
+        "evidence": "回顾性分析纳入 68 例。复杂病例平均受力为 2.40 N，非复杂病例为 1.83 N。较高反馈档位下用力有下降趋势，但该比较未达到常用显著性阈值。肠功能恢复时间和住院时间也未见显著差异。",
+        "application": "验证时分层控制病例复杂度和术者经验。先确认功能确实改变目标动作，再观察组织指标与恢复结局，减少把代理指标直接当临床收益的风险。"
+      },
+      "chart": {
+        "title": "试点研究中不同病例复杂度的平均受力（N）",
+        "bars": [
+          [
+            "复杂病例",
+            2.4
+          ],
+          [
+            "非复杂病例",
+            1.83
+          ]
+        ]
+      }
+    },
+    {
+      "id": "design-9",
+      "date": "2024",
+      "tag": "团队与工作流",
+      "status": "现场观察",
+      "title": "机器人手术室的语音沟通干扰",
+      "desc": "观察手术室内语音沟通被环境和工作分工干扰的情况。",
+      "detail": "对麦克风位置、音量提示和消息确认设计有参考价值，尤其应同时访谈护士、床旁助手和控制台术者。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39527346/",
+      "analysis": {
+        "highlight": "将语音沟通作为系统交互的一部分，可以发现以单人控制台任务为主的可用性测试遗漏的团队问题。关键需求是术者、床旁助手、护士和麻醉人员能听清并识别谁应该响应。",
+        "evidence": "论文关注实际手术室中的语音干扰和跨岗位沟通。观察资料可用于定位问题出现的位置和场景，尚不能评价特定麦克风、扬声器或降噪方案。",
+        "application": "在布置图上标出人、设备及声源，观察听错、无回应和重复指令。测试应兼顾低声交流与重要指令的可辨性，并检查设备报警是否被语音盖住。"
+      }
+    },
+    {
+      "id": "design-10",
+      "date": "2024",
+      "tag": "CMF 与工业设计",
+      "status": "设计案例",
+      "title": "da Vinci 5 控制台与整机设计案例",
+      "desc": "Spark 官方案例展示新版设备外观及人机界面。",
+      "detail": "可对比控制台开口、支撑区和整机表面的视觉处理。照片只支持外观观察。",
+      "source": "https://galleries.sparkawards.com/gallery?comp=1089&entry=BFE04357-B434-DF9D-A6B9615C9643ACB3&year=2024",
+      "analysis": {
+        "highlight": "将术者的手部输入、立体视野和设备状态集中到控制台，可以减少操作过程中切换注意对象的成本。整机设计还要让床旁人员理解机械臂、推车和界面的分工。",
+        "evidence": "Spark 案例是设计展示，可用于分析设备的体量、操作者进入空间和功能分区。图像无法给出适配身材范围、长时间姿势负荷或实测清洁性能。",
+        "application": "把控制台的膝部净空、视线高度、前臂支撑和脚踏可达性做成检查项。观察不同身高术者从入座到准备完成的调节步骤，同时验证设备停靠和转场所需空间。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/dv5-1.jpg",
+          "caption": "观察控制台操作区与整机布局。厂商产品资料。",
+          "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        },
+        {
+          "url": "assets/products/dv5-2.jpg",
+          "caption": "观察控制台操作区与整机布局。厂商产品资料。",
+          "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        },
+        {
+          "url": "assets/products/dv5-3.jpg",
+          "caption": "观察控制台操作区与整机布局。厂商产品资料。",
+          "source": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-fda-clearance-fifth-generation-robotic"
+        }
+      ]
+    },
+    {
+      "id": "design-11",
+      "date": "2022",
+      "tag": "团队与工作流",
+      "status": "研究综述",
+      "title": "机器人外科中的人因整合",
+      "desc": "梳理工作负荷、协作、空间与流程设计。",
+      "detail": "设计边界可扩展到器械护士、床旁助手与麻醉团队，并把培训和空间布置纳入验证。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/35253508/",
+      "analysis": {
+        "highlight": "综述把手术室作为一个人机系统来研究。控制台、机械臂、无菌台和麻醉区的布局会共同改变谁看得见现场、谁能拿到器械以及谁需要协调。",
+        "evidence": "作者汇总了工作负荷、沟通、空间和协调方面的研究，指出新设备会带来新的技术技能和团队组织需求。它提供的是系统设计框架，各项改进措施仍需在目标场景验证。",
+        "application": "做一张覆盖入室、定位、术中和撤离的角色任务表。用角色交接次数、任务等待、走动距离和操作负荷评估布局、培训与界面改动的共同影响。"
+      }
+    },
+    {
+      "id": "design-12",
+      "date": "2019",
+      "tag": "用户体验",
+      "status": "形成性可用性研究",
+      "title": "Versius 如何把终端用户反馈纳入产品开发",
+      "desc": "记录开发中利用用户反馈优化系统的过程。",
+      "detail": "可参考其从术者与手术团队反馈迭代产品的方法。阅读时留意厂商参与和测试环境。",
+      "source": "https://connectionssurgery.bmj.com/content/1/1/e000019",
+      "analysis": {
+        "highlight": "Versius 以形成性可用性测试反复比较原型。开放式控制台为视线转移和现场交流留出空间，控制界面强化机械臂与器械的状态显示，帮助术者识别系统处于何种状态。",
+        "evidence": "论文记录了设计团队如何根据终端用户反馈修改控制台和状态提示。证据主要来自研发阶段的原型测试，适合解释设计决策由来，临床收益需独立验证。",
+        "application": "可把每条反馈写成“角色、任务、困难、设计改动、复测结果”。邀请术者和床旁人员分别验证控制台输入、机械臂布置与状态可见性，记录哪些意见最终改变了设计。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/versius-onsite-1.webp",
+          "caption": "Versius 控制台及模块化设备。产品资料。",
+          "source": "https://www.surgicalroboticstechnology.com/news/cmr-surgicals-versius-adopted-for-outpatient-surgical-procedures/"
+        },
+        {
+          "url": "assets/products/versius-onsite-2.webp",
+          "caption": "Versius 控制台及模块化设备。产品资料。",
+          "source": "https://www.nanalyze.com/2020/02/cmr-surgical-robotic-system/"
+        }
+      ]
+    },
+    {
+      "id": "design-13",
+      "date": "2018",
+      "tag": "团队与工作流",
+      "status": "人因研究",
+      "title": "从真实手术现场研究机器人系统",
+      "desc": "讨论在实际临床环境中观察机器人辅助手术获得的人因经验。",
+      "detail": "适合用于制定现场访谈和观察计划，关注难以在单人模拟任务中暴露的问题。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29478667/",
+      "analysis": {
+        "highlight": "现场研究将设备使用放回真实的人员分工、空间和术式中观察。它能捕捉到控制台术者与床旁人员如何应对设备遮挡、器械切换及临时协作。",
+        "evidence": "研究讨论真实情境观察得到的人因经验。现场证据有助于发现原型实验没有预设的问题，但医院布置、培训和团队习惯会影响迁移。",
+        "application": "建立现场观察表，把实际动作、触发原因、临时补救和后果分列。记录各角色的原话与观察事实，随后用原型验证一个具体改动能否减少临时补救。"
+      }
+    },
+    {
+      "id": "design-14",
+      "date": "2017",
+      "tag": "人机工程",
+      "status": "现场评估",
+      "title": "da Vinci 控制台的人机工程评估",
+      "desc": "研究控制台使用姿态及术前调节机会。",
+      "detail": "可把座椅、视镜和前臂支撑的调节步骤放进首次使用测试，记录术者是否能独立找到合适姿势。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31579742/",
+      "analysis": {
+        "highlight": "目镜、座椅、前臂支撑和踏板形成一个共同约束。若它们分别调到舒服的位置却无法一起配合，术者仍可能在操作时耸肩、前探或悬空抬臂。",
+        "evidence": "该研究把控制台姿势和术前调节作为评价对象。它提供了识别风险姿势与调节机会的参考，产品尺寸和最佳设置需用目标人群的数据确认。",
+        "application": "让不同身高和肢体比例的操作者自行调节，观察是否找到所有调节件、是否理解锁定状态。记录关键关节角度、压力不适及调节后的任务表现。"
+      }
+    },
+    {
+      "id": "design-15",
+      "date": "2017",
+      "tag": "团队与工作流",
+      "status": "现场观察",
+      "title": "按手术阶段诊断流程障碍",
+      "desc": "分析 89 例机器人手术的现场观察资料，追踪不同阶段的中断。",
+      "detail": "把设备对接、控制台操作、撤机分别建模，并按沟通、设备、培训和协作记录中断。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28271956/",
+      "analysis": {
+        "highlight": "研究按对接、控制台操作和撤机等阶段分析中断。分阶段后，设计团队能判断问题应由布局、设备状态提示、任务交接或培训解决。",
+        "evidence": "该分析基于 89 例 da Vinci 手术观察资料，识别沟通、协调、设备和培训等中断类别。观察到的中断可生成设计假设，其因果关系需要进一步测试。",
+        "application": "先画每个阶段的角色和依赖关系，再给中断记录加上触发点与恢复步骤。优先处理会让多个岗位停下等待、且能通过界面或机械设计降低的中断。"
+      }
+    },
+    {
+      "id": "design-16",
+      "date": "2016",
+      "tag": "团队与工作流",
+      "status": "现场观察",
+      "title": "机器人设备对手术室空间与人员走动的影响",
+      "desc": "观察团队移动、空间拥堵和交互。",
+      "detail": "适合转化为平面布局评估，记录设备占地、走动路径、人员视线和进入关键区域的难度。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26800347/",
+      "analysis": {
+        "highlight": "患者侧设备底座、机械臂、器械桌和人员走动路线都在争夺手术床周围的空间。通过观察站位和路径，可以定位靠平面尺寸规格难以发现的拥堵。",
+        "evidence": "研究关注实际手术室中的走动、团队互动和空间障碍。不同手术间尺寸、术式和设备配置下，拥堵的位置和频率会改变。",
+        "application": "在全尺寸样机或胶带平面上复现入室、对接、器械交接与应急撤离。记录路线交叉、折返、等候与关键通道被占用的时长。"
+      }
+    },
+    {
+      "id": "design-17",
+      "date": "2016",
+      "tag": "团队与工作流",
+      "status": "现场观察",
+      "title": "控制台与床旁团队如何协同",
+      "desc": "研究手术流程、团队沟通与任务中断的观察方法。",
+      "detail": "可用来制定控制台隔离条件下的音视频协作需求，建立床旁和术者两侧的观察任务。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27068189/",
+      "analysis": {
+        "highlight": "控制台切断了部分面对面沟通线索，床旁团队需要知道术者下一步动作，术者也需要知道器械是否已准备就绪。文章从团队行为和任务流角度记录这些信息如何传递。",
+        "evidence": "研究建立了对术中沟通、工作流和中断的观察方法。它适合支持团队协作需求分析，具体界面方案仍需用真实岗位测试。",
+        "application": "把“提出请求、接收、执行、完成确认”画成短任务链。测试共享状态或语音提示是否减少重复呼叫，并观察状态更新失败时团队如何恢复。"
+      }
+    },
+    {
+      "id": "design-18",
+      "date": "2016",
+      "tag": "团队与工作流",
+      "status": "现场观察",
+      "title": "安全、效率与学习曲线的人因分析",
+      "desc": "按切口前、对接、主要操作及离开控制台等阶段观察工作流。",
+      "detail": "为设备失效提示、器械交接与团队可见性提供研究切入点。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26675938/",
+      "analysis": {
+        "highlight": "将手术过程分为切口前、设备对接、主要操作及控制台后阶段，可定位新手学习和团队协作在哪一步耗费时间。设备状态与人员角色如果不清晰，系统会增加协调成本。",
+        "evidence": "研究对 102 台机器人手术直接观察，涉及不同术式和两代设备。研究描述复杂设备、团队沟通和术野可见性等问题，不能直接证明某个单项改动能改善患者结局。",
+        "application": "把准备和对接阶段也列入可用性验证。对重复发生的设备确认、配件寻找和等待，分别检查标识、收纳布局、引导提示及人员培训。"
+      }
+    },
+    {
+      "id": "design-19",
+      "date": "2022",
+      "tag": "CMF 与工业设计",
+      "status": "设计案例",
+      "title": "威高 MicroHand S 的设备外观与部件识别",
+      "desc": "红点案例展示控制台、显示设备和机械臂的整体设计。",
+      "detail": "可对照壳体色块、部件轮廓和操作区域的视觉区分。材质、涂层与耐消毒性需另找制造商规格或测试验证。",
+      "source": "https://www.red-dot.org/zh/project/wego-microhand-s-surgical-robot-system-58348",
+      "analysis": {
+        "highlight": "公开案例将控制台、患者侧设备和显示设备设计成可识别的组件。轮廓和色块分区有助于团队识别设备组成，紧凑布局面向手术室空间受限的问题。",
+        "evidence": "红点页面展示产品外观及设计描述。图片允许比较操作面、外壳和各组件之间的视觉联系，材料型号、维护条件与临床效果需另查原始验证。",
+        "application": "建立同视角竞品照片对照，标注可触碰、可清洁和维护区域。针对外壳接缝、脚轮周围、把手及接口，进一步验证戴手套操作与清洁可达性。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/miaoshou-1.webp",
+          "caption": "MicroHand S 设计展示。观察组件分区、壳体和操作面。",
+          "source": "https://dfaawards.viewingrooms.com/artworks/10084-wego-microhand-s-surgical-robot-system-shandong-wego-surgery-robot-co.-ltd.-zco/"
+        },
+        {
+          "url": "assets/products/miaoshou-onsite-1.webp",
+          "caption": "MicroHand S 设计展示。观察组件分区、壳体和操作面。",
+          "source": "https://www.red-dot.org/zh/project/wego-microhand-s-surgical-robot-system-58348"
+        }
+      ]
+    },
+    {
+      "id": "design-20",
+      "date": "2026",
+      "tag": "可用性验证",
+      "status": "监管指南",
+      "title": "FDA 医疗器械人因与可用性工程指南",
+      "desc": "围绕预期用户、用途与环境组织人因工程。",
+      "detail": "可将显示、控制、标签与说明书纳入同一套任务分析和使用风险验证。",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices",
+      "analysis": {
+        "highlight": "FDA 指南将显示、控制器、包装、标签、说明书和培训都纳入人因工程范围。设计目标是从真实用户与使用环境出发，降低可导致伤害的使用错误。",
+        "evidence": "这是监管指南。形成性评价用于发现问题并迭代，验证阶段用于判断代表性用户能否在接近实际的条件下完成关键任务。具体应用要结合产品、风险和适用监管要求。",
+        "application": "按术者、护士、维护人员分别列出关键任务和可能错误。针对急停、器械装配、状态切换和报警恢复，建立验证场景，记录错误、险些出错和操作困难。"
+      }
+    },
+    {
+      "id": "design-21",
+      "date": "2019",
+      "tag": "用户体验",
+      "status": "研发案例",
+      "title": "MUSA 显微手术机器人的迭代过程",
+      "desc": "作者记录专用显微机器人如何由早期原型进入临床评估。",
+      "detail": "可参考临床前观察如何反馈到器械操控、设备布置与后续版本设计。",
+      "source": "https://link.springer.com/article/10.1007/s00238-019-01563-5",
+      "analysis": {
+        "highlight": "MUSA 的研发围绕超显微操作展开。主从控制把术者较大的输入变成器械端微小运动，帮助处理自由手操作时的震颤和稳定性问题。设计还需要让器械、手部输入和显微镜工作空间共同适配。",
+        "evidence": "研发论文描述从早期原型、临床前评价到改版系统的过程。它适合解释研究者如何根据测试修改原型，后续临床适应性与长期表现需看独立资料。",
+        "application": "针对显微机器人，把运动缩放、末端稳定性与设备布置一起评估。测试更换器械、重新定位和术者接管等非缝合任务，防止只在理想姿态下优化精度。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/musa-1.jpg",
+          "caption": "MUSA-2 应用场景。厂商资料。",
+          "source": "https://microsure.nl/musa/"
+        },
+        {
+          "url": "assets/products/musa-paper-onsite-1.webp",
+          "caption": "研发论文图 1：早期 MSR 的安装环、用户界面、机械臂和脚踏。",
+          "source": "https://link.springer.com/article/10.1007/s00238-019-01563-5"
+        }
+      ]
+    },
+    {
+      "id": "design-22",
+      "date": "2015",
+      "tag": "CMF 与工业设计",
+      "status": "监管指南",
+      "title": "重复使用医疗器械的清洁与再处理验证",
+      "desc": "FDA 指南讨论再处理流程的验证与标识。",
+      "detail": "对可重复使用部件，设计阶段可同时评估接缝、难清洁区域和验证条件。适用部件与要求应结合产品用途判断。",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/reprocessing-medical-devices-health-care-settings-validation-methods-and-labeling",
+      "analysis": {
+        "highlight": "接缝、凹槽、狭窄间隙和不可拆组件会影响清洁可达性。对重复使用器械而言，结构设计、材料耐受性、拆装方式和说明书需要一起考虑。",
+        "evidence": "FDA 指南讨论再处理流程的验证方法和标识。清洁、消毒或灭菌流程的适用范围取决于产品和部件用途，验证应覆盖实际可出现的使用和再处理条件。",
+        "application": "早期评审就标出可能积聚污染物的区域，检查清洁工具是否可达、拆装步骤是否清楚。结合规定流程验证残留、材料变化和标识耐久性，并观察使用者能否按说明重复完成。"
+      }
+    }
+  ]
+}
