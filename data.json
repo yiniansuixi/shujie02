@@ -1695,7 +1695,7 @@
       "principle": "手持导航仪用红外双目相机读取 NAVItag 标记。术中注册解剖参考后，系统计算骨性参考与器械之间的相对位姿，显示髋臼杯倾斜角、前倾角以及腿长和股骨偏距的变化。无影像版无需导入术前 CT 作为导航输入，器械仍由术者操作。",
       "pain": "全髋置换中，骨盆姿态变化和有限视野会增加判断髋臼杯方向的难度，腿长及偏距也难靠目测量化。手持屏把这些指标直接显示在术野旁，帮助术者在植入过程中核对计划，减少对独立导航设备摆位的需求。",
       "desc": "用于全髋关节置换的手持式无影像光学导航，提供术中角度和毫米级读数。",
-      "detail": "日期为美国 FDA 510(k) 许可日。FDA 文件列出仰卧及侧卧全髋置换，并要求髋臼杯打入器具备平直的平行段。厂商称兼容主流植入物系统，具体器械组合应按当地版本的使用说明核对。此条目对应无影像版 Naviswiss Hip。照片来自 Hasegawa 等发表于 BMC Musculoskeletal Disorders（2022）的图 2，展示髋臼杯置入后的 Naviswiss 手持屏读数。原图未修改，采用 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。",
+      "detail": "日期为美国 FDA 510(k) 许可日。FDA 文件列出仰卧及侧卧全髋置换，并要求髋臼杯打入器具备平直的平行段。厂商称兼容主流植入物系统，具体器械组合应按当地版本的使用说明核对。此条目对应无影像版 Naviswiss Hip。前两幅来自 Hasegawa 等（2022），包括导航屏特写及两种手术入路的术中操作。操作图可对照骨盆与髋臼杯打入器上的标记位置。第三幅为根据 FDA 文件绘制的工作原理图。第四幅来自 Scholes 等（2024），对照侧卧位队列中术中与术后 CT 的角度、股骨偏距和腿长测量。论文图片沿用原图，采用 CC BY 4.0（https://creativecommons.org/licenses/by/4.0/）。",
       "features": [
         "红外双目追踪",
         "无影像术中注册",
@@ -1703,7 +1703,10 @@
         "腿长和股骨偏距"
       ],
       "images": [
-        "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12891-022-05495-3/MediaObjects/12891_2022_5495_Fig2_HTML.png"
+        "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12891-022-05495-3/MediaObjects/12891_2022_5495_Fig2_HTML.png",
+        "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12891-022-05495-3/MediaObjects/12891_2022_5495_Fig1_HTML.png",
+        "assets/products/naviswiss-hip-principle.svg",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs42836-023-00224-0/MediaObjects/42836_2023_224_Fig2_HTML.png"
       ],
       "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193094",
       "feedback": [
@@ -1730,10 +1733,26 @@
           "tone": "适用条件",
           "text": "FDA 文件明确限定髋臼杯打入器的形状。采购或试用时可先核对现有打入器，以及标记固定和术野视线能否融入团队流程。",
           "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K193094.pdf"
+        },
+        {
+          "angle": "临床研究 / 侧卧位术中追踪",
+          "tone": "使用局限",
+          "text": "33 例纳入分析的病例中，术中有 6 例记录追踪问题：4 例大转子追踪器失去固定，2 例数据采集失败。使用时应把参考标记是否仍稳固纳入测量核查。",
+          "url": "https://doi.org/10.1186/s42836-023-00224-0"
         }
       ],
       "imageSources": [
-        "https://link.springer.com/article/10.1186/s12891-022-05495-3/figures/2"
+        "https://link.springer.com/article/10.1186/s12891-022-05495-3/figures/2",
+        "https://link.springer.com/article/10.1186/s12891-022-05495-3/figures/1",
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K193094.pdf",
+        "https://link.springer.com/article/10.1186/s42836-023-00224-0/figures/2"
+      ],
+      "cover": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12891-022-05495-3/MediaObjects/12891_2022_5495_Fig2_HTML.png",
+      "imageCaptions": [
+        "髋臼杯置入后手持屏读数 · Hasegawa 等，2022，图 2",
+        "术中操作照片：直接前方入路（A）与仰卧前外侧入路（B） · Hasegawa 等，2022，图 1",
+        "手持红外导航原理示意 · 据 FDA 文件绘制",
+        "侧卧位术中读数与术后 CT 的一致性图 · Scholes 等，2024，图 2"
       ]
     },
     {
