@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "products": [
     {
       "id": "monarch",
@@ -1673,6 +1673,67 @@
       "imageSources": [
         "https://www.medicalexpo.com/prod/smith-nephew/product-70896-1026304.html",
         "https://www.smith-nephew.com/en/news/2021/09/01/20210901-expand-ri-digital-ecosystem-and-cori-surgical-system-with-total-hip-arthroplasty"
+      ]
+    },
+    {
+      "id": "naviswiss-hip",
+      "name": "Naviswiss Hip · 全髋置换手持导航系统",
+      "brand": "Naviswiss AG",
+      "country": "瑞士",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2020-06-10",
+      "event": "美国 FDA 510(k) 许可 · K193094",
+      "kind": "智能辅助工具",
+      "toolType": "手持光学导航",
+      "status": "已落地",
+      "principle": "手持导航仪用红外双目相机读取 NAVItag 标记。术中注册解剖参考后，系统计算骨性参考与器械之间的相对位姿，显示髋臼杯倾斜角、前倾角以及腿长和股骨偏距的变化。无影像版无需导入术前 CT 作为导航输入，器械仍由术者操作。",
+      "pain": "全髋置换中，骨盆姿态变化和有限视野会增加判断髋臼杯方向的难度，腿长及偏距也难靠目测量化。手持屏把这些指标直接显示在术野旁，帮助术者在植入过程中核对计划，减少对独立导航设备摆位的需求。",
+      "desc": "用于全髋关节置换的手持式无影像光学导航，提供术中角度和毫米级读数。",
+      "detail": "日期为美国 FDA 510(k) 许可日。FDA 文件列出仰卧及侧卧全髋置换，并要求髋臼杯打入器具备平直的平行段。厂商称兼容主流植入物系统，具体器械组合应按当地版本的使用说明核对。此条目对应无影像版 Naviswiss Hip。图为据 FDA 文件绘制的原理示意。",
+      "features": [
+        "红外双目追踪",
+        "无影像术中注册",
+        "髋臼杯方向",
+        "腿长和股骨偏距"
+      ],
+      "images": [
+        "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22720%22%20height%3D%22460%22%20viewBox%3D%220%200%20720%20460%22%3E%3Crect%20width%3D%22720%22%20height%3D%22460%22%20fill%3D%22%23e8f2f2%22%2F%3E%3Cg%20font-family%3D%22sans-serif%22%20fill%3D%22%23153f46%22%3E%3Ctext%20x%3D%2242%22%20y%3D%2261%22%20font-size%3D%2228%22%20font-weight%3D%22bold%22%3ENaviswiss%20Hip%3C%2Ftext%3E%3Ctext%20x%3D%2242%22%20y%3D%2295%22%20font-size%3D%2217%22%3E%E6%89%8B%E6%8C%81%E5%AF%BC%E8%88%AA%E5%8E%9F%E7%90%86%E7%A4%BA%E6%84%8F%20%C2%B7%20%E9%9D%9E%E4%BA%A7%E5%93%81%E5%AE%9E%E6%8B%8D%3C%2Ftext%3E%3Crect%20x%3D%2246%22%20y%3D%22151%22%20width%3D%22227%22%20height%3D%22150%22%20rx%3D%2219%22%20fill%3D%22%23153f46%22%2F%3E%3Crect%20x%3D%2261%22%20y%3D%22167%22%20width%3D%22197%22%20height%3D%22118%22%20rx%3D%2210%22%20fill%3D%22%23f7fbfb%22%2F%3E%3Ctext%20x%3D%2281%22%20y%3D%22212%22%20font-size%3D%2220%22%3E%E9%AB%8B%E8%87%BC%E6%9D%AF%E5%80%BE%E6%96%9C%20%2F%20%E5%89%8D%E5%80%BE%3C%2Ftext%3E%3Ctext%20x%3D%2281%22%20y%3D%22251%22%20font-size%3D%2220%22%3E%E8%85%BF%E9%95%BF%20%2F%20%E5%81%8F%E8%B7%9D%E5%8F%98%E5%8C%96%3C%2Ftext%3E%3Ctext%20x%3D%2261%22%20y%3D%22335%22%20font-size%3D%2217%22%3E%E6%89%8B%E6%8C%81%E7%BA%A2%E5%A4%96%E5%8F%8C%E7%9B%AE%E5%AF%BC%E8%88%AA%E4%BB%AA%3C%2Ftext%3E%3Cpath%20d%3D%22M279%20223L469%20166M279%20228L469%20280%22%20stroke%3D%22%2330827d%22%20stroke-width%3D%223%22%20stroke-dasharray%3D%229%207%22%2F%3E%3Crect%20x%3D%22471%22%20y%3D%22135%22%20width%3D%22194%22%20height%3D%2259%22%20rx%3D%2210%22%20fill%3D%22%23c2e1df%22%2F%3E%3Crect%20x%3D%22471%22%20y%3D%22252%22%20width%3D%22194%22%20height%3D%2259%22%20rx%3D%2210%22%20fill%3D%22%23c2e1df%22%2F%3E%3Ctext%20x%3D%22492%22%20y%3D%22172%22%20font-size%3D%2220%22%3E%E9%AA%A8%E6%80%A7%E5%8F%82%E8%80%83%E6%A0%87%E8%AE%B0%3C%2Ftext%3E%3Ctext%20x%3D%22492%22%20y%3D%22289%22%20font-size%3D%2220%22%3E%E5%99%A8%E6%A2%B0%E8%BF%BD%E8%B8%AA%E6%A0%87%E8%AE%B0%3C%2Ftext%3E%3Ctext%20x%3D%2242%22%20y%3D%22407%22%20font-size%3D%2217%22%3E%E6%B3%A8%E5%86%8C%E8%A7%A3%E5%89%96%E5%8F%82%E8%80%83%20%E2%86%92%20%E8%BF%BD%E8%B8%AA%E7%9B%B8%E5%AF%B9%E4%BD%8D%E5%A7%BF%20%E2%86%92%20%E6%98%BE%E7%A4%BA%E6%9C%AF%E4%B8%AD%E6%B5%8B%E9%87%8F%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      ],
+      "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193094",
+      "feedback": [
+        {
+          "angle": "产品设计 / 厂商资料",
+          "tone": "设计价值",
+          "text": "将追踪相机和读数界面集中在手持设备中，术者可在术野旁查看角度与距离。厂商展示了切口内放置标记的方案，并收录一位术者对设备占地和透视使用的正面反馈，属于厂商发布的个人经验。",
+          "url": "https://naviswiss.us/solutions/hip/"
+        },
+        {
+          "angle": "临床研究 / 仰卧位术后 CT 对照",
+          "tone": "测量表现与局限",
+          "text": "单术者前瞻性研究中，术中读数与术后 CT 存在系统偏差：髋臼杯方向平均低估约 1.9°–3.6°，腿长变化最多平均高估约 2 mm。研究报告 4 例（12%）术中出现大转子固定问题，提示参考标记的固定质量值得关注。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38049889/"
+        },
+        {
+          "angle": "临床研究 / 侧卧位术后 CT 对照",
+          "tone": "测量表现与局限",
+          "text": "侧卧位单术者队列中，髋臼杯倾斜角的平均绝对偏差为 3.6°（95% 置信区间 2.7°–4.5°）。这些队列主要验证术中测量与术后 CT 的一致性，长期患者结局仍需比较研究。",
+          "url": "https://doi.org/10.1186/s42836-023-00224-0"
+        },
+        {
+          "angle": "监管文件 / 器械兼容",
+          "tone": "适用条件",
+          "text": "FDA 文件明确限定髋臼杯打入器的形状。采购或试用时可先核对现有打入器，以及标记固定和术野视线能否融入团队流程。",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K193094.pdf"
+        }
+      ],
+      "imageSources": [
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K193094.pdf"
       ]
     },
     {
