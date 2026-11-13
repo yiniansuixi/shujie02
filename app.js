@@ -76,7 +76,7 @@ $('#weekly').onclick=()=>{$('#detail').innerHTML=`<div class="eyebrow">CATALOG U
   section.querySelector('input').focus();
 });
 const moduleKeys = ['products', 'tech', 'pain', 'design'];
-fetch('data.json').then(response => {
+fetch('data.json', { cache: 'no-cache' }).then(response => {
   if (!response.ok) throw new Error('Data request failed');
   return response.json();
 }).then(dataset => {
