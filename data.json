@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "products": [
     {
       "id": "monarch",
@@ -1756,6 +1756,57 @@
       ]
     },
     {
+      "id": "intellijoint-hip",
+      "name": "Intellijoint HIP · 微型光学导航",
+      "brand": "Intellijoint Surgical",
+      "country": "加拿大",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2019-10-01",
+      "event": "美国 FDA 510(k) 许可 · K191507",
+      "kind": "智能辅助工具",
+      "toolType": "微型光学导航",
+      "status": "已落地",
+      "principle": "以固定在骨盆上的微型光学相机建立参考，通过追踪标记记录器械或骨性参考的相对位置，在工作站显示髋臼杯方向、腿长和偏距变化。",
+      "pain": "全髋关节置换中，骨盆姿态变化会影响术者对植入方向和腿长变化的判断。术中实时测量给术者提供量化复核点，便于调整和记录。",
+      "desc": "用于全髋关节置换的微型光学导航，量化髋臼杯方向、腿长及偏距变化。",
+      "detail": "日期为 K191507 的美国许可日。原理配图为站内示意，器械适用范围以当地标签为准。",
+      "features": [
+        "骨盆参考",
+        "光学跟踪",
+        "术中测量"
+      ],
+      "images": [
+        "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20440%22%3E%3Crect%20width%3D%22720%22%20height%3D%22440%22%20fill%3D%22%23e9f3f3%22%2F%3E%3Cg%20font-family%3D%22sans-serif%22%20fill%3D%22%23153f46%22%3E%3Ctext%20x%3D%2242%22%20y%3D%2265%22%20font-size%3D%2230%22%20font-weight%3D%22bold%22%3EIntellijoint%20HIP%3C%2Ftext%3E%3Ctext%20x%3D%2242%22%20y%3D%22103%22%20font-size%3D%2218%22%3E%E5%BE%AE%E5%9E%8B%E5%85%89%E5%AD%A6%E5%AF%BC%E8%88%AA%20%C2%B7%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E7%A4%BA%E6%84%8F%3C%2Ftext%3E%3Crect%20x%3D%2242%22%20y%3D%22165%22%20width%3D%22193%22%20height%3D%2294%22%20rx%3D%2214%22%20fill%3D%22%23c0dddd%22%2F%3E%3Crect%20x%3D%22481%22%20y%3D%22165%22%20width%3D%22193%22%20height%3D%2294%22%20rx%3D%2214%22%20fill%3D%22%23c0dddd%22%2F%3E%3Cpath%20d%3D%22M242%20212h232%22%20stroke%3D%22%2331847f%22%20stroke-width%3D%223%22%20stroke-dasharray%3D%228%206%22%2F%3E%3Ctext%20x%3D%2259%22%20y%3D%22222%22%20font-size%3D%2222%22%3E%E9%AA%A8%E7%9B%86%E5%8F%82%E8%80%83%E7%9B%B8%E6%9C%BA%3C%2Ftext%3E%3Ctext%20x%3D%22499%22%20y%3D%22222%22%20font-size%3D%2222%22%3E%E5%99%A8%E6%A2%B0%E8%BF%BD%E8%B8%AA%E6%A0%87%E8%AE%B0%3C%2Ftext%3E%3Ctext%20x%3D%2242%22%20y%3D%22333%22%20font-size%3D%2220%22%3E%E7%9B%B8%E5%AF%B9%E4%BD%8D%E5%A7%BF%20%E2%86%92%20%E9%AB%8B%E8%87%BC%E6%9D%AF%E6%96%B9%E5%90%91%E3%80%81%E8%85%BF%E9%95%BF%E4%B8%8E%E5%81%8F%E8%B7%9D%E5%8F%98%E5%8C%96%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+      ],
+      "imageSources": [
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K191507.pdf"
+      ],
+      "imageCaptions": [
+        "微型光学导航原理示意"
+      ],
+      "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191507",
+      "feedback": [
+        {
+          "angle": "台架与模拟使用 / 早期研究",
+          "tone": "测量表现与证据局限",
+          "text": "2016 年论文报告台架和模拟使用中腿长、偏距读数误差低于 1 mm，杯倾斜与前倾角误差低于 1°。作者含厂商人员，结果对应测试条件，真实手术精度和患者获益需独立验证。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27920583/"
+        },
+        {
+          "angle": "FDA 召回 / 工作站电池",
+          "tone": "安全信息",
+          "text": "FDA 记录厂商于 2026 年 8 月 28 日发起二级召回，涉及特定工作站配置及所列笔记本序列号，原因为电池可能过热并造成火灾风险。范围以原公告的型号和序列号为准。",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?ID=222550"
+        }
+      ]
+    },
+    {
       "id": "preceyes",
       "name": "PRECEYES R1.1",
       "brand": "Preceyes",
@@ -2560,6 +2611,16 @@
   ],
   "tech": [
     {
+      "id": "t-fda-rasd-latency",
+      "title": "手术机器人延迟如何测：把视频反馈计入整条链路",
+      "date": "2026-09-25",
+      "status": "研究中",
+      "tag": "控制与验证 · FDA 指南草案",
+      "desc": "美国 FDA 上市前申报指南草案建议，把术者输入到器械动作、再到画面反馈的累计延迟纳入性能测试。",
+      "detail": "测试覆盖代表性配置和最不利工况，包括高处理负载、平移、旋转及末端执行器动作。阈值需依据预期用途给出临床理由。设计验证可在统一时间基准下同步记录输入、动作和显示帧，以定位延迟来自控制处理、执行还是显示。来源为草案。",
+      "source": "https://www.fda.gov/media/194987/download"
+    },
+    {
       "id": "t1",
       "title": "手持机器人：主动补偿进入截骨工作流",
       "date": "2026-07-16",
@@ -2620,10 +2681,42 @@
       "desc": "以传统腔镜与开放器械为对照，探索触觉信息的测量与可视化。",
       "detail": "这是基于触觉传感研究提出的设计研究问题，不是已验证的普遍临床缺陷。下一步需访谈术者，确定具体术式、操作任务与未满足需求，再开展原型评估。",
       "source": "https://link.springer.com/article/10.1007/s00132-025-04753-1"
+    },
+    {
+      "id": "p-rasd-emergency-conversion",
+      "title": "机器人故障时，团队能否迅速退出并转换术式？",
+      "date": "2026-09-25",
+      "status": "监管草案归纳",
+      "tag": "机器人手术",
+      "desc": "术者在控制台、助手在床旁。发生断电、急停或需要转换术式时，双方要快速识别同一个设备状态，并协调器械撤离。",
+      "detail": "设计机会包括统一的故障状态提示、清楚的床旁控制标识，以及让团队及时确认设备状态和撤离进度的界面。可用性验证可用断电、急停和模拟转换作为场景，记录状态判断错误、角色交接遗漏与耗时。依据为 FDA 上市前申报指南草案中的人因验证场景。",
+      "source": "https://www.fda.gov/media/194987/download"
     }
   ],
   "catalogNote": "收录机器人平台、明确代际/应用及智能辅助工具；持续扩充，非全球穷尽清单。按记录节点从新到旧；月份/年份保持原始精度。同平台不同应用单列，不等于独立硬件数量。",
   "design": [
+    {
+      "id": "design-kangduo-colorectal-ergonomics",
+      "title": "康多 SR-01 开放式控制台：真实结直肠手术中的颈背负荷",
+      "date": "2026-01-12",
+      "tag": "人机工程",
+      "status": "多中心随机试验事后分析",
+      "desc": "结合临床手术比较康多 SR-01 与 da Vinci，观察术者姿势、颈背不适、操作表现和团队协作。",
+      "detail": "研究分析 100 例病例，两组各 50 例。平台差异不限于控制台形态，结论适用于该研究条件，长期肌肉骨骼影响仍需跟踪。",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41549856/",
+      "analysis": {
+        "highlight": "开放式界面用外部显示器承载术野，术者有空间调整头颈和坐姿。设计时可联动评估屏幕高度、距离、座椅及前臂支撑，避免换成外屏后仍需长期抬头。",
+        "evidence": "研究观察到 da Vinci 组的颈背姿势负荷更高，术中不适随时间增长更多。两组盲评技术表现的 OSATS 总分均为 29.0，团队协作得分差异无统计学显著性。",
+        "application": "以连续手术阶段为单位记录颈部屈曲、姿势变化和 Borg CR-10 不适评分，同时采集操作质量与团队沟通数据，检查舒适性改善能否贯穿整个手术。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/kang-stable-1.webp",
+          "caption": "康多机器人产品参考图。姿势对照见研究原文图 2。",
+          "source": "https://pubmed.ncbi.nlm.nih.gov/41549856/"
+        }
+      ]
+    },
     {
       "id": "design-0",
       "date": "2026",
