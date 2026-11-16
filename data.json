@@ -1783,14 +1783,17 @@
       ],
       "images": [
         "assets/products/intellijoint-hip-photo.webp",
+        "assets/products/intellijoint-hip-tracking-setup.jpg",
         "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20720%20440%22%3E%3Crect%20width%3D%22720%22%20height%3D%22440%22%20fill%3D%22%23e9f3f3%22%2F%3E%3Cg%20font-family%3D%22sans-serif%22%20fill%3D%22%23153f46%22%3E%3Ctext%20x%3D%2242%22%20y%3D%2265%22%20font-size%3D%2230%22%20font-weight%3D%22bold%22%3EIntellijoint%20HIP%3C%2Ftext%3E%3Ctext%20x%3D%2242%22%20y%3D%22103%22%20font-size%3D%2218%22%3E%E5%BE%AE%E5%9E%8B%E5%85%89%E5%AD%A6%E5%AF%BC%E8%88%AA%20%C2%B7%20%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E7%A4%BA%E6%84%8F%3C%2Ftext%3E%3Crect%20x%3D%2242%22%20y%3D%22165%22%20width%3D%22193%22%20height%3D%2294%22%20rx%3D%2214%22%20fill%3D%22%23c0dddd%22%2F%3E%3Crect%20x%3D%22481%22%20y%3D%22165%22%20width%3D%22193%22%20height%3D%2294%22%20rx%3D%2214%22%20fill%3D%22%23c0dddd%22%2F%3E%3Cpath%20d%3D%22M242%20212h232%22%20stroke%3D%22%2331847f%22%20stroke-width%3D%223%22%20stroke-dasharray%3D%228%206%22%2F%3E%3Ctext%20x%3D%2259%22%20y%3D%22222%22%20font-size%3D%2222%22%3E%E9%AA%A8%E7%9B%86%E5%8F%82%E8%80%83%E7%9B%B8%E6%9C%BA%3C%2Ftext%3E%3Ctext%20x%3D%22499%22%20y%3D%22222%22%20font-size%3D%2222%22%3E%E5%99%A8%E6%A2%B0%E8%BF%BD%E8%B8%AA%E6%A0%87%E8%AE%B0%3C%2Ftext%3E%3Ctext%20x%3D%2242%22%20y%3D%22333%22%20font-size%3D%2220%22%3E%E7%9B%B8%E5%AF%B9%E4%BD%8D%E5%A7%BF%20%E2%86%92%20%E9%AB%8B%E8%87%BC%E6%9D%AF%E6%96%B9%E5%90%91%E3%80%81%E8%85%BF%E9%95%BF%E4%B8%8E%E5%81%8F%E8%B7%9D%E5%8F%98%E5%8C%96%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E"
       ],
       "imageSources": [
         "https://www.prnewswire.co.uk/news-releases/now-available-in-the-uk-intellijoint-hip-3d-mini-optical-navigation-is-disrupting-traditional-693129101.html",
+        "https://openorthopaedicsjournal.com/VOLUME/12/PAGE/389/",
         "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K191507.pdf"
       ],
       "imageCaptions": [
         "Intellijoint HIP 实物与导航界面 · Intellijoint Surgical 新闻稿配图",
+        "相机（A）、骨盆固定底座（B）与追踪器（C）实拍 · Christ 等，2018，图 1 · CC BY 4.0，原图未修改",
         "微型光学导航原理示意"
       ],
       "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191507",
