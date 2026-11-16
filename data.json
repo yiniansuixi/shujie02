@@ -1796,6 +1796,12 @@
       "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191507",
       "feedback": [
         {
+          "angle": "厂商官方资料 / 适用场景",
+          "tone": "产品设计与工作流",
+          "text": "官方产品页说明，Intellijoint HIP 是由术者控制的无影像导航工具，可用于初次及翻修全髋置换，支持直接前方、侧方和后方入路。翻修时可登记原髋臼杯位置作为术中比较基线，也可配合 Intellijoint VIEW 导入个体化术前目标。具体适用范围以当地产品标签为准。原页提供微型相机特写、使用场景图及操作视频。",
+          "url": "https://intellijointsurgical.com/hip/"
+        },
+        {
           "angle": "台架与模拟使用 / 早期研究",
           "tone": "测量表现与证据局限",
           "text": "2016 年论文报告台架和模拟使用中腿长、偏距读数误差低于 1 mm，杯倾斜与前倾角误差低于 1°。作者含厂商人员，结果对应测试条件，真实手术精度和患者获益需独立验证。",
