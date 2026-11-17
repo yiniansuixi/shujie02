@@ -73,10 +73,59 @@ function renderDesignAnalysis(item) {
   const photos = (item.figures || []).map(({url, caption, source}) => `<figure><img loading="lazy" src="${esc(url)}" alt="${esc(caption)}" onerror="this.hidden=true"><figcaption>${esc(caption)} <a href="${esc(source)}" target="_blank" rel="noopener">查看图源 ↗</a></figcaption></figure>`).join('');
   return `<section class="design-analysis"><h3>设计亮点与解决的问题</h3><p>${esc(analysis.highlight)}</p>${photos ? `<div class="design-figures">${photos}</div>` : ''}<h3>研究发现与适用范围</h3><p>${esc(analysis.evidence)}</p>${figure}<h3>如何用于产品设计</h3><p>${esc(analysis.application)}</p></section>`;
 }
-function openItem(id){let x=[...data.products,...data.tech,...data.pain,...(data.design||[])].find(x=>x.id===id);if(!x)return;const prod=!!x.kind;const design=id.startsWith('design-');$('#detail').innerHTML=`<div class="eyebrow">${esc(x.brand||x.tag)}</div><h2>${esc(x.name||x.title)}</h2><span class="pill ${x.status==='研究中'?'research':''}">${esc(x.status)}</span>${prod?` <span class="pill">${esc(x.country)} · ${esc(x.kind)}</span>`:''}${x.images?.length?`<div class="gallery">${x.images.map((im,i)=>`<figure><img src="${esc(im)}" alt="${esc(x.name)} 产品图片 ${i+1}" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><p hidden class="coverage-note">图片暂时无法加载，可通过下方图源查看。</p><figcaption>${x.imageCaptions?.[i] ? `${esc(x.imageCaptions[i])} · ` : ''}${i+1} / ${x.images.length} · ${x.imageSources?.[i]?`<a href="${esc(x.imageSources[i])}" target="_blank" rel="noopener">图片来源 ↗</a>`:`图片 © ${esc(x.brand)}`}</figcaption></figure>`).join('')}</div>`:prod?'<p class="coverage-note">官方图片待核实，暂以可追溯文字资料呈现。</p>':''}<div class="facts"><span>${x.event?'时间节点':'资料日期'}<b>${esc(x.date)}</b></span><span>${x.event?'事件性质':'证据状态'}<b>${esc(x.event||x.status)}</b></span><span>核验日期<b>${data.updated}</b></span></div>${prod?`<h3>01 · 主要原理</h3><p>${esc(x.principle)}</p><h3>02 · 解决的痛点</h3><p>${esc(x.pain)}</p><h3>03 · 多方反馈与证据</h3><p class="coverage-note">区分真实研究、厂商表述和编辑分析，不以推测填充好评或差评。</p><div class="feedback-list">${x.feedback.map(f=>`<article class="feedback-item"><div><b>${esc(f.angle)}</b><span class="pill ${f.tone==='安全信息'?'warning-pill':''}">${esc(f.tone)}</span></div><p>${esc(f.text)}</p>${f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">原始证据 ↗</a>`:'<small>未作为已验证的产品评价</small>'}</article>`).join('')}</div>`:`<p>${esc(x.desc)}</p>`}${design&&x.analysis?renderDesignAnalysis(x):`<h3>${prod?'04 · 时间与适用范围':'解读与边界'}</h3><p>${esc(x.detail)}</p>`}<a href="${esc(x.source)}" target="_blank" rel="noopener">${design?'查看原始资料':'产品 / 事件原始来源'} ↗</a>${prod?'<p class="coverage-note">历史召回仅适用于公告所列部件和版本。上市、扩展适应证和研究节点分开解读。</p>':''}`;$('#modal').showModal()}
+
+function selectLatestReleasedRobot(products, today) {
+  return products
+    .filter(product => product.kind === '手术机器人' &&
+      !/软件|更新|预告|展示|首例/.test(product.event || ''))
+    .map(product => ({
+      product,
+      release: product.releaseDate ||
+        (/商业发布|商业上市|正式上市|推出及|注册并上市|商业化年份/.test(product.event || '') ? product.date : '')
+    }))
+    .filter(({product, release}) => release && release <= today && product.images?.length)
+    .sort((a, b) => b.release.localeCompare(a.release))[0];
+}
+
+function renderFeaturedRobot() {
+  $('#hero-meta').textContent = '产品库更新 · ' + data.updated.replaceAll('-', '.') + '  ·  来源可追溯';
+  const featured = $('#featured-robot');
+  const today = new Intl.DateTimeFormat('sv-SE', {timeZone: 'Asia/Shanghai'}).format(new Date());
+  const selection = selectLatestReleasedRobot(data.products, today);
+  if (!selection) {
+    featured.hidden = true;
+    return;
+  }
+  const {product, release} = selection;
+  featured.innerHTML = `<span class="visual-label">最新发布的手术机器人</span>
+    <img src="${esc(coverImage(product))}" alt="${esc(product.name)} 产品图">
+    <div class="visual-bottom"><div><small>${esc(product.dept)} · ${esc(product.event)} · ${esc(release)}</small>
+    <strong>${esc(product.name)}</strong></div><button type="button" aria-label="查看 ${esc(product.name)}">↗</button></div>
+    <span class="imagecredit">产品图片 · ${esc(product.brand)}</span>`;
+  featured.querySelector('button').onclick = () => openItem(product.id);
+  const img = featured.querySelector('img');
+  img.addEventListener('error', () => retryCover(img, product.id));
+}
+
+function renderRobotWorkflow(product) {
+  if (product.kind !== '手术机器人') return '';
+  const workflow = product.workflow;
+  if (!workflow) return '<h3>手术操作流程</h3><p>该型号的操作流程待核实。</p>';
+  const steps = workflow.steps.map(([title, description]) =>
+    `<li><strong>${esc(title)}</strong><p>${esc(description)}</p></li>`).join('');
+  const links = (workflow.links || []).filter(([,url]) => /^https:\/\//.test(url))
+    .map(([title,url]) => `<li><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)} ↗</a></li>`).join('');
+  return `<section class="robot-workflow"><h3>手术操作流程</h3>
+    <h4>${esc(workflow.title)}</h4><p>${esc(workflow.note)}</p>
+    <p class="coverage-note">用于理解代表性术式与设备分工。具体操作按当地适用范围、产品说明书和专业培训执行。</p>
+    <ol>${steps}</ol><h4>详细流程与教学视频</h4>
+    ${links ? `<ul>${links}</ul>` : '<p>暂未核实该型号的公开视频。下方原始来源可用于核对产品及适用范围。</p>'}</section>`;
+}
+
+function openItem(id){let x=[...data.products,...data.tech,...data.pain,...(data.design||[])].find(x=>x.id===id);if(!x)return;const prod=!!x.kind;const design=id.startsWith('design-');$('#detail').innerHTML=`<div class="eyebrow">${esc(x.brand||x.tag)}</div><h2>${esc(x.name||x.title)}</h2><span class="pill ${x.status==='研究中'?'research':''}">${esc(x.status)}</span>${prod?` <span class="pill">${esc(x.country)} · ${esc(x.kind)}</span>`:''}${x.images?.length?`<div class="gallery">${x.images.map((im,i)=>`<figure><img src="${esc(im)}" alt="${esc(x.name)} 产品图片 ${i+1}" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><p hidden class="coverage-note">图片暂时无法加载，可通过下方图源查看。</p><figcaption>${x.imageCaptions?.[i] ? `${esc(x.imageCaptions[i])} · ` : ''}${i+1} / ${x.images.length} · ${x.imageSources?.[i]?`<a href="${esc(x.imageSources[i])}" target="_blank" rel="noopener">图片来源 ↗</a>`:`图片 © ${esc(x.brand)}`}</figcaption></figure>`).join('')}</div>`:prod?'<p class="coverage-note">官方图片待核实，暂以可追溯文字资料呈现。</p>':''}<div class="facts"><span>${x.event?'时间节点':'资料日期'}<b>${esc(x.date)}</b></span><span>${x.event?'事件性质':'证据状态'}<b>${esc(x.event||x.status)}</b></span><span>核验日期<b>${data.updated}</b></span></div>${prod?`<h3>01 · 主要原理</h3><p>${esc(x.principle)}</p><h3>02 · 解决的痛点</h3><p>${esc(x.pain)}</p><h3>03 · 多方反馈与证据</h3><p class="coverage-note">区分真实研究、厂商表述和编辑分析，不以推测填充好评或差评。</p><div class="feedback-list">${x.feedback.map(f=>`<article class="feedback-item"><div><b>${esc(f.angle)}</b><span class="pill ${f.tone==='安全信息'?'warning-pill':''}">${esc(f.tone)}</span></div><p>${esc(f.text)}</p>${f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">原始证据 ↗</a>`:'<small>未作为已验证的产品评价</small>'}</article>`).join('')}</div>`:`<p>${esc(x.desc)}</p>`}${design&&x.analysis?renderDesignAnalysis(x):`<h3>${prod?'04 · 时间与适用范围':'解读与边界'}</h3><p>${esc(x.detail)}</p>`}${prod?renderRobotWorkflow(x):''}<a href="${esc(x.source)}" target="_blank" rel="noopener">${design?'查看原始资料':'产品 / 事件原始来源'} ↗</a>${prod?'<p class="coverage-note">历史召回仅适用于公告所列部件和版本。上市、扩展适应证和研究节点分开解读。</p>':''}`;$('#modal').showModal()}
 $('#modal .close').onclick=()=>$('#modal').close();$('#modal').onclick=e=>{if(e.target===$('#modal'))$('#modal').close()};$('#saved').onclick=()=>{if(!modules.products)return;modules.products.showSaved();document.getElementById('products').scrollIntoView({behavior:'instant'})};
-function methodology(){$('#detail').innerHTML=`<div class="eyebrow">EDITORIAL PRINCIPLES</div><h2>资料可查，结论有边界。</h2><h3>覆盖范围</h3><p>${esc(data.catalogNote)}</p><h3>按事件时间排序</h3><p>每条明确是首次上市、地区获批、版本发布或研究进展。同一年和月的记录不虚构具体日期。研究中与历史停产平台明确标识。</p><h3>只保留有产品的分类</h3><p>科室及子方向由产品档案生成；跨科室产品在有来源支持时出现在多个分类中。产品类型及地区切换后，自动隐藏空分类。</p><h3>反馈分层</h3><p>临床研究、医生个体使用报告、厂商主张、监管安全信息分别标注。编辑提出的医院实施问题不会冒充医生差评。没有独立研究、患者反馈或成本数据时明确标为待补充。</p><h3>每周更新</h3><p>自动写入与定时更新尚未启用。当前页面为人工核验后发布的资料快照。</p>`;$('#modal').showModal()}$('#method').onclick=methodology;$('#method2').onclick=methodology;
-$('#weekly').onclick=()=>{$('#detail').innerHTML=`<div class="eyebrow">CATALOG UPDATE · ${data.updated}</div><h2>本期产品库扩充</h2><div class="facts"><span>产品 / 代际 / 应用<b>${data.products.length} 条</b></span><span>科室分类<b>${uniq(data.products.flatMap(departments)).length} 个</b></span><span>中国及合资条目<b>${data.products.filter(isChina).length} 条</b></span></div><p>覆盖史赛克、强生、Intuitive、美敦力、捷迈邦美、施乐辉，以及微创、天智航、精锋、康多、术锐、威高等国内外厂商。</p><p>${esc(data.catalogNote)}</p><p>不是本周新品清单。每周自动更新尚未启用。</p>`;$('#modal').showModal()};document.addEventListener('keydown', e => {
+function methodology(){$('#detail').innerHTML=`<div class="eyebrow">EDITORIAL PRINCIPLES</div><h2>资料可查，结论有边界。</h2><h3>覆盖范围</h3><p>${esc(data.catalogNote)}</p><h3>按事件时间排序</h3><p>每条明确是首次上市、地区获批、版本发布或研究进展。同一年和月的记录不虚构具体日期。研究中与历史停产平台明确标识。</p><h3>只保留有产品的分类</h3><p>科室及子方向由产品档案生成；跨科室产品在有来源支持时出现在多个分类中。产品类型及地区切换后，自动隐藏空分类。</p><h3>反馈分层</h3><p>临床研究、医生个体使用报告、厂商主张、监管安全信息分别标注。编辑提出的医院实施问题不会冒充医生差评。没有独立研究、患者反馈或成本数据时明确标为待补充。</p><h3>每周更新</h3><p>产品库通过定期核验更新。首页推荐按已核实的发布或上市日期自动选取。</p>`;$('#modal').showModal()}$('#method').onclick=methodology;$('#method2').onclick=methodology;
+$('#weekly').onclick=()=>{$('#detail').innerHTML=`<div class="eyebrow">CATALOG UPDATE · ${data.updated}</div><h2>本期产品库扩充</h2><div class="facts"><span>产品 / 代际 / 应用<b>${data.products.length} 条</b></span><span>科室分类<b>${uniq(data.products.flatMap(departments)).length} 个</b></span><span>中国及合资条目<b>${data.products.filter(isChina).length} 条</b></span></div><p>覆盖史赛克、强生、Intuitive、美敦力、捷迈邦美、施乐辉，以及微创、天智航、精锋、康多、术锐、威高等国内外厂商。</p><p>${esc(data.catalogNote)}</p><p>产品图谱涵盖历史记录，首页推荐展示最近的已核实发布节点。</p>`;$('#modal').showModal()};document.addEventListener('keydown', e => {
   if (e.key !== '/' || document.activeElement.matches('input,textarea,[contenteditable]') || $('#modal').open) return;
   const sections = [...document.querySelectorAll('.content-module')];
   const section = sections.findLast(el => el.getBoundingClientRect().top <= 140) || sections[0];
@@ -89,6 +138,7 @@ fetch('data.json', { cache: 'no-cache' }).then(response => {
   return response.json();
 }).then(dataset => {
   data = dataset;
+  renderFeaturedRobot();
   for (const key of moduleKeys) {
     modules[key] = createModule(key);
     modules[key].render();

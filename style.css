@@ -16,3 +16,5 @@
 
 html{scroll-padding-top:var(--site-header-height,86px)}.content-module{scroll-margin-top:14px}.content-module+.content-module{border-top:1px solid #dbe6e6}.gallery img[hidden]{display:none}
 @media(max-width:680px){html{scroll-padding-top:var(--site-header-height,118px)}}
+
+.robot-workflow{margin:24px 0}.robot-workflow h4{margin:16px 0 8px;font-size:15px}.robot-workflow ol,.robot-workflow ul{padding-inline-start:24px}.robot-workflow li{margin:10px 0}.robot-workflow li p{margin:4px 0 12px}.robot-workflow a{color:var(--teal);text-decoration:underline;text-underline-offset:3px}.visual-bottom{gap:12px}.visual-bottom small{line-height:1.5}
