@@ -1,4 +1,12 @@
 let data; const modules = {}; let saved;try{saved=JSON.parse(localStorage.getItem('surgscope-saved')||'[]')}catch{saved=[]}const $=s=>document.querySelector(s);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const uniq=a=>[...new Set(a)];const departments=x=>x.departments||[x.dept];const isChina=x=>x.country.includes('中国');const labels={overview:['GLOBAL PRODUCT ATLAS','全球智能外科产品库'],products:['GLOBAL PRODUCT ATLAS','全球产品图谱'],tech:['TECHNOLOGY FRONTIER','技术前沿'],design:['DESIGN RESEARCH','外科机器人产品设计研究'],pain:['CLINICAL INSIGHTS','从临床痛点发现设计机会']};
+const siteHeader = $('body > header');
+function syncHeaderHeight() {
+  const height = Math.ceil(siteHeader.getBoundingClientRect().height);
+  document.documentElement.style.setProperty('--site-header-height', `${height}px`);
+}
+syncHeaderHeight();
+new ResizeObserver(syncHeaderHeight).observe(siteHeader);
+
 function goToModule(key) {
   if (key === 'products' && modules.products?.isSaved()) modules.products.reset();
   document.querySelectorAll('nav [data-page]').forEach(button => button.classList.toggle('active', button.dataset.page === key));
