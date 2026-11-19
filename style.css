@@ -63,3 +63,37 @@ html{scroll-padding-top:var(--site-header-height,86px)}.content-module{scroll-ma
     max-width: 100%;
   }
 }
+
+
+/* Metadata on product and article cards */
+.card .brandline,
+.card .tags span {
+  font-size: 13px;
+}
+
+.card .pill,
+.card-bottom,
+.list-item .pill {
+  font-size: 14px;
+}
+
+.card-bottom small {
+  font-size: 12px;
+}
+
+.card-bottom {
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.card-bottom button {
+  margin-inline-start: auto;
+}
+
+.list-item time {
+  font-size: 16px;
+}
+
+.list-item small {
+  font-size: calc(.8333em + 2px);
+}
