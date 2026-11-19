@@ -46,11 +46,50 @@ function render(){
     render();
   }};
 }
-function productCard(x){const clinical=x.feedback?.some(f=>f.angle.includes('临床研究'));const safety=x.feedback?.some(f=>f.tone==='安全信息');return `<article class="card"><div class="card-media ${x.id==='dv5'?'photo':''}" onclick="openItem('${x.id}')"><span class="pill">${esc(x.dept)} · ${esc(x.sub.join(' / '))}</span><button class="bookmark ${saved.includes(x.id)?'on':''}" aria-label="${saved.includes(x.id)?'取消收藏':'收藏'} ${esc(x.name)}" onclick="event.stopPropagation();toggleSave('${x.id}')">${saved.includes(x.id)?'★':'☆'}</button>${x.images.length?`<img loading="lazy" src="${esc(coverImage(x))}" alt="${esc(x.name)} 产品图片" onerror="retryCover(this,'${x.id}')">`:`<div class="placeholder"><small>${esc(x.country)} / ${esc(x.kind)}</small><b>${esc(x.name)}</b><small>官方产品图片待核实</small></div>`}</div><div class="card-body"><div class="card-copy"><div class="brandline">${esc(x.brand)}<span>${esc(x.status)}</span></div><h3><button onclick="openItem('${x.id}')">${esc(x.name)}</button></h3><p>${esc(x.principle||x.desc)}</p><div class="pain-preview"><b>解决什么</b> ${esc(x.pain)}</div><div class="tags"><span>${esc(x.country)}</span><span>${esc(x.kind)}</span>${clinical?'<span>有临床研究</span>':''}${safety?'<span class="safety-tag">含监管安全信息</span>':''}</div></div><div class="card-bottom"><span>${esc(x.date.replaceAll('-','.'))}<br><small>${esc(x.event)}</small></span><button onclick="openItem('${x.id}')">原理与反馈 ↗</button></div></div></article>`}
+function productCard(x){const clinical=x.feedback?.some(f=>f.angle.includes('临床研究'));const safety=x.feedback?.some(f=>f.tone==='安全信息');return `<article class="card"><div class="card-media ${x.id==='dv5'?'photo':''}" onclick="if (!event.target.closest('.image-zoom-trigger')) openItem('${x.id}')"><span class="pill">${esc(x.dept)} · ${esc(x.sub.join(' / '))}</span><button class="bookmark ${saved.includes(x.id)?'on':''}" aria-label="${saved.includes(x.id)?'取消收藏':'收藏'} ${esc(x.name)}" onclick="event.stopPropagation();toggleSave('${x.id}')">${saved.includes(x.id)?'★':'☆'}</button>${x.images.length?zoomableImage(`<img loading="lazy" src="${esc(coverImage(x))}" alt="${esc(x.name)} 产品图片" onerror="retryCover(this,'${x.id}')">`, x.name):`<div class="placeholder"><small>${esc(x.country)} / ${esc(x.kind)}</small><b>${esc(x.name)}</b><small>官方产品图片待核实</small></div>`}</div><div class="card-body"><div class="card-copy"><div class="brandline">${esc(x.brand)}<span>${esc(x.status)}</span></div><h3><button onclick="openItem('${x.id}')">${esc(x.name)}</button></h3><p>${esc(x.principle||x.desc)}</p><div class="pain-preview"><b>解决什么</b> ${esc(x.pain)}</div><div class="tags"><span>${esc(x.country)}</span><span>${esc(x.kind)}</span>${clinical?'<span>有临床研究</span>':''}${safety?'<span class="safety-tag">含监管安全信息</span>':''}</div></div><div class="card-bottom"><span>${esc(x.date.replaceAll('-','.'))}<br><small>${esc(x.event)}</small></span><button onclick="openItem('${x.id}')">原理与反馈 ↗</button></div></div></article>`}
 function listCard(x){return `<article class="list-item" tabindex="0" onclick="openItem('${x.id}')" onkeydown="if(event.key==='Enter')openItem('${x.id}')"><time>${esc(x.date)}</time><div><span class="pill ${x.status==='研究中'?'research':''}">${esc(x.status)}</span> <small>${esc(x.tag)}</small><h3>${esc(x.title)}</h3><p>${esc(x.desc)}</p></div><button aria-label="查看详情">↗</button></article>`}
 function coverImage(product) {
   return product.cover || product.images.find(url => !url.startsWith('https://')) || product.images[0];
 }
+function zoomableImage(image, label) {
+  return `<button class="image-zoom-trigger" type="button" aria-label="放大查看 ${esc(label)}">${image}<span class="image-zoom-label" aria-hidden="true">放大</span></button>`;
+}
+
+function hideZoomImage(img) {
+  const trigger = img.closest('.image-zoom-trigger');
+  trigger.hidden = true;
+  const notice = trigger.nextElementSibling;
+  if (notice?.matches('.coverage-note')) notice.hidden = false;
+}
+
+const imageViewer = $('#image-viewer');
+const viewerImage = $('#viewer-image');
+const viewerNotice = $('#viewer-error');
+const viewerOriginal = $('#viewer-original');
+
+document.addEventListener('click', event => {
+  const trigger = event.target.closest('.image-zoom-trigger');
+  if (!trigger) return;
+  const image = trigger.querySelector('img');
+  const url = image.currentSrc || image.src;
+  viewerNotice.hidden = true;
+  viewerImage.hidden = false;
+  viewerImage.alt = image.alt;
+  viewerImage.src = url;
+  viewerOriginal.href = url;
+  $('#viewer-caption').textContent = image.alt;
+  imageViewer.showModal();
+});
+
+viewerImage.addEventListener('error', () => {
+  viewerImage.hidden = true;
+  viewerNotice.hidden = false;
+});
+
+imageViewer.addEventListener('click', event => {
+  if (event.target === imageViewer) imageViewer.close();
+});
+
 function retryCover(img, id) {
   const product = data.products.find(item => item.id === id);
   const images = [coverImage(product), ...product.images.filter(url => url !== coverImage(product))];
@@ -59,7 +98,7 @@ function retryCover(img, id) {
     img.dataset.attempt = next;
     img.src = images[next];
   } else {
-    img.replaceWith(fallback(id));
+    img.closest('.image-zoom-trigger').replaceWith(fallback(id));
   }
 }
 function fallback(id){const d=document.createElement('div');d.className='placeholder';d.innerHTML=`<b>${esc(data.products.find(x=>x.id===id)?.name||'产品图片')}</b><small>图片未能加载 · 请查看官方来源</small>`;return d}
@@ -70,7 +109,7 @@ function renderDesignAnalysis(item) {
   if (!analysis) return '';
   const chart = item.chart;
   const figure = chart ? `<figure class="design-chart"><figcaption>${esc(chart.title)}</figcaption>${chart.bars.map(([label, value]) => `<div class="design-bar"><span>${esc(label)}</span><meter min="0" max="3" value="${Number(value)}" aria-label="${esc(label)}"></meter><b>${Number(value).toFixed(2)}</b></div>`).join('')}<small>根据原文数据绘制</small></figure>` : '';
-  const photos = (item.figures || []).map(({url, caption, source}) => `<figure><img loading="lazy" src="${esc(url)}" alt="${esc(caption)}" onerror="this.hidden=true"><figcaption>${esc(caption)} <a href="${esc(source)}" target="_blank" rel="noopener">查看图源 ↗</a></figcaption></figure>`).join('');
+  const photos = (item.figures || []).map(({url, caption, source}) => `<figure>${zoomableImage(`<img loading="lazy" src="${esc(url)}" alt="${esc(caption)}" onerror="hideZoomImage(this)">`, caption)}<figcaption>${esc(caption)} <a href="${esc(source)}" target="_blank" rel="noopener">查看图源 ↗</a></figcaption></figure>`).join('');
   return `<section class="design-analysis"><h3>设计亮点与解决的问题</h3><p>${esc(analysis.highlight)}</p>${photos ? `<div class="design-figures">${photos}</div>` : ''}<h3>研究发现与适用范围</h3><p>${esc(analysis.evidence)}</p>${figure}<h3>如何用于产品设计</h3><p>${esc(analysis.application)}</p></section>`;
 }
 
@@ -98,13 +137,11 @@ function renderFeaturedRobot() {
   }
   const {product, release} = selection;
   featured.innerHTML = `<span class="visual-label">最新发布的手术机器人</span>
-    <img src="${esc(coverImage(product))}" alt="${esc(product.name)} 产品图">
+    ${zoomableImage(`<img src="${esc(coverImage(product))}" alt="${esc(product.name)} 产品图" onerror="retryCover(this,'${product.id}')">`, product.name)}
     <div class="visual-bottom"><div><small>${esc(product.dept)} · ${esc(product.event)} · ${esc(release)}</small>
     <strong>${esc(product.name)}</strong></div><button type="button" aria-label="查看 ${esc(product.name)}">↗</button></div>
     <span class="imagecredit">产品图片 · ${esc(product.brand)}</span>`;
-  featured.querySelector('button').onclick = () => openItem(product.id);
-  const img = featured.querySelector('img');
-  img.addEventListener('error', () => retryCover(img, product.id));
+  featured.querySelector('.visual-bottom button').onclick = () => openItem(product.id);
 }
 
 function renderRobotWorkflow(product) {
@@ -122,7 +159,7 @@ function renderRobotWorkflow(product) {
     ${links ? `<ul>${links}</ul>` : '<p>暂未核实该型号的公开视频。下方原始来源可用于核对产品及适用范围。</p>'}</section>`;
 }
 
-function openItem(id){let x=[...data.products,...data.tech,...data.pain,...(data.design||[])].find(x=>x.id===id);if(!x)return;const prod=!!x.kind;const design=id.startsWith('design-');$('#detail').innerHTML=`<div class="eyebrow">${esc(x.brand||x.tag)}</div><h2>${esc(x.name||x.title)}</h2><span class="pill ${x.status==='研究中'?'research':''}">${esc(x.status)}</span>${prod?` <span class="pill">${esc(x.country)} · ${esc(x.kind)}</span>`:''}${x.images?.length?`<div class="gallery">${x.images.map((im,i)=>`<figure><img src="${esc(im)}" alt="${esc(x.name)} 产品图片 ${i+1}" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><p hidden class="coverage-note">图片暂时无法加载，可通过下方图源查看。</p><figcaption>${x.imageCaptions?.[i] ? `${esc(x.imageCaptions[i])} · ` : ''}${i+1} / ${x.images.length} · ${x.imageSources?.[i]?`<a href="${esc(x.imageSources[i])}" target="_blank" rel="noopener">图片来源 ↗</a>`:`图片 © ${esc(x.brand)}`}</figcaption></figure>`).join('')}</div>`:prod?'<p class="coverage-note">官方图片待核实，暂以可追溯文字资料呈现。</p>':''}<div class="facts"><span>${x.event?'时间节点':'资料日期'}<b>${esc(x.date)}</b></span><span>${x.event?'事件性质':'证据状态'}<b>${esc(x.event||x.status)}</b></span><span>核验日期<b>${data.updated}</b></span></div>${prod?`<h3>01 · 主要原理</h3><p>${esc(x.principle)}</p><h3>02 · 解决的痛点</h3><p>${esc(x.pain)}</p><h3>03 · 多方反馈与证据</h3><p class="coverage-note">区分真实研究、厂商表述和编辑分析，不以推测填充好评或差评。</p><div class="feedback-list">${x.feedback.map(f=>`<article class="feedback-item"><div><b>${esc(f.angle)}</b><span class="pill ${f.tone==='安全信息'?'warning-pill':''}">${esc(f.tone)}</span></div><p>${esc(f.text)}</p>${f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">原始证据 ↗</a>`:'<small>未作为已验证的产品评价</small>'}</article>`).join('')}</div>`:`<p>${esc(x.desc)}</p>`}${design&&x.analysis?renderDesignAnalysis(x):`<h3>${prod?'04 · 时间与适用范围':'解读与边界'}</h3><p>${esc(x.detail)}</p>`}${prod?renderRobotWorkflow(x):''}<a href="${esc(x.source)}" target="_blank" rel="noopener">${design?'查看原始资料':'产品 / 事件原始来源'} ↗</a>${prod?'<p class="coverage-note">历史召回仅适用于公告所列部件和版本。上市、扩展适应证和研究节点分开解读。</p>':''}`;$('#modal').showModal()}
+function openItem(id){let x=[...data.products,...data.tech,...data.pain,...(data.design||[])].find(x=>x.id===id);if(!x)return;const prod=!!x.kind;const design=id.startsWith('design-');$('#detail').innerHTML=`<div class="eyebrow">${esc(x.brand||x.tag)}</div><h2>${esc(x.name||x.title)}</h2><span class="pill ${x.status==='研究中'?'research':''}">${esc(x.status)}</span>${prod?` <span class="pill">${esc(x.country)} · ${esc(x.kind)}</span>`:''}${x.images?.length?`<div class="gallery">${x.images.map((im,i)=>`<figure>${zoomableImage(`<img src="${esc(im)}" alt="${esc(x.name)} 产品图片 ${i+1}" onerror="hideZoomImage(this)">`, x.imageCaptions?.[i] || `${x.name} 产品图片 ${i+1}`)}<p hidden class="coverage-note">图片暂时无法加载，可通过下方图源查看。</p><figcaption>${x.imageCaptions?.[i] ? `${esc(x.imageCaptions[i])} · ` : ''}${i+1} / ${x.images.length} · ${x.imageSources?.[i]?`<a href="${esc(x.imageSources[i])}" target="_blank" rel="noopener">图片来源 ↗</a>`:`图片 © ${esc(x.brand)}`}</figcaption></figure>`).join('')}</div>`:prod?'<p class="coverage-note">官方图片待核实，暂以可追溯文字资料呈现。</p>':''}<div class="facts"><span>${x.event?'时间节点':'资料日期'}<b>${esc(x.date)}</b></span><span>${x.event?'事件性质':'证据状态'}<b>${esc(x.event||x.status)}</b></span><span>核验日期<b>${data.updated}</b></span></div>${prod?`<h3>01 · 主要原理</h3><p>${esc(x.principle)}</p><h3>02 · 解决的痛点</h3><p>${esc(x.pain)}</p><h3>03 · 多方反馈与证据</h3><p class="coverage-note">区分真实研究、厂商表述和编辑分析，不以推测填充好评或差评。</p><div class="feedback-list">${x.feedback.map(f=>`<article class="feedback-item"><div><b>${esc(f.angle)}</b><span class="pill ${f.tone==='安全信息'?'warning-pill':''}">${esc(f.tone)}</span></div><p>${esc(f.text)}</p>${f.url?`<a href="${esc(f.url)}" target="_blank" rel="noopener">原始证据 ↗</a>`:'<small>未作为已验证的产品评价</small>'}</article>`).join('')}</div>`:`<p>${esc(x.desc)}</p>`}${design&&x.analysis?renderDesignAnalysis(x):`<h3>${prod?'04 · 时间与适用范围':'解读与边界'}</h3><p>${esc(x.detail)}</p>`}${prod?renderRobotWorkflow(x):''}<a href="${esc(x.source)}" target="_blank" rel="noopener">${design?'查看原始资料':'产品 / 事件原始来源'} ↗</a>${prod?'<p class="coverage-note">历史召回仅适用于公告所列部件和版本。上市、扩展适应证和研究节点分开解读。</p>':''}`;$('#modal').showModal()}
 $('#modal .close').onclick=()=>$('#modal').close();$('#modal').onclick=e=>{if(e.target===$('#modal'))$('#modal').close()};$('#saved').onclick=()=>{if(!modules.products)return;modules.products.showSaved();document.getElementById('products').scrollIntoView({behavior:'instant'})};
 function methodology(){$('#detail').innerHTML=`<div class="eyebrow">EDITORIAL PRINCIPLES</div><h2>资料可查，结论有边界。</h2><h3>覆盖范围</h3><p>${esc(data.catalogNote)}</p><h3>按事件时间排序</h3><p>每条明确是首次上市、地区获批、版本发布或研究进展。同一年和月的记录不虚构具体日期。研究中与历史停产平台明确标识。</p><h3>只保留有产品的分类</h3><p>科室及子方向由产品档案生成；跨科室产品在有来源支持时出现在多个分类中。产品类型及地区切换后，自动隐藏空分类。</p><h3>反馈分层</h3><p>临床研究、医生个体使用报告、厂商主张、监管安全信息分别标注。编辑提出的医院实施问题不会冒充医生差评。没有独立研究、患者反馈或成本数据时明确标为待补充。</p><h3>每周更新</h3><p>产品库通过定期核验更新。首页推荐按已核实的发布或上市日期自动选取。</p>`;$('#modal').showModal()}$('#method').onclick=methodology;$('#method2').onclick=methodology;
 $('#weekly').onclick=()=>{$('#detail').innerHTML=`<div class="eyebrow">CATALOG UPDATE · ${data.updated}</div><h2>本期产品库扩充</h2><div class="facts"><span>产品 / 代际 / 应用<b>${data.products.length} 条</b></span><span>科室分类<b>${uniq(data.products.flatMap(departments)).length} 个</b></span><span>中国及合资条目<b>${data.products.filter(isChina).length} 条</b></span></div><p>覆盖史赛克、强生、Intuitive、美敦力、捷迈邦美、施乐辉，以及微创、天智航、精锋、康多、术锐、威高等国内外厂商。</p><p>${esc(data.catalogNote)}</p><p>产品图谱涵盖历史记录，首页推荐展示最近的已核实发布节点。</p>`;$('#modal').showModal()};document.addEventListener('keydown', e => {
