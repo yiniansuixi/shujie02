@@ -97,3 +97,44 @@ html{scroll-padding-top:var(--site-header-height,86px)}.content-module{scroll-ma
 .list-item small {
   font-size: calc(.8333em + 2px);
 }
+
+/* Align the product footer within each row of cards. */
+.grid > .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid > .card > .card-media {
+  flex-shrink: 0;
+}
+
+.card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.card-copy {
+  display: flow-root;
+  flex: 1;
+}
+
+.card-bottom {
+  align-items: flex-start;
+}
+
+@supports (grid-template-rows: subgrid) {
+  .grid > .card {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    row-gap: 0;
+  }
+
+  .card-body {
+    display: grid;
+    grid-row: span 2;
+    grid-template-rows: subgrid;
+    row-gap: 0;
+  }
+}
