@@ -18,3 +18,48 @@ html{scroll-padding-top:var(--site-header-height,86px)}.content-module{scroll-ma
 @media(max-width:680px){html{scroll-padding-top:var(--site-header-height,118px)}}
 
 .robot-workflow{margin:24px 0}.robot-workflow h4{margin:16px 0 8px;font-size:15px}.robot-workflow ol,.robot-workflow ul{padding-inline-start:24px}.robot-workflow li{margin:10px 0}.robot-workflow li p{margin:4px 0 12px}.robot-workflow a{color:var(--teal);text-decoration:underline;text-underline-offset:3px}.visual-bottom{gap:12px}.visual-bottom small{line-height:1.5}
+
+
+/* Product atlas filters */
+#products .type-filters > span,
+#products [id$="-subtabs"] button,
+#products .result,
+#products .result select {
+  font-size: 13px;
+}
+
+#products .type-filters button,
+#products .type-filters select,
+#products .tabs button {
+  font-size: 14px;
+}
+
+#products .type-filters small {
+  font-size: 12px;
+}
+
+@media (max-width: 680px) {
+  #products .type-filters button,
+  #products .tabs button {
+    font-size: 13px;
+  }
+
+  #products .type-filters small,
+  #products .result,
+  #products .result select {
+    font-size: 12px;
+  }
+
+  #products .subrow {
+    flex-wrap: wrap;
+  }
+
+  #products .result {
+    margin-inline-start: auto;
+  }
+
+  #products .result select {
+    width: auto;
+    max-width: 100%;
+  }
+}
