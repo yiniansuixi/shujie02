@@ -1,6 +1,115 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "products": [
+    {
+      "id": "hugo",
+      "name": "Hugo RAS",
+      "brand": "MEDTRONIC",
+      "dept": "普外科",
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2026-11-17",
+      "event": "美国 510(k) 普外科扩展公告",
+      "status": "已落地",
+      "desc": "术者通过开放式三维控制台遥操作内镜与器械。独立臂车围绕手术台布置，按术式和空间选择臂数、站位及对接方向。",
+      "features": [
+        "独立臂车",
+        "开放式三维控制台",
+        "床旁协作"
+      ],
+      "detail": "美国 FDA 于 2026-11-13 作出 510(k) 实质等同决定（K261444），美敦力于 11-17 公告。按厂商公告，本次覆盖上腹部普外手术（包括胆囊切除、Roux-en-Y 胃旁路、腹壁疝修补、小肠切除等），以及腹股沟疝修补和阑尾切除。美国泌尿外科许可此前已覆盖前列腺切除、肾切除及膀胱切除。适用范围以当地标签为准。",
+      "images": [
+        "assets/products/hugo-rygb-team-raffaelli.webp",
+        "assets/products/hugo-hernia-docking-mintz.jpg"
+      ],
+      "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261444",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "departments": [
+        "普外科",
+        "泌尿外科"
+      ],
+      "country": "美国/爱尔兰",
+      "principle": "术者通过开放式三维控制台遥操作内镜与器械。独立臂车围绕手术台布置，按术式和空间选择臂数、站位及对接方向。",
+      "pain": "不同术式需要不同的患者接近方向。独立臂车可重新布置，开放式控制台让术者与床旁团队保持直接交流。多车同时就位需要为助手和麻醉留出通道并管理臂间干涉。",
+      "feedback": [
+        {
+          "angle": "厂商 / 普外扩展公告",
+          "tone": "设计与适用范围",
+          "text": "美敦力说明，独立臂车可根据术式和患者解剖取舍，开放式控制台帮助维持手术室沟通。公告所估美国每年约 350 万台相关术式是潜在术式量。",
+          "url": "https://news.medtronic.com/2026-11-17-Medtronic-announces-FDA-clearance-of-general-surgery-procedures-for-the-Hugo-TM-robotic-assisted-surgery-RAS-system"
+        },
+        {
+          "angle": "临床研究 / 意大利胃旁路病例系列",
+          "tone": "真实手术",
+          "text": "4 例均以 4 臂完成，对接 7–8.5 分钟，无转换。首例报告 2 次体外臂碰撞，后续 3 例未报告碰撞。该中心有机器人经验，样本小且无对照，无法区分布局调整、病例差异及团队熟练度的影响。",
+          "url": "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2023.1181790/full"
+        },
+        {
+          "angle": "临床研究 / 以色列对接流程",
+          "tone": "历史对照",
+          "text": "10 例不同术式的改良流程对接均值 4.3 分钟，作者报告较历史记录缩短 3.5 分钟。6 例为三臂腹股沟疝修补，研究为单中心历史对照，作者披露与厂商的顾问关系。",
+          "url": "https://link.springer.com/article/10.1007/s11701-024-02179-z"
+        },
+        {
+          "angle": "医院 / 患者结局",
+          "tone": "证据边界",
+          "text": "上述研究可用于观察臂车布置和团队协作。大型比较研究、长期患者结局与医院采购及实施成本仍需按术式单独核对。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2023.1181790/full#F3",
+        "https://link.springer.com/article/10.1007/s11701-024-02179-z#Fig1"
+      ],
+      "workflow": {
+        "title": "Hugo RAS 多孔普外手术，以胃旁路与疝修补为例",
+        "note": "Hugo RAS 使用独立臂车和开放控制台。臂车布置随目标术野、术式和患者体型调整。以下描述设备与团队分工，属于病例与产品资料的概括。",
+        "steps": [
+          [
+            "准备与布局",
+            "术者与麻醉及床旁团队确认术式、患者摆位、穿刺通道和镜头方向。按手术部位预留臂车路径、床旁助手工作区及紧急接近空间。"
+          ],
+          [
+            "建立视野与逐臂对接",
+            "术者负责确认内镜视野和各通道对应关系。床旁团队逐台移动臂车、管理无菌覆盖并确认对接状态，同时观察机械臂体外活动空间及床旁通道。"
+          ],
+          [
+            "控制台辅助操作",
+            "术者在开放式三维控制台操纵内镜和腕式器械。平台执行术者指令，床旁助手按分工提供吸引、换械、递送或辅助器械操作，并向术者报告干涉与通道状态。"
+          ],
+          [
+            "复核与撤离",
+            "术者按术式复核术野、止血及重建结果。床旁团队协调退出器械、解除对接并移开臂车，按手术室流程完成清点与交接。"
+          ]
+        ],
+        "links": [
+          [
+            "同行评审实病例 · Hugo RAS 四臂 Roux-en-Y 胃旁路（术中图及病例数据）",
+            "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2023.1181790/full"
+          ],
+          [
+            "同行评审教学视频 · Hugo RAS 腹股沟疝对接（论文补充视频）",
+            "https://link.springer.com/article/10.1007/s11701-024-02179-z#Sec6"
+          ]
+        ]
+      },
+      "imageCaptions": [
+        "Raffaelli 等，Frontiers in Surgery（2023），图 3。胃旁路手术中的对接、麻醉侧、床旁助手与控制台位置。原图未修改。",
+        "Mintz 等，Journal of Robotic Surgery（2024 年在线），图 1。Hugo RAS 腹股沟疝病例的对接实拍，原图未修改。"
+      ],
+      "imageLicenses": [
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
     {
       "id": "monarch",
       "name": "MONARCH · QUEST 3",
@@ -331,88 +440,6 @@
           ]
         ],
         "links": []
-      }
-    },
-    {
-      "id": "hugo",
-      "name": "Hugo RAS",
-      "brand": "MEDTRONIC",
-      "dept": "泌尿外科",
-      "sub": [
-        "多孔腹腔镜"
-      ],
-      "date": "2025-12-03",
-      "event": "美国 FDA 获批 · 泌尿外科",
-      "status": "已落地",
-      "desc": "模块化独立机械臂与开放式控制台，支持团队协作及灵活手术室布局。",
-      "features": [
-        "模块化机械臂",
-        "开放式控制台",
-        "数字化工作流"
-      ],
-      "detail": "该时间为美国泌尿外科适应证获批节点，不代表全球首次上市。官方列举的美国适应证包括前列腺切除、肾切除及膀胱切除。不同地区的批准范围并不一致。",
-      "images": [
-        "assets/products/hugo-onsite-6.webp"
-      ],
-      "source": "https://news.medtronic.com/2025-12-03-Medtronic-announces-FDA-clearance-of-Hugo-TM-robotic-assisted-surgery-system-for-urologic-surgical-procedures",
-      "kind": "手术机器人",
-      "toolType": "机器人平台",
-      "departments": [
-        "泌尿外科"
-      ],
-      "country": "美国/爱尔兰",
-      "principle": "模块化独立机械臂与开放式控制台，支持团队协作及灵活手术室布局。",
-      "pain": "缓解固定式设备布局约束，并改善床旁沟通。",
-      "feedback": [
-        {
-          "angle": "产品设计 / 厂商资料",
-          "tone": "设计价值",
-          "text": "缓解固定式设备布局约束，并改善床旁沟通。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
-          "url": "https://news.medtronic.com/2025-12-03-Medtronic-announces-FDA-clearance-of-Hugo-TM-robotic-assisted-surgery-system-for-urologic-surgical-procedures"
-        },
-        {
-          "angle": "医院与团队 / 编辑分析",
-          "tone": "实施条件",
-          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
-          "url": null
-        },
-        {
-          "angle": "患者结局 / 证据状态",
-          "tone": "待补充",
-          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
-          "url": null
-        }
-      ],
-      "imageSources": [
-        "https://news.medtronic.com/2022-02-02-Medtronic-announces-first-procedure-in-Europe-with-Hugo-TM-robotic-assisted-surgery-system"
-      ],
-      "workflow": {
-        "title": "多孔软组织腔镜手术",
-        "note": "独立臂车分别就位，开放式控制台使术者可以面向外部显示，团队需协调臂车布局与床旁通道。",
-        "steps": [
-          [
-            "术前确认术式与团队分工",
-            "根据手术部位和本地适用范围选择入路，团队预先确认控制台、床旁器械交换与麻醉区域各自的空间，明确何时需要转换操作方式。"
-          ],
-          [
-            "建立视野与对接",
-            "术者建立独立的镜头和器械通道。床旁团队确认各机械臂能够接近相应通道，并观察机械臂在体外的活动范围与潜在干涉。"
-          ],
-          [
-            "控制台完成目标术式",
-            "术者在三维视野下操控器械，按具体术式执行组织分离、切除、修补或重建。床旁助手承担吸引、器械更换、物品传递等工作，并与术者持续确认术野状态。"
-          ],
-          [
-            "检查与撤离",
-            "检查目标区域、止血及重建结果，由团队协调退出器械和机械臂，完成后续处理。"
-          ]
-        ],
-        "links": [
-          [
-            "西班牙泌尿外科学会 · 前列腺切除多平台视频条目",
-            "https://www.aeu.es/microsites/cnu2026/programa-cientifico/?sesion=52&trabajo=V-208"
-          ]
-        ]
       }
     },
     {
@@ -3722,6 +3749,27 @@
   ],
   "tech": [
     {
+      "id": "t-smartphone-surgical-demonstrations",
+      "title": "用手机采集第一视角缝合演示，能保留哪些动作信息？",
+      "date": "2026-11-17",
+      "status": "研究中",
+      "tag": "手术数据采集 · 技术可行性",
+      "desc": "iPhone 同步记录第一视角视频、相机姿态和设备运动，从视频提取手部关键点，将拟合后的动作计算映射到机器人模型。",
+      "detail": "美国团队用同一款 iPhone 做了两段非临床录像。主要分析来自一位作者的 63 秒徒手缝合模拟，抽样后 939 帧中 910 帧检出双手（97%）。该指标反映这一段录像的检出完整性，缺少独立三维真值，也没有控制实体机器人或验证训练效果。下一步适合让多位操作者在戴手套、器械遮挡和变化照明下重复任务，同时对照独立参考系统验证手部定位误差、丢帧和时间对齐。",
+      "source": "https://link.springer.com/article/10.1007/s11701-026-04197-5",
+      "figures": [
+        {
+          "url": "assets/research/surgical-intelligence-suturing-khan.png",
+          "caption": "Khan 与 Bombardelli，Journal of Robotic Surgery（2026），图 5。上半部为实际录制的非临床缝合模拟，下半部为计算映射画面。原图未修改。",
+          "source": "https://link.springer.com/article/10.1007/s11701-026-04197-5#Fig5",
+          "license": {
+            "label": "CC BY-NC-ND 4.0",
+            "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+          }
+        }
+      ]
+    },
+    {
       "id": "t-fda-rasd-latency",
       "title": "手术机器人延迟如何测：把视频反馈计入整条链路",
       "date": "2026-09-25",
@@ -3802,10 +3850,57 @@
       "desc": "术者在控制台、助手在床旁。发生断电、急停或需要转换术式时，双方要快速识别同一个设备状态，并协调器械撤离。",
       "detail": "设计机会包括统一的故障状态提示、清楚的床旁控制标识，以及让团队及时确认设备状态和撤离进度的界面。可用性验证可用断电、急停和模拟转换作为场景，记录状态判断错误、角色交接遗漏与耗时。依据为 FDA 上市前申报指南草案中的人因验证场景。",
       "source": "https://www.fda.gov/media/194987/download"
+    },
+    {
+      "id": "p-hugo-docking-visibility",
+      "title": "机器人对接还要多久？把机械臂连接与器械入场分开计时",
+      "date": "2024-12-01",
+      "status": "单中心历史对照",
+      "tag": "机器人手术",
+      "desc": "机械臂接上通道后，团队仍需确认器械在视野内就位。只记录臂车连接耗时，会漏掉需要术者与床旁协同的最后一段。",
+      "detail": "以色列 Hadassah 团队报告 10 例 Hugo RAS 病例，对接平均 4.3 分钟，其中连接约 3 分钟、器械入场约 1.3 分钟。作者报告总耗时较历史流程缩短 3.5 分钟（约 45%）。6 例为三臂腹股沟疝术，研究没有同期对照。设计验证可分别记录臂车就位、对接确认、器械可见、准备完毕四个节点，同时记录重复调整、视野丢失、交接错误及额外人手。测试方案应覆盖三臂、四臂和需要重新对接的场景。",
+      "source": "https://link.springer.com/article/10.1007/s11701-024-02179-z",
+      "figures": [
+        {
+          "url": "assets/products/hugo-hernia-docking-mintz.jpg",
+          "caption": "Mintz 等，Journal of Robotic Surgery（2024 年在线），图 1。Hugo RAS 腹股沟疝病例的对接实拍，原图未修改。",
+          "source": "https://link.springer.com/article/10.1007/s11701-024-02179-z#Fig1",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
     }
   ],
   "catalogNote": "收录机器人平台、明确代际/应用及智能辅助工具；持续扩充，非全球穷尽清单。按记录节点从新到旧；月份/年份保持原始精度。同平台不同应用单列，不等于独立硬件数量。",
   "design": [
+    {
+      "id": "design-ergo-console-adjustments",
+      "title": "控制台坐姿优化：让目镜、前臂托、座椅与踏板一起调",
+      "date": "2026-02-16",
+      "tag": "人机工程",
+      "status": "国际横断面问卷",
+      "desc": "ERGO 调查及其姿势示例提示，控制台的视线、前臂承托和下肢可达性需要一起检查。",
+      "detail": "Restaino 等，Surgery，2026 年 2 月 16 日在线发表。",
+      "source": "https://doi.org/10.1016/j.surg.2025.110049",
+      "analysis": {
+        "highlight": "视窗高度及倾角影响颈部屈曲，前臂托的高度与深度影响肩部负荷，座椅高度和踏板距离影响足部支撑。把这几处调节纳入同一套术前设置流程，可检查为了看清术野而前探、为了够踏板而前移等相互牵连的问题。",
+        "evidence": "国际在线问卷共回收 1,093 份，96.9% 的受访者报告过肌肉骨骼不适，73% 从未参加正式的人因工学培训。图 3 展示了实际控制台的姿势示例。问卷为自报、横断面和自愿参与，未验证某个控制台结构能降低长期损伤。",
+        "application": "用覆盖不同身高与肢段比例的术者做对照试验，比对逐项调节与整套设置引导。记录设置时间、颈肩持续偏离中立位的时长、踏板误触、前臂支撑覆盖、操作精度及分时段不适评分。"
+      },
+      "figures": [
+        {
+          "url": "assets/research/ergo-console-posture-restaino.jpg",
+          "caption": "Restaino 等，Surgery（2026），图 3。控制台坐姿及术中站姿的实拍示例，标记来自原论文。原图未修改。",
+          "source": "https://doi.org/10.1016/j.surg.2025.110049",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
+    },
     {
       "id": "design-kangduo-colorectal-ergonomics",
       "title": "康多 SR-01 开放式控制台：真实结直肠手术中的颈背负荷",
@@ -3868,6 +3963,21 @@
         "highlight": "器械尖端传感器把推拉载荷反馈到控制器，术者牵拉组织时能通过手感补充内镜画面提供的信息。对直肠手术而言，薄层组织分离和长时间牵拉是两个不同的力控制任务。",
         "evidence": "该条目为初步量化研究，可用来理解如何采集临床任务中的器械力。不同器械、任务阶段、术者习惯和组织状态会改变测量结果，载荷数据本身不能证明组织损伤下降。",
         "application": "建议把力曲线与视频任务事件对齐，分别观察均值、峰值和峰值持续时间。比较反馈强度时同时记录任务质量和术者是否能识别同一载荷，避免仅以平均力低为优。"
+      }
+    },
+    {
+      "id": "design-20",
+      "date": "2026",
+      "tag": "可用性验证",
+      "status": "监管指南",
+      "title": "FDA 医疗器械人因与可用性工程指南",
+      "desc": "围绕预期用户、用途与环境组织人因工程。",
+      "detail": "可将显示、控制、标签与说明书纳入同一套任务分析和使用风险验证。",
+      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices",
+      "analysis": {
+        "highlight": "FDA 指南将显示、控制器、包装、标签、说明书和培训都纳入人因工程范围。设计目标是从真实用户与使用环境出发，降低可导致伤害的使用错误。",
+        "evidence": "这是监管指南。形成性评价用于发现问题并迭代，验证阶段用于判断代表性用户能否在接近实际的条件下完成关键任务。具体应用要结合产品、风险和适用监管要求。",
+        "application": "按术者、护士、维护人员分别列出关键任务和可能错误。针对急停、器械装配、状态切换和报警恢复，建立验证场景，记录错误、险些出错和操作困难。"
       }
     },
     {
@@ -4129,6 +4239,33 @@
       }
     },
     {
+      "id": "design-19",
+      "date": "2022",
+      "tag": "CMF 与工业设计",
+      "status": "设计案例",
+      "title": "威高 MicroHand S 的设备外观与部件识别",
+      "desc": "红点案例展示控制台、显示设备和机械臂的整体设计。",
+      "detail": "可对照壳体色块、部件轮廓和操作区域的视觉区分。材质、涂层与耐消毒性需另找制造商规格或测试验证。",
+      "source": "https://www.red-dot.org/zh/project/wego-microhand-s-surgical-robot-system-58348",
+      "analysis": {
+        "highlight": "公开案例将控制台、患者侧设备和显示设备设计成可识别的组件。轮廓和色块分区有助于团队识别设备组成，紧凑布局面向手术室空间受限的问题。",
+        "evidence": "红点页面展示产品外观及设计描述。图片允许比较操作面、外壳和各组件之间的视觉联系，材料型号、维护条件与临床效果需另查原始验证。",
+        "application": "建立同视角竞品照片对照，标注可触碰、可清洁和维护区域。针对外壳接缝、脚轮周围、把手及接口，进一步验证戴手套操作与清洁可达性。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/miaoshou-1.webp",
+          "caption": "MicroHand S 设计展示。观察组件分区、壳体和操作面。",
+          "source": "https://dfaawards.viewingrooms.com/artworks/10084-wego-microhand-s-surgical-robot-system-shandong-wego-surgery-robot-co.-ltd.-zco/"
+        },
+        {
+          "url": "assets/products/miaoshou-onsite-1.webp",
+          "caption": "MicroHand S 设计展示。观察组件分区、壳体和操作面。",
+          "source": "https://www.red-dot.org/zh/project/wego-microhand-s-surgical-robot-system-58348"
+        }
+      ]
+    },
+    {
       "id": "design-12",
       "date": "2019",
       "tag": "用户体验",
@@ -4152,6 +4289,33 @@
           "url": "assets/products/versius-onsite-2.webp",
           "caption": "Versius 控制台及模块化设备。产品资料。",
           "source": "https://www.nanalyze.com/2020/02/cmr-surgical-robotic-system/"
+        }
+      ]
+    },
+    {
+      "id": "design-21",
+      "date": "2019",
+      "tag": "用户体验",
+      "status": "研发案例",
+      "title": "MUSA 显微手术机器人的迭代过程",
+      "desc": "作者记录专用显微机器人如何由早期原型进入临床评估。",
+      "detail": "可参考临床前观察如何反馈到器械操控、设备布置与后续版本设计。",
+      "source": "https://link.springer.com/article/10.1007/s00238-019-01563-5",
+      "analysis": {
+        "highlight": "MUSA 的研发围绕超显微操作展开。主从控制把术者较大的输入变成器械端微小运动，帮助处理自由手操作时的震颤和稳定性问题。设计还需要让器械、手部输入和显微镜工作空间共同适配。",
+        "evidence": "研发论文描述从早期原型、临床前评价到改版系统的过程。它适合解释研究者如何根据测试修改原型，后续临床适应性与长期表现需看独立资料。",
+        "application": "针对显微机器人，把运动缩放、末端稳定性与设备布置一起评估。测试更换器械、重新定位和术者接管等非缝合任务，防止只在理想姿态下优化精度。"
+      },
+      "figures": [
+        {
+          "url": "assets/products/musa-1.jpg",
+          "caption": "MUSA-2 应用场景。厂商资料。",
+          "source": "https://microsure.nl/musa/"
+        },
+        {
+          "url": "assets/products/musa-paper-onsite-1.webp",
+          "caption": "研发论文图 1：早期 MSR 的安装环、用户界面、机械臂和脚踏。",
+          "source": "https://link.springer.com/article/10.1007/s00238-019-01563-5"
         }
       ]
     },
@@ -4244,75 +4408,6 @@
         "evidence": "研究对 102 台机器人手术直接观察，涉及不同术式和两代设备。研究描述复杂设备、团队沟通和术野可见性等问题，不能直接证明某个单项改动能改善患者结局。",
         "application": "把准备和对接阶段也列入可用性验证。对重复发生的设备确认、配件寻找和等待，分别检查标识、收纳布局、引导提示及人员培训。"
       }
-    },
-    {
-      "id": "design-19",
-      "date": "2022",
-      "tag": "CMF 与工业设计",
-      "status": "设计案例",
-      "title": "威高 MicroHand S 的设备外观与部件识别",
-      "desc": "红点案例展示控制台、显示设备和机械臂的整体设计。",
-      "detail": "可对照壳体色块、部件轮廓和操作区域的视觉区分。材质、涂层与耐消毒性需另找制造商规格或测试验证。",
-      "source": "https://www.red-dot.org/zh/project/wego-microhand-s-surgical-robot-system-58348",
-      "analysis": {
-        "highlight": "公开案例将控制台、患者侧设备和显示设备设计成可识别的组件。轮廓和色块分区有助于团队识别设备组成，紧凑布局面向手术室空间受限的问题。",
-        "evidence": "红点页面展示产品外观及设计描述。图片允许比较操作面、外壳和各组件之间的视觉联系，材料型号、维护条件与临床效果需另查原始验证。",
-        "application": "建立同视角竞品照片对照，标注可触碰、可清洁和维护区域。针对外壳接缝、脚轮周围、把手及接口，进一步验证戴手套操作与清洁可达性。"
-      },
-      "figures": [
-        {
-          "url": "assets/products/miaoshou-1.webp",
-          "caption": "MicroHand S 设计展示。观察组件分区、壳体和操作面。",
-          "source": "https://dfaawards.viewingrooms.com/artworks/10084-wego-microhand-s-surgical-robot-system-shandong-wego-surgery-robot-co.-ltd.-zco/"
-        },
-        {
-          "url": "assets/products/miaoshou-onsite-1.webp",
-          "caption": "MicroHand S 设计展示。观察组件分区、壳体和操作面。",
-          "source": "https://www.red-dot.org/zh/project/wego-microhand-s-surgical-robot-system-58348"
-        }
-      ]
-    },
-    {
-      "id": "design-20",
-      "date": "2026",
-      "tag": "可用性验证",
-      "status": "监管指南",
-      "title": "FDA 医疗器械人因与可用性工程指南",
-      "desc": "围绕预期用户、用途与环境组织人因工程。",
-      "detail": "可将显示、控制、标签与说明书纳入同一套任务分析和使用风险验证。",
-      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices",
-      "analysis": {
-        "highlight": "FDA 指南将显示、控制器、包装、标签、说明书和培训都纳入人因工程范围。设计目标是从真实用户与使用环境出发，降低可导致伤害的使用错误。",
-        "evidence": "这是监管指南。形成性评价用于发现问题并迭代，验证阶段用于判断代表性用户能否在接近实际的条件下完成关键任务。具体应用要结合产品、风险和适用监管要求。",
-        "application": "按术者、护士、维护人员分别列出关键任务和可能错误。针对急停、器械装配、状态切换和报警恢复，建立验证场景，记录错误、险些出错和操作困难。"
-      }
-    },
-    {
-      "id": "design-21",
-      "date": "2019",
-      "tag": "用户体验",
-      "status": "研发案例",
-      "title": "MUSA 显微手术机器人的迭代过程",
-      "desc": "作者记录专用显微机器人如何由早期原型进入临床评估。",
-      "detail": "可参考临床前观察如何反馈到器械操控、设备布置与后续版本设计。",
-      "source": "https://link.springer.com/article/10.1007/s00238-019-01563-5",
-      "analysis": {
-        "highlight": "MUSA 的研发围绕超显微操作展开。主从控制把术者较大的输入变成器械端微小运动，帮助处理自由手操作时的震颤和稳定性问题。设计还需要让器械、手部输入和显微镜工作空间共同适配。",
-        "evidence": "研发论文描述从早期原型、临床前评价到改版系统的过程。它适合解释研究者如何根据测试修改原型，后续临床适应性与长期表现需看独立资料。",
-        "application": "针对显微机器人，把运动缩放、末端稳定性与设备布置一起评估。测试更换器械、重新定位和术者接管等非缝合任务，防止只在理想姿态下优化精度。"
-      },
-      "figures": [
-        {
-          "url": "assets/products/musa-1.jpg",
-          "caption": "MUSA-2 应用场景。厂商资料。",
-          "source": "https://microsure.nl/musa/"
-        },
-        {
-          "url": "assets/products/musa-paper-onsite-1.webp",
-          "caption": "研发论文图 1：早期 MSR 的安装环、用户界面、机械臂和脚踏。",
-          "source": "https://link.springer.com/article/10.1007/s00238-019-01563-5"
-        }
-      ]
     },
     {
       "id": "design-22",
