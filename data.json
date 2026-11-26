@@ -1,6 +1,227 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "products": [
+    {
+      "id": "cuvis-joint",
+      "name": "CUVIS-joint 全膝关节置换机器人",
+      "brand": "CUREXO",
+      "country": "韩国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2026-11-25",
+      "event": "厂商公告 · 首批商业供货至意大利",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "术前 CT 建模与假体规划，术中通过光学追踪及骨面配准将计划对应到患者。术者审核后指令机械臂按计划主动铣削股骨远端与胫骨近端。",
+      "desc": "术前 CT 建模与假体规划，术中通过光学追踪及骨面配准将计划对应到患者。术者审核后指令机械臂按计划主动铣削股骨远端与胫骨近端。",
+      "pain": "缩小骨准备偏离计划的风险。术中间隙检查为调整假体位置和切除计划提供依据。需要额外管理追踪骨针、摆位和器械兼容性。",
+      "detail": "2026 年 11 月 25 日 CUREXO 宣布按合同向 Permedica 首批商业供货至意大利。厂商资料列 CJ150 的欧盟 CE MDR 时间为 2026 年 3 月。美国 FDA 于 2026 年 3 月 25 日作出 CJ150 的 510(k) 实质等同决定（K252037），范围为初次全膝置换相关导航及骨准备。平台已先在韩国和印度推出。京瓷公告于 2025 年 3 月在日本启动销售，本档案用有明确月份的该地区节点填写 releaseDate。可用植入物及模式按当地标签核对。",
+      "features": [
+        "CT 三维术前规划",
+        "光学追踪",
+        "主动铣削",
+        "术中间隙检查"
+      ],
+      "images": [
+        "assets/products/cuvis-joint-tracking-rajashekhar.jpg",
+        "assets/products/cuvis-joint-positioning-rajashekhar.jpg"
+      ],
+      "imageSources": [
+        "https://doi.org/10.7759/cureus.78914",
+        "https://doi.org/10.7759/cureus.78914"
+      ],
+      "imageCaptions": [
+        "Rajashekhar 等，Cureus（2025），图 3。印度 CUVIS-joint 全膝置换病例的股骨与胫骨追踪阵列及机械臂布置。原图未修改。",
+        "Rajashekhar 等，Cureus（2025），图 2。同一临床系列的膝关节术中摆位。原图未修改。"
+      ],
+      "imageLicenses": [
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "source": "https://www.curexo.com/eng/newsroom/01/v/833/",
+      "feedback": [
+        {
+          "angle": "美国 FDA / CJ150",
+          "tone": "许可范围",
+          "text": "确认装置用于初次 TKA 中股骨远端、胫骨近端骨准备及参考对线，术者发出指令后执行术前规划。",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252037.pdf"
+        },
+        {
+          "angle": "意大利 / 厂商",
+          "tone": "渠道与商业节点",
+          "text": "Permedica 接收首批供货。该公告未给出具体医院装机日或首术日期。",
+          "url": "https://www.curexo.com/eng/newsroom/01/v/833/"
+        },
+        {
+          "angle": "亚太 / 厂商与经销商",
+          "tone": "既有商业化",
+          "text": "厂商记载韩国和印度已先推出，京瓷公布日本在 2025 年 3 月启售。",
+          "url": "https://www.kyocera.co.jp/newsroom/news/2025/002700.html"
+        },
+        {
+          "angle": "厂商 / 产品设计",
+          "tone": "术中间隙与兼容性",
+          "text": "提供按计划铣削及术中检查间隙的模式，植入物限于已由厂商验证的匹配系统。",
+          "url": "https://prdct-search.kyocera.co.jp/doctor/m_f/prdct/cas/cuvis-joint/detail.html"
+        },
+        {
+          "angle": "临床研究 / 印度观察队列",
+          "tone": "患者报告与局限",
+          "text": "360 名患者使用 CUVIS-joint，Oxford 膝关节评分均值从术前 15.82 升至术后 6 个月 42.07。单中心、短期、无同期对照，也未报告适用于判断各地区商业配置完全一致的详细型号。",
+          "url": "https://doi.org/10.7759/cureus.78914"
+        },
+        {
+          "angle": "韩国交易所 / 厂商材料",
+          "tone": "代际与地区",
+          "text": "厂商 IR 材料分别列出 CUVIS-Joint 1.0、150 与 THA 的监管节点。",
+          "url": "https://kind.krx.co.kr/external/dst/irReference/18676/%ED%81%90%EB%A0%89%EC%86%8C%202026%20IR%20Book_260528.pdf"
+        },
+        {
+          "angle": "厂商 / 产品历程",
+          "tone": "早期推广",
+          "text": "厂商历程记载在韩国和印度推出。",
+          "url": "https://www.curexo.com/eng/company/04/"
+        }
+      ],
+      "workflow": {
+        "title": "CUVIS-joint 初次全膝置换的主动骨准备",
+        "note": "按 FDA 的 CJ150 用途与印度临床系列概括。术者决定计划和植入，机械臂承担术者监督下的计划内骨准备。",
+        "steps": [
+          [
+            "术前规划",
+            "术者检查 CT 三维骨模型、肢体对线及候选假体位置，确认当地允许的植入物方案。团队准备光学设备、切削耗材和手动备用器械。"
+          ],
+          [
+            "骨面配准及跟踪",
+            "术中建立股骨与胫骨参考，系统把骨面与术前模型对应。术者审核配准并按需要复核间隙；床旁团队管理无菌覆盖、光学视线和臂车空间。"
+          ],
+          [
+            "审查计划并辅助骨准备",
+            "术者核对对线、预期骨切除与软组织平衡后启动主动铣削。机械臂按计划执行；床旁团队协助软组织保护、观察固定状态和处理暂停。"
+          ],
+          [
+            "试模与最终复核",
+            "术者使用试模复核活动范围、稳定性和间隙，完成植入与复核。床旁团队撤除追踪组件并完成器械清点。"
+          ]
+        ],
+        "links": [
+          [
+            "同行评审临床系列 · CUVIS-joint（印度配置，术中图及间隙平衡方法）",
+            "https://doi.org/10.7759/cureus.78914"
+          ]
+        ]
+      },
+      "releaseDate": "2025-03",
+      "releaseEvent": "日本商业上市"
+    },
+    {
+      "id": "surgipulse-mteer",
+      "name": "SurgiPulse 经导管二尖瓣修复机器人",
+      "brand": "SurgiPulse Robotics / 厦心临床团队",
+      "country": "中国",
+      "dept": "血管介入",
+      "departments": [
+        "血管介入"
+      ],
+      "sub": [
+        "结构性心脏介入"
+      ],
+      "date": "2026-11-25",
+      "event": "厦心转载临床研究进展",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "研究中",
+      "principle": "床旁定位臂支撑驱动器，三个无菌适配器把驱动动作传至二尖瓣修复器械。术者在超声及透视下经控制台操纵推进、转向与夹合。",
+      "desc": "床旁定位臂支撑驱动器，三个无菌适配器把驱动动作传至二尖瓣修复器械。术者在超声及透视下经控制台操纵推进、转向与夹合。",
+      "pain": "在搏动心脏内，术者需同时监测瓣叶与器械姿态并保持细微动作稳定。器械驱动和床旁定位把部分手动操作转为可控输入，并保留就地装配与撤离。",
+      "detail": "已核实为中国机构开展的临床研究。2023 年 12 月 29 日首例，2024 年 9 月 5 日论文在线发表。2026 年 11 月 25 日厦心官网转载研究进展。导管夹及机器人主体的监管状态需分别核对，目前未核实机器人主体的商业上市日期。",
+      "features": [
+        "三个无菌适配器",
+        "床旁五关节定位臂",
+        "独立医生控制台",
+        "超声与透视引导"
+      ],
+      "images": [
+        "assets/products/surgipulse-mteer-chen.png"
+      ],
+      "imageSources": [
+        "https://link.springer.com/article/10.1007/s10554-024-03227-3#Figa"
+      ],
+      "imageCaptions": [
+        "Chen 等，International Journal of Cardiovascular Imaging（2024），图 a。顶部为带器械的床旁执行装置实物，下方含控制台照片及本病例术中影像。整图原样转载。"
+      ],
+      "imageLicenses": [
+        {
+          "label": "CC BY-NC-ND 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "source": "https://www.xmheart.com/media-coverage-1005072.html",
+      "feedback": [
+        {
+          "angle": "临床研究 / 首例同行评审",
+          "tone": "影像结果",
+          "text": "在心脏团队选择的单一高风险患者中，用两枚 SQ-Kyrin-M 夹完成修复，术末经食管超声示反流由重度降至轻度。单病例无法估计普遍疗效及并发症率。",
+          "url": "https://link.springer.com/article/10.1007/s10554-024-03227-3"
+        },
+        {
+          "angle": "医院报道 / 研究进展",
+          "tone": "证据边界",
+          "text": "医院转载报道提供团队后续经验，暂无足以独立核验完整入组、人群构成及随访结局的公开对照数据。",
+          "url": "https://www.xmheart.com/media-coverage-1005072.html"
+        },
+        {
+          "angle": "医院 / 跨院应用案例",
+          "tone": "研究场景",
+          "text": "厦心报道法国波尔多至厦门的跨国远程 TEER 病例。远程能力和当地常规临床准入需独立判断。",
+          "url": "https://www.xmheart.com/media-coverage-4907.html"
+        }
+      ],
+      "workflow": {
+        "title": "临床研究中的影像引导机器人 M-TEER",
+        "note": "按厦心首例论文描述平台与团队分工。本流程对应当时的研究设备与配套夹持系统。",
+        "steps": [
+          [
+            "心脏团队评估及规划",
+            "心脏介入、影像与麻醉团队评估瓣膜解剖和手术风险，确定成像方案、器械配置与床旁应急分工。"
+          ],
+          [
+            "建立通路与设备对接",
+            "本地团队建立介入通路并定位床旁执行装置，安装无菌适配器。影像人员提供超声及透视画面，术者确认响应与视野。"
+          ],
+          [
+            "平台辅助操控修复器械",
+            "介入术者通过控制台操作器械，执行装置传递命令。床旁团队持续监测通路、无菌与连接状态，影像人员协助确认瓣叶与器械相对位置。"
+          ],
+          [
+            "影像复核与结束",
+            "团队复核夹合状态、残余反流及跨瓣压差。术者决定是否结束，床旁人员依流程撤除器械与设备并交接。"
+          ]
+        ],
+        "links": [
+          [
+            "同行评审实病例 · 厦心 2023 年研究型 M-TEER 平台",
+            "https://link.springer.com/article/10.1007/s10554-024-03227-3"
+          ],
+          [
+            "论文补充视频 · 同一研究型平台的装置与器械操作",
+            "https://e.video-cdn.net/watch?video-id=-pDPaDf_YZfb1FUhUxakkC&player-id=-qZL2aSgACrhe2fEUstC_v&channel-id=86512"
+          ]
+        ]
+      }
+    },
     {
       "id": "liberty-endovascular",
       "name": "LIBERTY 外周血管介入机器人",
@@ -113,6 +334,126 @@
           ]
         ]
       }
+    },
+    {
+      "id": "toumai",
+      "name": "图迈 Toumai 多孔",
+      "brand": "微创机器人 MedBot",
+      "country": "中国",
+      "dept": "泌尿外科",
+      "departments": [
+        "泌尿外科",
+        "普外科",
+        "妇科"
+      ],
+      "sub": [
+        "多孔腹腔镜"
+      ],
+      "date": "2026-11-24",
+      "event": "港交所披露 · 累计商业订单突破 400 台",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "三维视觉与主从控制的四臂系统，将医生动作映射到体内器械。",
+      "pain": "改善狭窄腔体中的观察、缝合及精细操作。",
+      "desc": "三维视觉与主从控制的四臂系统，将医生动作映射到体内器械。",
+      "detail": "微创机器人于 11 月 24 日披露图迈腔镜机器人全球商业订单累计突破 400 台。订单量与已装机、已手术数量分别理解。中国多孔平台于 2022 年 1 月披露 NMPA 获批，远程手术系统于 2025 年 4 月 21 日另获中国批准。美国佛罗里达 2026 年 10 月 25 日跨院前列腺切除由 FDA IDE 临床研究支持。2026 年 11 月中国转载报道对应该 10 月病例。",
+      "features": [
+        "多孔腹腔镜",
+        "来源可追溯"
+      ],
+      "images": [
+        "assets/research/toumai-remote-dashboard-terra.jpg"
+      ],
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401480_c.pdf",
+      "feedback": [
+        {
+          "angle": "厂商 / 交易所披露",
+          "tone": "市场采用",
+          "text": "累计商业订单突破 400 台，厂商披露的订单统计含不同地区。",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401480_c.pdf"
+        },
+        {
+          "angle": "厂商 / 中国多孔平台",
+          "tone": "监管事件",
+          "text": "2022 年 1 月披露中国四臂腔镜平台获批。",
+          "url": "https://microport.com/news/microport-toumai-surgical-robot-receives-nmpa-approval-becoming-the-first-commercialized-four-arm-laparoscopic-surgical-robot-developed-in-china"
+        },
+        {
+          "angle": "厂商 / 中国远程系统",
+          "tone": "监管事件",
+          "text": "中国 2025 年 4 月 21 日的批准对应图迈远程手术系统。",
+          "url": "https://www.microport.com.cn/news/xinwendongtai/2213.html"
+        },
+        {
+          "angle": "医院 / 美国远程应用",
+          "tone": "IDE 临床研究",
+          "text": "佛罗里达两站点相距约 35 英里。10 月 25 日的跨院前列腺切除属于研究性使用。",
+          "url": "https://www.adventhealth.com/news/historic-study-explores-whether-robotic-telesurgery-could-bring-specialized-surgical-care-closer"
+        },
+        {
+          "angle": "厂商 / 订单口径",
+          "tone": "区域披露",
+          "text": "厂商公布 2026 年内中国新增订单 37 台。数字采用厂商统计口径。",
+          "url": "https://www.medbotsurgical.com/news/556.html"
+        },
+        {
+          "angle": "临床研究 · 随机比较（2025）",
+          "tone": "正面与限制",
+          "text": "在研究所纳入的前列腺根治及部分肾切除患者中，失血、住院和并发症等指标无显著组间差异；图迈组手术时间更长。未见显著差异不等于证明所有结局完全等同。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40966817/"
+        },
+        {
+          "angle": "医院与团队 / 编辑分析",
+          "tone": "实施条件",
+          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
+          "url": null
+        }
+      ],
+      "imageSources": [
+        "https://link.springer.com/article/10.1007/s11701-026-03819-2#Fig1"
+      ],
+      "workflow": {
+        "title": "图迈多孔平台腔镜操作及跨院团队分工",
+        "note": "四臂平台由术者控制。跨院操作适用性受地区监管、配置和研究方案约束，床旁应保留按方案接管的能力。",
+        "steps": [
+          [
+            "术前规划与交接",
+            "团队确认术式、孔位、臂车空间及床旁岗位；跨院病例按临床方案核对双端设备、通信及接管条件。"
+          ],
+          [
+            "建立视野及对接",
+            "床旁团队完成麻醉、患者摆位和多孔对接。术者确认三维内镜视野、各臂分配与器械响应，团队共同观察臂间及床旁空间。"
+          ],
+          [
+            "控制台操作及床旁协助",
+            "术者操纵镜头及器械，四臂平台执行输入。床旁团队负责换械、吸引、现场观察及紧急操作，跨院配置另行持续监测通信与控制权。"
+          ],
+          [
+            "终末复核并撤离",
+            "术者核对切除或重建结果、出血与术野。床旁团队解除对接、清点及交接，跨院方案另按协议关闭会话。"
+          ]
+        ],
+        "links": [
+          [
+            "医院实病例 · 研究型 Toumai 多孔平台，美国院际前列腺切除",
+            "https://www.adventhealth.com/news/historic-study-explores-whether-robotic-telesurgery-could-bring-specialized-surgical-care-closer"
+          ],
+          [
+            "同行评审实病例 · Toumai 多孔远程胸外科（巴西有线网络）",
+            "https://link.springer.com/article/10.1007/s11701-026-03819-2"
+          ]
+        ]
+      },
+      "imageCaptions": [
+        "Terra 等，Journal of Robotic Surgery（2026），图 1。巴西图迈多孔系统远程胸外科控制台和术中看板。原图未修改。"
+      ],
+      "imageLicenses": [
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
     },
     {
       "id": "ssi-mantra3",
@@ -2147,89 +2488,6 @@
           ]
         ],
         "links": []
-      }
-    },
-    {
-      "id": "toumai",
-      "name": "图迈 Toumai 多孔",
-      "brand": "微创机器人 MedBot",
-      "country": "中国",
-      "dept": "泌尿外科",
-      "departments": [
-        "泌尿外科",
-        "普外科",
-        "妇科"
-      ],
-      "sub": [
-        "多孔腹腔镜"
-      ],
-      "date": "2022-01",
-      "event": "中国首次 NMPA 获批",
-      "kind": "手术机器人",
-      "toolType": "机器人平台",
-      "status": "已落地",
-      "principle": "三维视觉与主从控制的四臂系统，将医生动作映射到体内器械。",
-      "pain": "改善狭窄腔体中的观察、缝合及精细操作。",
-      "desc": "三维视觉与主从控制的四臂系统，将医生动作映射到体内器械。",
-      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
-      "features": [
-        "多孔腹腔镜",
-        "来源可追溯"
-      ],
-      "images": [
-        "assets/products/toumai-stable-1.jpg"
-      ],
-      "source": "https://www.medbotsurgical.com/news/103.html",
-      "feedback": [
-        {
-          "angle": "产品设计 / 厂商资料",
-          "tone": "设计价值",
-          "text": "改善狭窄腔体中的观察、缝合及精细操作。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
-          "url": "https://www.medbotsurgical.com/news/103.html"
-        },
-        {
-          "angle": "临床研究 · 随机比较（2025）",
-          "tone": "正面与限制",
-          "text": "在研究所纳入的前列腺根治及部分肾切除患者中，失血、住院和并发症等指标无显著组间差异；图迈组手术时间更长。未见显著差异不等于证明所有结局完全等同。",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/40966817/"
-        },
-        {
-          "angle": "医院与团队 / 编辑分析",
-          "tone": "实施条件",
-          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
-          "url": null
-        }
-      ],
-      "imageSources": [
-        "https://www.duomed.com/nl-BE"
-      ],
-      "workflow": {
-        "title": "多孔软组织腔镜手术",
-        "note": "四臂平台同时涉及三维视野和工作器械的分配，对接前需确认床旁助手的操作空间。",
-        "steps": [
-          [
-            "术前确认术式与团队分工",
-            "根据手术部位和本地适用范围选择入路，团队预先确认控制台、床旁器械交换与麻醉区域各自的空间，明确何时需要转换操作方式。"
-          ],
-          [
-            "建立视野与对接",
-            "术者建立独立的镜头和器械通道。床旁团队确认各机械臂能够接近相应通道，并观察机械臂在体外的活动范围与潜在干涉。"
-          ],
-          [
-            "控制台完成目标术式",
-            "术者在三维视野下操控器械，按具体术式执行组织分离、切除、修补或重建。床旁助手承担吸引、器械更换、物品传递等工作，并与术者持续确认术野状态。"
-          ],
-          [
-            "检查与撤离",
-            "检查目标区域、止血及重建结果，由团队协调退出器械和机械臂，完成后续处理。"
-          ]
-        ],
-        "links": [
-          [
-            "西班牙泌尿外科学会 · 前列腺切除多平台视频条目",
-            "https://www.aeu.es/microsites/cnu2026/programa-cientifico/?sesion=52&trabajo=V-208"
-          ]
-        ]
       }
     },
     {
