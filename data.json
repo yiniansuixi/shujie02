@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "products": [
     {
       "id": "cuvis-joint",
@@ -221,6 +221,137 @@
           ]
         ]
       }
+    },
+    {
+      "id": "sky",
+      "name": "鸿鹄 SkyWalker",
+      "brand": "微创机器人 MedBot",
+      "country": "中国",
+      "dept": "骨科",
+      "departments": [
+        "骨科"
+      ],
+      "sub": [
+        "关节"
+      ],
+      "date": "2026-11-25",
+      "event": "医院公告 · 印度古吉拉特邦装机",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "principle": "术前 CT 生成骨模型并规划假体位置与截骨面，术中利用光学导航配准。机械臂把一体化截骨导板送到规划位置，由术者持摆锯沿导板完成骨切除。",
+      "pain": "把规划的关节线、假体位置及截骨面带入术中。术者可在锯切前核对截骨量和软组织间隙，仍需管理参考架稳定性、光学视线和锯片摆动。",
+      "desc": "术前 CT 生成骨模型并规划假体位置与截骨面，术中利用光学导航配准。机械臂把一体化截骨导板送到规划位置，由术者持摆锯沿导板完成骨切除。",
+      "detail": "CURIS Hospital 于 2026 年 11 月 25 日公告在艾哈迈达巴德引入 SkyWalker 做全膝置换，院方称为印度西部首台。公告未披露病例结果。中国 NMPA 于 2022 年 4 月批准膝关节用途，厂商于同年 7 月 23 日正式发布鸿鹄平台。美国 FDA 于 2022 年 7 月 7 日作出 SkyWalker Total Knee System 的 510(k) 实质等同决定（K213873），适用于 CT 可识别骨性解剖且适合立体定位技术的全膝关节置换。美国首例临床应用发生在同年 11 月 22 日。中国另有髋膝配置，具体适应证及匹配假体以当地标签为准。",
+      "features": [
+        "CT 三维规划",
+        "光学骨参考",
+        "机械臂定位截骨导板",
+        "术者持锯截骨"
+      ],
+      "images": [
+        "assets/products/skywalker-osteotomy-xia.jpg",
+        "assets/products/skywalker-platform-xia.jpg"
+      ],
+      "source": "https://www.newsvoir.com/release/west-india-s-first-skywalker-orthopedic-robotic-system-launched-at-curis-hospital-ahmedabad-37508.html",
+      "feedback": [
+        {
+          "angle": "印度 / CURIS 医院",
+          "tone": "装机节点",
+          "text": "院方披露与 MicroPort Orthopedics 合作引入该系统，并列出配用的内侧轴心膝假体。公开资料未给出当地配置的软件版本、使用量或本院随访。",
+          "url": "https://www.newsvoir.com/release/west-india-s-first-skywalker-orthopedic-robotic-system-launched-at-curis-hospital-ahmedabad-37508.html"
+        },
+        {
+          "angle": "中国 / 厂商",
+          "tone": "商业发布",
+          "text": "2022 年 7 月 23 日正式发布；厂商随后在港交所报告中披露 2023 年上半年完成中国首台商业化装机。",
+          "url": "https://www.medbotsurgical.com/en/news/107.html"
+        },
+        {
+          "angle": "美国 FDA",
+          "tone": "许可范围",
+          "text": "适用范围为 CT 规划的全膝关节置换。原始许可摘要说明了光学跟踪、机械臂定位及获验证假体。",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf21/K213873.pdf"
+        },
+        {
+          "angle": "港交所 / 厂商财报",
+          "tone": "地区与商业进展",
+          "text": "2023 年中期业绩披露中国首台商业化装机和首次海外营收。髋膝一体配置的适用范围需按地区分别核实。",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0921/2023092100625.pdf"
+        },
+        {
+          "angle": "临床研究 / 中国早期前瞻性系列",
+          "tone": "截骨准确性及限制",
+          "text": "31 例由同一术者操作，6 个切面平均绝对厚度误差为 0.74–1.04 mm，髋膝踝角平均绝对误差为 1.46°。无同期对照，无法估计相对常规器械的长期患者获益。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242054/"
+        },
+        {
+          "angle": "临床研究 / 中国运动跟随版本",
+          "tone": "回顾性对照及限制",
+          "text": "单中心 60 例分两组。启用运动跟随后，平均手术时间 118.8 对 133.9 分钟，平均截骨厚度误差 0.53 对 0.82 mm，6 个月 WOMAC 改善差异未达统计显著。研究有厂商作者，未核实印度装机配有该功能。",
+          "url": "https://link.springer.com/article/10.1186/s42836-026-00384-9"
+        }
+      ],
+      "imageSources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242054/#fig4",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242054/#fig1"
+      ],
+      "workflow": {
+        "title": "SkyWalker CT 规划全膝置换",
+        "note": "按美国 SkyWalker Total Knee System 许可摘要与中国早期临床系列概括。术者操纵锯切，机械臂定位截骨导板；各地区配置、植入物和软件功能以标签为准。",
+        "steps": [
+          [
+            "术前 CT 与假体规划",
+            "术者审核骨模型、关节线、对线及候选假体定位。床旁团队准备导航、导板、切割器械及备用器械。"
+          ],
+          [
+            "安装参考架与骨面配准",
+            "团队建立股骨和胫骨参考、布置光学相机并保持视线。术者采集解剖点并核验配准和间隙，再确认切除计划。"
+          ],
+          [
+            "机械臂定位，术者截骨",
+            "机械臂依计划对齐截骨导板。术者核对导板位置，手持摆锯完成截骨；床旁团队负责暴露、软组织保护并监视参考架。"
+          ],
+          [
+            "试模、植入与结束",
+            "术者复核切面、对线和试模稳定性后完成植入，团队撤除导航参考架、清点器械并记录结果。"
+          ]
+        ],
+        "links": [
+          [
+            "原厂实际病例公告 · 美国首例全膝置换（SkyWalker 美国临床配置）",
+            "https://www.microportortho.com/press-release/microport-medbot-navibot-announces-first-clinical-use-skywalkertm-surgical-robot"
+          ],
+          [
+            "同行评审临床系列 · 中国早期 SkyWalker（含实际截骨图）",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC8242054/"
+          ],
+          [
+            "同行评审术中视频 · 中国 SkyWalker 运动跟随研究配置（论文附件 DOCX 内嵌视频 1）",
+            "https://static-content.springer.com/esm/art%3A10.1186%2Fs42836-026-00384-9/MediaObjects/42836_2026_384_MOESM1_ESM.docx"
+          ],
+          [
+            "原厂流程教学动画 · SkyWalker 2024 全膝应用",
+            "https://vimeo.com/926156200"
+          ]
+        ]
+      },
+      "releaseDate": "2022-07-23",
+      "releaseEvent": "中国正式产品发布",
+      "imageCaptions": [
+        "Xia 等，Journal of Orthopaedic Translation（2021），图 4。早期临床系列中的截骨实拍，术者持锯，机械臂定位导板。原图未修改。",
+        "Xia 等，同一论文图 1。早期系统的控制、导航屏和机械臂实物照片，保留原图部件标注。"
+      ],
+      "imageLicenses": [
+        {
+          "label": "CC BY-NC-ND 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        },
+        {
+          "label": "CC BY-NC-ND 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ]
     },
     {
       "id": "liberty-endovascular",
@@ -2094,6 +2225,130 @@
       }
     },
     {
+      "id": "robotol-cochlear",
+      "name": "RobOtol 耳科手术机器人",
+      "brand": "Collin Medical",
+      "country": "法国",
+      "dept": "耳鼻咽喉科",
+      "departments": [
+        "耳鼻咽喉科"
+      ],
+      "sub": [
+        "耳蜗植入"
+      ],
+      "date": "2022-12-27",
+      "event": "法国临床系列发表 · 透视联用耳蜗植入",
+      "kind": "手术机器人",
+      "toolType": "机器人平台",
+      "status": "已落地",
+      "releaseDate": "2017",
+      "releaseEvent": "法国商业化（政府资料所载年份）",
+      "principle": "耳科医生通过手控器操纵带微型器械夹持器的机械臂。显微镜下设定电极进给方向后，可锁定平移轴并以低速推进电极阵列，术者持续观察和控制进给。",
+      "desc": "耳科医生通过手控器操纵带微型器械夹持器的机械臂。显微镜下设定电极进给方向后，可锁定平移轴并以低速推进电极阵列，术者持续观察和控制进给。",
+      "pain": "在狭小显微术野中维持稳定的电极进给方向和速度，并减轻手部抖动传至电极的影响。显微镜与透视联用可以观察推进异常，同时增加摆位、设备互避和辐射防护要求。",
+      "detail": "本条记录 RobOtol 用于耳蜗植入电极阵列进给的法国临床证据。法国政府创新项目资料记载 Collin 于 2017 年将系统商业化，厂商目录分别列出 2016 年 CE 标志和 2019 年首次耳蜗植入。2017 年节点对应耳科机器人平台，2019 年对应应用病例；具体电极、夹持器和导航配置按地区及版本核对。",
+      "features": [
+        "手控器遥操作",
+        "微型电极夹持器",
+        "可锁定进给轴",
+        "可选透视联用"
+      ],
+      "images": [
+        "assets/products/robotol-mom-fig1.jpg",
+        "assets/products/robotol-mom-fig2.jpg",
+        "assets/products/robotol-mom-fig3.jpg"
+      ],
+      "imageSources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9820833/#jcm-12-00211-f001",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9820833/#jcm-12-00211-f002",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9820833/#jcm-12-00211-f003"
+      ],
+      "imageCaptions": [
+        "Mom 等，Journal of Clinical Medicine（在线发表于 2022 年），图 1。普通手术室中 RobOtol 与显微镜的术中实拍。出版原图转为 JPEG，未裁剪。",
+        "Mom 等，同一论文图 2。杂交手术室内 RobOtol、显微镜和 C 形臂的摆位实拍。出版原图转为 JPEG，未裁剪。",
+        "Mom 等，同一论文图 3。术者在透视室外操作电极进给的实拍。出版原图转为 JPEG，未裁剪。"
+      ],
+      "imageLicenses": [
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "source": "https://www.collinmedical.fr/en/28-robotol",
+      "feedback": [
+        {
+          "angle": "厂商 / 设计资料",
+          "tone": "设计特点",
+          "text": "绕支点的机构帮助把器械运动集中在局限的耳科操作区。实际手术配置需按所用夹持器与适配电极核对。",
+          "url": "https://www.collinmedical.fr/en/28-robotol"
+        },
+        {
+          "angle": "法国政府创新项目资料",
+          "tone": "商业化时间",
+          "text": "记录 Collin 于 2017 年开始商业化耳科机器人平台，未披露具体月日。",
+          "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2020_11_receuil_laureats_vague_4_i-nov.pdf"
+        },
+        {
+          "angle": "厂商目录",
+          "tone": "CE 与临床事件",
+          "text": "目录列出 2016 年取得 CE 标志、2019 年首例耳蜗植入，并列有之后的专用臂与导航联用升级。",
+          "url": "https://www.collinmedical.fr/img/cms/PDF/CATALOGUE-COLLIN-090925.pdf"
+        },
+        {
+          "angle": "临床研究 / 法国单中心回顾系列",
+          "tone": "可行性与额外耗时",
+          "text": "23 例尝试用 RobOtol 进给，19 例完成机器人进给，机器人使用增加的手术时间平均 18±7 分钟。研究报告未见电极跨阶移位；病例数小、没有同期人工对照，且遇到纤维化可妨碍进给。",
+          "url": "https://www.mdpi.com/2077-0383/12/1/211"
+        },
+        {
+          "angle": "临床研究 / 法国回顾性匹配比较",
+          "tone": "电极类型影响结果",
+          "text": "20 例机器人辅助植入对比 40 例手动植入。直型电极阵列出现跨阶移位的比例为 3/16 对 10/32。预弯电极子组很小，未显示同方向结果。研究不能据此证明长期听力改善。",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33306661/"
+        }
+      ],
+      "workflow": {
+        "title": "RobOtol 辅助耳蜗植入的电极阵列进给",
+        "note": "概括法国系列的 RobOtol 电极进给配置。采用透视是可选的临床研究流程，另室控制指同院透视室外的操作。",
+        "steps": [
+          [
+            "术前评估与准备",
+            "术者审核耳蜗影像和电极选择。床旁团队准备显微镜、匹配的电极夹持器和人工备用器械；联用透视时另核对空间和防护。"
+          ],
+          [
+            "摆位、对接与对轴",
+            "床旁团队摆放机器人及显微镜并检查设备互避。术者建立显微术野，确认电极夹持和进给轴，并决定是否锁定该轴。"
+          ],
+          [
+            "术者指令下辅助进给",
+            "术者通过手控器让机械臂缓慢推进，在显微图像及可用的透视图像下观察。床旁人员协助稳定术野，遇到进给异常按术者指示暂停并准备人工方案。"
+          ],
+          [
+            "复核电极与结束",
+            "术者确认进给结束、电极位置与植入状态，团队协助释放夹持器、撤离设备和完成后续检查。法国系列使用术后 CT 或术中锥形束 CT 复查电极位置。"
+          ]
+        ],
+        "links": [
+          [
+            "同行评审临床系列 · 法国 RobOtol（普通及杂交手术室配置，含术中图）",
+            "https://www.mdpi.com/2077-0383/12/1/211"
+          ],
+          [
+            "实际翻修病例教学视频 · AP-HP / 索邦大学术者团队（2021 年 RobOtol 配置）",
+            "https://www.youtube.com/watch?v=duaP9e72uME"
+          ]
+        ]
+      }
+    },
+    {
       "id": "edge",
       "name": "精锋 MP1000",
       "brand": "精锋医疗",
@@ -2387,88 +2642,6 @@
       "workflow": {
         "title": "机器人辅助膝关节置换",
         "note": "七自由度机械臂持有电动工具。骨准备阶段的关键是配准有效、跟踪连续，并在术中确认计划与执行的一致性。",
-        "steps": [
-          [
-            "建立术前或术中计划",
-            "确认适配植入物及计划目标。不同平台通过术前影像或术中骨面数据建立模型，具体输入取决于代际和应用。"
-          ],
-          [
-            "建立骨骼参考与采集数据",
-            "将实体骨骼与系统中的参考坐标对应，检查跟踪和配准可靠性，记录肢体对线及关节间隙等信息。"
-          ],
-          [
-            "术者复核并辅助备骨",
-            "根据对线、间隙和植入物位置调整计划。平台可采用手持工具、机械臂辅助执行或定位导向装置，骨准备方式按型号区分。"
-          ],
-          [
-            "试模评估及最终植入",
-            "核对活动范围、稳定性和间隙，再由术者完成最终植入与复核。"
-          ]
-        ],
-        "links": []
-      }
-    },
-    {
-      "id": "sky",
-      "name": "鸿鹄 SkyWalker",
-      "brand": "微创机器人 MedBot",
-      "country": "中国",
-      "dept": "骨科",
-      "departments": [
-        "骨科"
-      ],
-      "sub": [
-        "关节"
-      ],
-      "date": "2022-04-21",
-      "event": "中国 NMPA 获批公告",
-      "kind": "手术机器人",
-      "toolType": "机器人平台",
-      "status": "已落地",
-      "principle": "患者影像规划与术中配准、机械臂执行辅助结合，支持关节置换骨准备。",
-      "pain": "提高关节置换中规划向实际骨切除转化的一致性。",
-      "desc": "患者影像规划与术中配准、机械臂执行辅助结合，支持关节置换骨准备。",
-      "detail": "时间为明确标注的地区或事件节点，并不等于全球首次上市。各代际、软件版本与具体适应证须分别核验。",
-      "features": [
-        "关节",
-        "来源可追溯"
-      ],
-      "images": [
-        "assets/products/sky-1.jpg"
-      ],
-      "source": "https://www.microport.com.cn/news/xinwendongtai/1868.html",
-      "feedback": [
-        {
-          "angle": "产品设计 / 厂商资料",
-          "tone": "设计价值",
-          "text": "提高关节置换中规划向实际骨切除转化的一致性。 这是产品目标或技术能力，不代表已经证明优于其他治疗。",
-          "url": "https://www.microport.com.cn/news/xinwendongtai/1868.html"
-        },
-        {
-          "angle": "临床试验登记",
-          "tone": "研究进展",
-          "text": "已发现 SkyWalker 与传统 TKA 的随机比较研究登记。登记信息不是试验结果；不据此宣称优于传统手术。",
-          "url": "https://clinicaltrials.gov/study/NCT06969222"
-        },
-        {
-          "angle": "医院与团队 / 编辑分析",
-          "tone": "实施条件",
-          "text": "需要评估适应证、人员培训、配套耗材、消毒与手术室流程；公开采购价和本院成本效果尚未核实。此项为实施评估问题，不是该产品的已证实缺陷。",
-          "url": null
-        },
-        {
-          "angle": "患者结局 / 证据状态",
-          "tone": "待补充",
-          "text": "本轮尚未核实该型号的独立长期比较研究或患者直接反馈；不以厂商宣传代替真实使用评价。",
-          "url": null
-        }
-      ],
-      "imageSources": [
-        "https://www.microportortho.com/skywalkerr-robotic-assisted-technology"
-      ],
-      "workflow": {
-        "title": "机器人辅助膝关节置换",
-        "note": "SkyWalker 的工作流将患者影像规划与实际骨骼配准连接，机械臂按经审阅的计划辅助备骨。",
         "steps": [
           [
             "建立术前或术中计划",
@@ -4307,6 +4480,27 @@
       "desc": "Mako RPS 美国商业发布，以主动调整技术支持计划内截骨。",
       "detail": "技术观察：降低流程转换负担是值得关注的产品方向。效率与临床结局的改善仍需相应比较研究支持。",
       "source": "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html"
+    },
+    {
+      "id": "t-skywalker-motion-following",
+      "title": "患者腿部轻微移动时，截骨导板怎样跟上？",
+      "date": "2026-04-14",
+      "status": "研究中",
+      "tag": "骨科 · 动态光学跟踪",
+      "desc": "研究配置同时跟踪骨端参考架和机械臂末端，实时更新导板相对骨面的位姿，以减少对刚性腿托的依赖。",
+      "detail": "Li 等在中国单中心回顾分析 60 例 SkyWalker 初次全膝置换。运动跟随组和刚性固定组各 30 例，平均手术时间为 118.8 对 133.9 分钟，平均截骨厚度误差为 0.53 对 0.82 mm。两组 6 个月 WOMAC 改善差异未达统计显著。作者包括厂商员工，研究分组未随机，且比较的两套工作流同时改变了跟随与固定方式。后续宜在相同手术团队和工具下验证视线短时遮挡、参考架松动及外力扰动时的跟踪误差、停止响应和恢复耗时。该文研究配置与各地区已售设备的功能对应关系未核实。",
+      "source": "https://link.springer.com/article/10.1186/s42836-026-00384-9",
+      "figures": [
+        {
+          "url": "assets/research/skywalker-motion-following-li.jpg",
+          "caption": "Li 等，Arthroplasty（2026），补充资料视频 1 第 5 秒截帧。实际全膝置换术中，机械臂在动作跟随模式下辅助截骨。截帧未裁剪。",
+          "source": "https://static-content.springer.com/esm/art%3A10.1186%2Fs42836-026-00384-9/MediaObjects/42836_2026_384_MOESM1_ESM.docx",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
     },
     {
       "id": "t2",
