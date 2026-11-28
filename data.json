@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "products": [
     {
       "id": "cuvis-joint",
@@ -4482,6 +4482,27 @@
       "source": "https://www.stryker.com/us/en/about/news/2026/stryker-expands-mako-robotics-portfolio.html"
     },
     {
+      "id": "t-kuka-laparoscope-workspace-reconfiguration",
+      "title": "持镜臂能否给床旁人员让位，同时保持术野？",
+      "date": "2026-05-05",
+      "status": "研究中",
+      "tag": "持镜辅助 · 人机协作",
+      "desc": "西班牙团队在模拟手术室用视觉感知人靠近，利用七轴持镜臂的冗余自由度改变臂姿，同时维持腹腔镜的目标位姿。",
+      "detail": "Renedo-Alonso 等在 KUKA LBR iiwa 与腹腔镜训练箱构成的实体台架上，对比稠密奖励与模糊奖励训练的控制策略。十次评估中，按有效动作时间步统计，方向响应准确率均值分别为 90.24% 与 90.97%，标准差为 3.26 与 2.06 个百分点。该指标衡量人靠近或离开时臂姿调整的方向，不能估计碰撞率或患者安全。后续可在走位、遮挡和多成员同时活动情形下量化最小净空、镜头漂移、操作者暂停及接管的响应时间。该研究为非临床概念验证。",
+      "source": "https://www.mdpi.com/1424-8220/26/9/2881",
+      "figures": [
+        {
+          "url": "assets/research/kuka-laparoscope-workspace-renedo.jpg",
+          "caption": "Renedo-Alonso 等，Sensors（2026），图 2。模拟手术室内的 KUKA 持镜臂、腹腔镜训练箱和控制设备实拍。出版图转为 JPEG，未裁剪。",
+          "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13165765/#sensors-26-02881-f002",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
+    },
+    {
       "id": "t-skywalker-motion-following",
       "title": "患者腿部轻微移动时，截骨导板怎样跟上？",
       "date": "2026-04-14",
@@ -4565,6 +4586,36 @@
       "source": "https://www.fda.gov/media/194987/download"
     },
     {
+      "id": "p-senhance-muscle-load-distribution",
+      "title": "从站立腹腔镜改为坐姿控制台，哪里仍吃力？",
+      "date": "2026-01-16",
+      "tag": "机器人手术",
+      "status": "术中探索性对照",
+      "desc": "相同两位术者在 Senhance 坐姿控制台和常规站立腹腔镜下手术，通过连续肌电量化肩颈、前臂及腰背负荷。",
+      "detail": "Krämer 等在 11 台 Senhance 手术和 12 台常规腹腔镜手术中，用表面肌电监测 7 块肌肉。使用 Senhance 时有 4 块肌肉的负荷减轻，左侧肩颈肌电活动却显著增加。两种方式的主观工作负担接近。开放显示器、可调座椅和前臂托共同改变支撑与视线，研究未单独验证哪个构件导致左右侧负荷变化。样本只有两位有经验术者，且手术未随机排程。后续可在任务相同的交叉试验中分别调整显示器和左右前臂托，结合双侧肌电、静态姿势持续时间、操作错误与术者反馈验证。",
+      "source": "https://link.springer.com/article/10.1007/s00404-025-08292-0",
+      "figures": [
+        {
+          "url": "assets/research/senhance-console-kraemer.jpg",
+          "caption": "Krämer 等，Archives of Gynecology and Obstetrics（2026），图 1。Senhance 术中控制台布置照片，保留原图。",
+          "source": "https://link.springer.com/article/10.1007/s00404-025-08292-0/figures/1",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "url": "assets/research/senhance-laparoscopy-kraemer.jpg",
+          "caption": "Krämer 等，同一论文图 2。常规站立腹腔镜操作实拍，保留原图的匿名处理。",
+          "source": "https://link.springer.com/article/10.1007/s00404-025-08292-0/figures/2",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
+    },
+    {
       "id": "p-hugo-docking-visibility",
       "title": "机器人对接还要多久？把机械臂连接与器械入场分开计时",
       "date": "2024-12-01",
@@ -4633,6 +4684,41 @@
           "url": "assets/research/toumai-remote-dashboard-terra.jpg",
           "caption": "Terra 等，Journal of Robotic Surgery（2026），图 1。巴西图迈远程胸外科实拍，上为远端控制台，下为术中网络与团队看板。原图未修改。",
           "source": "https://link.springer.com/article/10.1007/s11701-026-03819-2#Fig1",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "design-dexter-ergodex-open-console",
+      "title": "DEXTER 无菌开放控制台：床旁切换与坐姿如何一起验证？",
+      "date": "2026-08-03",
+      "tag": "人机工程",
+      "status": "前瞻性多中心观察",
+      "desc": "在真实手术中测量开放式控制台下的术者坐姿，并观察可覆盖无菌套的控制台及可折叠器械臂怎样支持机器人与腹腔镜切换。",
+      "detail": "Krauss 等，Surgical Endoscopy，2026 年 8 月 3 日。",
+      "analysis": {
+        "highlight": "控制台与手柄可加无菌覆盖，术者保留无菌状态并能回到床旁。器械臂可收回到腹腔镜模式的位置，重新开放患者侧空间。这两项设计应对术者频繁离开控制台和手术台周边被器械臂占据的问题。开放式外部显示也改变了术者的视线与头颈姿势。",
+        "evidence": "瑞士及美国多中心共评估 40 台手术、83,025 帧术中姿态。平均颈部角度 21.89°、髋部角度 99.02°，均超出研究所用的推荐区间。与使用同一测量方法的 33 例封闭控制台历史数据比较，DEXTER 的颈姿指标更接近目标。观察设计和历史对照不能分离显示器位置、座椅、病例与术者因素。论文未验证切换时间或长期职业损伤，作者披露了与厂商的资助或顾问关系。",
+        "application": "让不同体型术者在同一腹腔镜转机器人任务中交叉试用两种显示器高度、座椅和踏板设置。同步记录超出颈髋目标角度的时间、完成切换所需时间、床旁让行和无菌覆盖干涉；单独记录模拟异常时的暂停、器械撤离和床旁接手表现。"
+      },
+      "source": "https://link.springer.com/article/10.1007/s00464-026-13251-0",
+      "figures": [
+        {
+          "url": "assets/research/dexter-hybrid-workflow-krauss.jpg",
+          "caption": "Krauss 等，Surgical Endoscopy（2026），图 1。机器人臂收回、对接及无菌控制台手柄的术中实拍，保留原图。",
+          "source": "https://link.springer.com/article/10.1007/s00464-026-13251-0/figures/1",
+          "license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "url": "assets/research/dexter-posture-krauss.jpg",
+          "caption": "Krauss 等，同一论文图 2。实际使用无菌控制台时的侧面姿态照片与作者标注，保留原图。",
+          "source": "https://link.springer.com/article/10.1007/s00464-026-13251-0/figures/2",
           "license": {
             "label": "CC BY 4.0",
             "url": "https://creativecommons.org/licenses/by/4.0/"
